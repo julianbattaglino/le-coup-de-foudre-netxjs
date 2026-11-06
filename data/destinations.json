@@ -1,0 +1,1856 @@
+{
+  "destinations": [
+    {
+      "slug": "normandy",
+      "country": "France",
+      "countrySlug": "france",
+      "title": "Normandy",
+      "banner": {
+        "image": "https://images.unsplash.com/photo-1781376444833-2403f04fa033?auto=format&fit=crop&w=2400&q=85",
+        "alt": "Étretat cliffs and a sea arch on the Normandy coast, France"
+      },
+      "quote": "Where history meets the quiet beauty of the sea.",
+      "extract": "Discover a region of dramatic coastlines, charming villages, historic landmarks and exceptional gastronomy. Normandy invites you to experience the authentic rhythm of northern France.",
+      "ctaOne": {
+        "label": "Discover Normandy",
+        "href": "#presentation"
+      },
+      "whyToGo": {
+        "title": "Why visit Normandy",
+        "items": [
+          {
+            "title": "A journey through history",
+            "text": "Explore the D-Day landing beaches, historic towns and remarkable heritage that shaped European history."
+          },
+          {
+            "title": "Coastal beauty",
+            "text": "Discover spectacular cliffs, picturesque harbours and peaceful seaside villages along the English Channel."
+          },
+          {
+            "title": "Exceptional gastronomy",
+            "text": "Taste local cheeses, fresh seafood, cider and traditional Norman cuisine."
+          },
+          {
+            "title": "Authentic French living",
+            "text": "Experience countryside estates, traditional markets and the understated charm of rural France."
+          }
+        ]
+      },
+      "presentation": {
+        "title": "The timeless charm of Normandy",
+        "text": "Normandy is a land of contrasts, where peaceful countryside meets dramatic coastlines and centuries of history. From the iconic Mont-Saint-Michel to the charming streets of Honfleur and the historic D-Day beaches, the region offers a rich and meaningful journey through French culture. Its culinary traditions, elegant country houses and authentic villages make it an ideal destination for travellers seeking beauty, history and tranquillity.",
+        "image": "https://images.unsplash.com/photo-1781376444833-2403f04fa033?auto=format&fit=crop&w=1800&q=85",
+        "imageAlt": "Étretat cliffs and a sea arch on the Normandy coast, France"
+      },
+      "ourStay": {
+        "title": "A charming Norman retreat",
+        "description": "Stay in elegant country houses, historic manor estates or intimate boutique properties surrounded by gardens and rolling green landscapes.",
+        "location": "Normandy, France",
+        "image": "https://images.unsplash.com/photo-1667385703635-11e293ac22f4?auto=format&fit=crop&w=1600&q=85",
+        "imageAlt": "A château set among the gardens of the Loire Valley"
+      },
+      "tours": {
+        "title": "Discover Normandy",
+        "items": [
+          {
+            "title": "The Historic D-Day Beaches",
+            "text": "Explore the historic landing beaches, memorials and museums while discovering the stories that shaped modern European history.",
+            "image": "https://images.unsplash.com/photo-1781376444833-2403f04fa033?auto=format&fit=crop&w=1600&q=85",
+            "imageAlt": "Étretat cliffs and a sea arch on the Normandy coast, France"
+          },
+          {
+            "title": "Mont-Saint-Michel and the Coast",
+            "text": "Visit one of France's most extraordinary landmarks and discover the surrounding coastal landscapes and traditional villages.",
+            "image": "https://images.unsplash.com/photo-1551568697-4b520d9743f4?auto=format&fit=crop&w=1600&q=85",
+            "imageAlt": "A formal garden path framed by clipped greenery"
+          }
+        ]
+      },
+      "experiences": {
+        "title": "Experience the Norman way of life",
+        "text": "Enjoy private countryside excursions, discover traditional cheesemakers, taste local cider and Calvados, explore antique markets and experience the region's exceptional culinary heritage.",
+        "image": "https://images.unsplash.com/photo-1667385703635-11e293ac22f4?auto=format&fit=crop&w=1800&q=85",
+        "imageAlt": "A château set among the gardens of the Loire Valley"
+      },
+      "seo": {
+        "title": "Normandy, France | Exclusive Private Experiences | Le Coup de Foudre",
+        "description": "Discover Normandy through private cultural tours, historic landmarks, coastal landscapes and exceptional French gastronomy.",
+        "canonical": "/destinations/france/normandy",
+        "ogImage": "/images/destinations/normandy/og.jpg",
+        "keywords": [
+          "Normandy private experiences",
+          "Luxury travel Normandy",
+          "Normandy private tours",
+          "D-Day beaches tours",
+          "Mont-Saint-Michel experiences",
+          "Authentic Normandy travel"
+        ],
+        "noIndex": false
+      },
+      "geo": {
+        "entity": "Normandy, France",
+        "summary": "Normandy is a region in northwestern France known for its historic D-Day beaches, Mont-Saint-Michel, dramatic coastline, traditional villages and distinctive culinary heritage.",
+        "keyFacts": [
+          "Located in northwestern France.",
+          "Known for Mont-Saint-Michel and its medieval heritage.",
+          "Home to the historic D-Day landing beaches.",
+          "Famous for Camembert cheese, cider and Calvados.",
+          "Ideal for history, gastronomy and coastal exploration."
+        ],
+        "faq": [
+          {
+            "question": "What can you experience in Normandy?",
+            "answer": "Visitors can explore historic D-Day beaches, Mont-Saint-Michel, charming coastal villages, countryside estates and traditional Norman gastronomy."
+          },
+          {
+            "question": "When is the best time to visit Normandy?",
+            "answer": "Late spring through early autumn is ideal for exploring the coastline, villages and countryside, although Normandy offers interesting experiences throughout the year."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "paris",
+      "country": "France",
+      "countrySlug": "france",
+      "title": "Paris",
+      "banner": {
+        "image": "https://images.unsplash.com/photo-1774084930616-fce8eba59264?auto=format&fit=crop&w=2400&q=85",
+        "alt": "The Eiffel Tower above the Seine at sunset in Paris, France"
+      },
+      "quote": "Paris is always a good idea, but discovering it differently is unforgettable.",
+      "extract": "Beyond its iconic monuments, Paris reveals a world of private addresses, artistic encounters, exceptional gastronomy and timeless elegance.",
+      "ctaOne": {
+        "label": "Discover Paris",
+        "href": "#presentation"
+      },
+      "whyToGo": {
+        "title": "Why visit Paris",
+        "items": [
+          {
+            "title": "Art and culture",
+            "text": "Discover world-renowned museums, private galleries, historic architecture and the city's vibrant artistic scene."
+          },
+          {
+            "title": "A world of gastronomy",
+            "text": "Experience exceptional restaurants, traditional pâtisseries, wine bars and exclusive culinary addresses."
+          },
+          {
+            "title": "Timeless elegance",
+            "text": "Explore beautiful neighbourhoods, iconic avenues, historic boutiques and the distinctive Parisian lifestyle."
+          },
+          {
+            "title": "Unexpected discoveries",
+            "text": "Go beyond the usual landmarks through private visits, local encounters and hidden Parisian treasures."
+          }
+        ]
+      },
+      "presentation": {
+        "title": "Paris, beyond the ordinary",
+        "text": "Paris is a city that never stops revealing itself. Behind its iconic monuments and grand boulevards lies a more intimate world of historic apartments, independent galleries, hidden courtyards and exceptional culinary addresses. Discover the French capital through its culture, architecture, gastronomy and the people who make it unique. Whether wandering through Saint-Germain-des-Prés, exploring the Marais or enjoying the atmosphere along the Seine, every moment offers a new perspective on the art of living.",
+        "image": "https://images.unsplash.com/photo-1774084930616-fce8eba59264?auto=format&fit=crop&w=1800&q=85",
+        "imageAlt": "The Eiffel Tower above the Seine at sunset in Paris, France"
+      },
+      "ourStay": {
+        "title": "A Parisian address",
+        "description": "Experience Paris from an elegant boutique hotel or a beautifully appointed private apartment, ideally located near the city's cultural and historic districts.",
+        "location": "Paris, France",
+        "image": "https://images.unsplash.com/photo-1743671578751-323cc61cd54d?auto=format&fit=crop&w=1600&q=85",
+        "imageAlt": "A chandelier-lit Parisian salon with tall windows"
+      },
+      "tours": {
+        "title": "Discover Paris",
+        "items": [
+          {
+            "title": "The Artistic Heart of Paris",
+            "text": "Explore the city's extraordinary artistic heritage through its museums, galleries, historic neighbourhoods and contemporary creative spaces.",
+            "image": "https://images.unsplash.com/photo-1774084930616-fce8eba59264?auto=format&fit=crop&w=1600&q=85",
+            "imageAlt": "The Eiffel Tower above the Seine at sunset in Paris, France"
+          },
+          {
+            "title": "The Parisian Lifestyle",
+            "text": "Discover the city's elegant streets, historic passages, independent boutiques and iconic addresses through a curated private journey.",
+            "image": "https://images.unsplash.com/photo-1695596255549-5bea851362ab?auto=format&fit=crop&w=1600&q=85",
+            "imageAlt": "Historic French interiors and architectural details"
+          }
+        ]
+      },
+      "experiences": {
+        "title": "The art of living in Paris",
+        "text": "Enjoy private museum visits, exclusive culinary experiences, wine tastings, fashion discoveries, art encounters and intimate moments in some of the city's most remarkable addresses.",
+        "image": "https://images.unsplash.com/photo-1743671578751-323cc61cd54d?auto=format&fit=crop&w=1800&q=85",
+        "imageAlt": "A chandelier-lit Parisian salon with tall windows"
+      },
+      "seo": {
+        "title": "Paris, France | Exclusive Private Experiences | Le Coup de Foudre",
+        "description": "Discover Paris through exclusive cultural experiences, private tours, exceptional gastronomy, art, fashion and authentic Parisian addresses.",
+        "canonical": "/destinations/france/paris",
+        "ogImage": "/images/destinations/paris/og.jpg",
+        "keywords": [
+          "Exclusive experiences in Paris",
+          "Private Paris tours",
+          "Luxury travel Paris",
+          "Paris cultural experiences",
+          "Private art tours Paris",
+          "Authentic Paris experiences"
+        ],
+        "noIndex": false
+      },
+      "geo": {
+        "entity": "Paris, France",
+        "summary": "Paris is the capital of France, internationally recognised for its art, architecture, fashion, gastronomy, museums and distinctive cultural lifestyle.",
+        "keyFacts": [
+          "Capital of France.",
+          "Located on the River Seine.",
+          "Home to the Louvre, Musée d'Orsay and Eiffel Tower.",
+          "Known for fashion, gastronomy and artistic heritage.",
+          "Neighbourhoods such as Le Marais and Saint-Germain-des-Prés offer distinctive cultural experiences."
+        ],
+        "faq": [
+          {
+            "question": "Where can I find exclusive experiences in Paris?",
+            "answer": "Exclusive experiences in Paris can include private museum visits, curated art tours, gastronomic discoveries, fashion encounters and access to distinctive cultural addresses."
+          },
+          {
+            "question": "What makes Paris a special travel destination?",
+            "answer": "Paris combines extraordinary cultural heritage, architecture, gastronomy, fashion and an internationally recognised art of living."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "chantilly-senlis",
+      "country": "France",
+      "countrySlug": "france",
+      "title": "Chantilly & Senlis",
+      "banner": {
+        "image": "https://images.unsplash.com/photo-1650047826500-9c29924fc417?auto=format&fit=crop&w=2400&q=85",
+        "alt": "A historic French château reflected in its surrounding moat"
+      },
+      "quote": "A world of castles, gardens and timeless French elegance.",
+      "extract": "Discover an elegant corner of northern France where aristocratic heritage, magnificent estates and charming medieval streets create an extraordinary escape.",
+      "ctaOne": {
+        "label": "Discover Chantilly & Senlis",
+        "href": "#presentation"
+      },
+      "whyToGo": {
+        "title": "Why visit Chantilly & Senlis",
+        "items": [
+          {
+            "title": "Aristocratic heritage",
+            "text": "Explore magnificent châteaux, historic estates and the legacy of French aristocratic life."
+          },
+          {
+            "title": "Art and architecture",
+            "text": "Discover exceptional collections, medieval buildings and remarkable examples of French architecture."
+          },
+          {
+            "title": "Gardens and nature",
+            "text": "Enjoy landscaped gardens, peaceful forests and beautiful countryside landscapes."
+          },
+          {
+            "title": "A refined escape",
+            "text": "Experience an elegant destination just outside Paris, away from the rhythm of the capital."
+          }
+        ]
+      },
+      "presentation": {
+        "title": "A journey into French elegance",
+        "text": "Chantilly and Senlis offer a fascinating journey through France's aristocratic and medieval heritage. Chantilly is celebrated for its magnificent château, exceptional art collections and landscaped gardens, while Senlis enchants visitors with its medieval streets, cathedral and historic atmosphere. Surrounded by forests and beautiful countryside, these destinations offer a peaceful and refined escape within easy reach of Paris.",
+        "image": "https://images.unsplash.com/photo-1650047826500-9c29924fc417?auto=format&fit=crop&w=1800&q=85",
+        "imageAlt": "A historic French château reflected in its surrounding moat"
+      },
+      "ourStay": {
+        "title": "An elegant country residence",
+        "description": "Stay in a historic estate, an intimate boutique hotel or a refined countryside property surrounded by gardens and woodland.",
+        "location": "Chantilly and Senlis, France",
+        "image": "https://images.unsplash.com/photo-1699303088143-b04d23643bd9?auto=format&fit=crop&w=1600&q=85",
+        "imageAlt": "Formal garden parterres and a reflecting pool at Versailles"
+      },
+      "tours": {
+        "title": "Discover Chantilly & Senlis",
+        "items": [
+          {
+            "title": "The Château de Chantilly",
+            "text": "Discover the château, its extraordinary art collections, historic interiors and magnificent formal gardens.",
+            "image": "https://images.unsplash.com/photo-1650047826500-9c29924fc417?auto=format&fit=crop&w=1600&q=85",
+            "imageAlt": "A historic French château reflected in its surrounding moat"
+          },
+          {
+            "title": "The Medieval Streets of Senlis",
+            "text": "Explore the historic centre, admire the cathedral and discover the architectural heritage of this charming medieval town.",
+            "image": "https://images.unsplash.com/photo-1695596255549-5bea851362ab?auto=format&fit=crop&w=1600&q=85",
+            "imageAlt": "Historic French interiors and architectural details"
+          }
+        ]
+      },
+      "experiences": {
+        "title": "A taste of aristocratic France",
+        "text": "Enjoy private heritage discoveries, refined dining, horseback riding traditions, garden visits and peaceful walks through the forests of the region.",
+        "image": "https://images.unsplash.com/photo-1699303088143-b04d23643bd9?auto=format&fit=crop&w=1800&q=85",
+        "imageAlt": "Formal garden parterres and a reflecting pool at Versailles"
+      },
+      "seo": {
+        "title": "Chantilly & Senlis, France | Exclusive Experiences | Le Coup de Foudre",
+        "description": "Discover Chantilly and Senlis through historic châteaux, exceptional art collections, medieval heritage and elegant countryside experiences.",
+        "canonical": "/destinations/france/chantilly-senlis",
+        "ogImage": "/images/destinations/chantilly-senlis/og.jpg",
+        "keywords": [
+          "Chantilly private experiences",
+          "Senlis France travel",
+          "Château de Chantilly tours",
+          "Luxury countryside France",
+          "Chantilly and Senlis private tours"
+        ],
+        "noIndex": false
+      },
+      "geo": {
+        "entity": "Chantilly and Senlis, Oise, France",
+        "summary": "Chantilly and Senlis are historic destinations north of Paris, known for the Château de Chantilly, aristocratic heritage, medieval architecture and surrounding forests.",
+        "keyFacts": [
+          "Located in the Oise department, north of Paris.",
+          "Chantilly is famous for its château and art collections.",
+          "Senlis is known for its medieval centre and Gothic cathedral.",
+          "The region is surrounded by historic forests and estates.",
+          "A destination for art, history and refined countryside escapes."
+        ],
+        "faq": [
+          {
+            "question": "What can you visit in Chantilly and Senlis?",
+            "answer": "Highlights include the Château de Chantilly, its art collections and gardens, as well as Senlis's medieval streets, cathedral and historic centre."
+          },
+          {
+            "question": "Are Chantilly and Senlis close to Paris?",
+            "answer": "Yes. Both destinations are located north of Paris and can be explored as part of a countryside escape from the French capital."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "burgundy",
+      "country": "France",
+      "countrySlug": "france",
+      "title": "Burgundy",
+      "banner": {
+        "image": "https://images.unsplash.com/photo-1755497901305-6d60606671eb?auto=format&fit=crop&w=2400&q=85",
+        "alt": "Green vineyard rows in Burgundy, France"
+      },
+      "quote": "Some of the world's finest pleasures are cultivated slowly.",
+      "extract": "A region of celebrated vineyards, historic villages, exceptional cuisine and centuries-old traditions, Burgundy is an invitation to savour the best of French living.",
+      "ctaOne": {
+        "label": "Discover Burgundy",
+        "href": "#presentation"
+      },
+      "whyToGo": {
+        "title": "Why visit Burgundy",
+        "items": [
+          {
+            "title": "World-class wines",
+            "text": "Discover legendary vineyards and the exceptional wines of Côte de Nuits, Côte de Beaune and beyond."
+          },
+          {
+            "title": "Gastronomic heritage",
+            "text": "Experience traditional recipes, local markets, exceptional restaurants and artisanal producers."
+          },
+          {
+            "title": "Historic villages",
+            "text": "Explore charming wine villages, medieval streets and remarkable architectural heritage."
+          },
+          {
+            "title": "A slower rhythm",
+            "text": "Enjoy peaceful countryside landscapes, vineyard walks and the pleasure of discovering a region at your own pace."
+          }
+        ]
+      },
+      "presentation": {
+        "title": "The art of wine and gastronomy",
+        "text": "Burgundy is one of France's most celebrated destinations for wine, gastronomy and cultural heritage. Its landscapes are shaped by centuries of viticulture, with prestigious vineyards, stone villages and historic estates creating a unique atmosphere. From Beaune to the renowned vineyards of the Côte de Nuits, every discovery offers an opportunity to understand the region's traditions, meet passionate producers and savour its exceptional way of life.",
+        "image": "https://images.unsplash.com/photo-1755497901305-6d60606671eb?auto=format&fit=crop&w=1800&q=85",
+        "imageAlt": "Green vineyard rows in Burgundy, France"
+      },
+      "ourStay": {
+        "title": "Among the vineyards",
+        "description": "Enjoy a refined stay in a historic château, a vineyard estate or a charming boutique property surrounded by Burgundy's celebrated wine landscapes.",
+        "location": "Burgundy, France",
+        "image": "https://images.unsplash.com/photo-1695596255549-5bea851362ab?auto=format&fit=crop&w=1600&q=85",
+        "imageAlt": "Historic French interiors and architectural details"
+      },
+      "tours": {
+        "title": "Discover Burgundy",
+        "items": [
+          {
+            "title": "The Burgundy Wine Route",
+            "text": "Travel through the celebrated vineyards of the Côte de Nuits and Côte de Beaune, discovering historic villages and renowned wine appellations.",
+            "image": "https://images.unsplash.com/photo-1755497901305-6d60606671eb?auto=format&fit=crop&w=1600&q=85",
+            "imageAlt": "Green vineyard rows in Burgundy, France"
+          },
+          {
+            "title": "Beaune and Its Heritage",
+            "text": "Discover the historic town of Beaune, its remarkable architecture, traditional markets and the famous Hospices de Beaune.",
+            "image": "https://images.unsplash.com/photo-1551568697-4b520d9743f4?auto=format&fit=crop&w=1600&q=85",
+            "imageAlt": "A formal garden path framed by clipped greenery"
+          }
+        ]
+      },
+      "experiences": {
+        "title": "A celebration of Burgundy's flavours",
+        "text": "Meet independent winemakers, enjoy private wine tastings, discover local markets, experience traditional cooking and explore the region's exceptional gastronomic culture.",
+        "image": "https://images.unsplash.com/photo-1695596255549-5bea851362ab?auto=format&fit=crop&w=1800&q=85",
+        "imageAlt": "Historic French interiors and architectural details"
+      },
+      "seo": {
+        "title": "Burgundy, France | Private Wine & Gastronomy Experiences | Le Coup de Foudre",
+        "description": "Explore Burgundy through private vineyard visits, exceptional wine tastings, historic villages and authentic French gastronomic experiences.",
+        "canonical": "/destinations/france/burgundy",
+        "ogImage": "/images/destinations/burgundy/og.jpg",
+        "keywords": [
+          "Burgundy private wine tours",
+          "Luxury wine experiences France",
+          "Burgundy vineyards",
+          "Beaune private tours",
+          "Burgundy gastronomy",
+          "Côte de Beaune wine experiences"
+        ],
+        "noIndex": false
+      },
+      "geo": {
+        "entity": "Burgundy, France",
+        "summary": "Burgundy is a historic region in eastern-central France, internationally recognised for Pinot Noir and Chardonnay wines, prestigious vineyards, gastronomy and historic towns such as Beaune.",
+        "keyFacts": [
+          "Located in eastern-central France.",
+          "Famous for Pinot Noir and Chardonnay wines.",
+          "Home to the Côte de Nuits and Côte de Beaune vineyards.",
+          "Beaune is an important historic wine centre.",
+          "Known for traditional cuisine and wine culture."
+        ],
+        "faq": [
+          {
+            "question": "What makes Burgundy famous?",
+            "answer": "Burgundy is famous for its prestigious vineyards, exceptional Pinot Noir and Chardonnay wines, historic wine villages and distinctive gastronomic traditions."
+          },
+          {
+            "question": "What are the best experiences in Burgundy?",
+            "answer": "Popular experiences include private vineyard visits, wine tastings with local producers, gastronomic discoveries and visits to historic towns such as Beaune."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "loire-valley",
+      "country": "France",
+      "countrySlug": "france",
+      "title": "Loire Valley",
+      "banner": {
+        "image": "https://images.unsplash.com/photo-1650047826500-9c29924fc417?auto=format&fit=crop&w=2400&q=85",
+        "alt": "Château d’Azay-le-Rideau beside its reflecting moat in the Loire Valley"
+      },
+      "quote": "A landscape of dreams, where history unfolds along the river.",
+      "extract": "Discover the enchanting world of the Loire Valley, where Renaissance châteaux, beautiful gardens, vineyards and picturesque villages create one of France's most remarkable landscapes.",
+      "ctaOne": {
+        "label": "Discover the Loire Valley",
+        "href": "#presentation"
+      },
+      "whyToGo": {
+        "title": "Why visit the Loire Valley",
+        "items": [
+          {
+            "title": "Magnificent châteaux",
+            "text": "Discover extraordinary Renaissance castles, royal residences and historic estates."
+          },
+          {
+            "title": "Beautiful gardens",
+            "text": "Explore remarkable gardens and landscapes designed around centuries of French history."
+          },
+          {
+            "title": "Wine and gastronomy",
+            "text": "Taste Loire wines, regional specialities and the products of local artisans."
+          },
+          {
+            "title": "Romantic landscapes",
+            "text": "Enjoy river views, quiet villages, countryside roads and unforgettable scenic discoveries."
+          }
+        ]
+      },
+      "presentation": {
+        "title": "A journey through the French Renaissance",
+        "text": "The Loire Valley is a remarkable landscape of royal history, architectural beauty and natural elegance. Along the Loire River and its tributaries, magnificent châteaux rise among vineyards, gardens and picturesque villages. From the iconic Château de Chambord to Chenonceau, the region invites travellers to discover the artistic and cultural legacy of the French Renaissance while enjoying a slower, more intimate side of France.",
+        "image": "https://images.unsplash.com/photo-1650047826500-9c29924fc417?auto=format&fit=crop&w=1800&q=85",
+        "imageAlt": "Château d’Azay-le-Rideau beside its reflecting moat in the Loire Valley"
+      },
+      "ourStay": {
+        "title": "A château in the countryside",
+        "description": "Stay in a historic château, a restored manor house or an elegant countryside retreat surrounded by gardens and vineyards.",
+        "location": "Loire Valley, France",
+        "image": "https://images.unsplash.com/photo-1699303088143-b04d23643bd9?auto=format&fit=crop&w=1600&q=85",
+        "imageAlt": "Formal garden parterres and a reflecting pool at Versailles"
+      },
+      "tours": {
+        "title": "Discover the Loire Valley",
+        "items": [
+          {
+            "title": "The Great Châteaux",
+            "text": "Discover the architectural masterpieces of Chambord, Chenonceau and other remarkable royal residences.",
+            "image": "https://images.unsplash.com/photo-1650047826500-9c29924fc417?auto=format&fit=crop&w=1600&q=85",
+            "imageAlt": "Château d’Azay-le-Rideau beside its reflecting moat in the Loire Valley"
+          },
+          {
+            "title": "Gardens and Vineyards",
+            "text": "Explore beautifully landscaped gardens, traditional wine villages and vineyards producing some of the Loire's finest wines.",
+            "image": "https://images.unsplash.com/photo-1667385703635-11e293ac22f4?auto=format&fit=crop&w=1600&q=85",
+            "imageAlt": "A château set among the gardens of the Loire Valley"
+          }
+        ]
+      },
+      "experiences": {
+        "title": "The pleasures of the Loire",
+        "text": "Enjoy private château visits, wine tastings, garden discoveries, local culinary experiences and scenic journeys through the beautiful French countryside.",
+        "image": "https://images.unsplash.com/photo-1699303088143-b04d23643bd9?auto=format&fit=crop&w=1800&q=85",
+        "imageAlt": "Formal garden parterres and a reflecting pool at Versailles"
+      },
+      "seo": {
+        "title": "Loire Valley, France | Private Château & Wine Experiences | Le Coup de Foudre",
+        "description": "Discover the Loire Valley through private château visits, Renaissance heritage, beautiful gardens, vineyard tours and French gastronomy.",
+        "canonical": "/destinations/france/loire-valley",
+        "ogImage": "/images/destinations/loire-valley/og.jpg",
+        "keywords": [
+          "Loire Valley private tours",
+          "Luxury Loire Valley travel",
+          "Loire Valley châteaux",
+          "Chambord private experiences",
+          "Chenonceau tours",
+          "Loire Valley wine experiences"
+        ],
+        "noIndex": false
+      },
+      "geo": {
+        "entity": "Loire Valley, France",
+        "summary": "The Loire Valley is a historic region in central France known for its Renaissance châteaux, formal gardens, vineyards, river landscapes and cultural heritage.",
+        "keyFacts": [
+          "Located in central France along the Loire River.",
+          "Includes celebrated châteaux such as Chambord and Chenonceau.",
+          "Recognised as a UNESCO World Heritage cultural landscape.",
+          "Known for Sauvignon Blanc, Chenin Blanc and Cabernet Franc wines.",
+          "Combines architectural heritage, gastronomy and countryside experiences."
+        ],
+        "faq": [
+          {
+            "question": "What are the most famous castles in the Loire Valley?",
+            "answer": "Some of the most celebrated castles include Château de Chambord, Château de Chenonceau, Château de Villandry and Château d'Amboise."
+          },
+          {
+            "question": "What can you do in the Loire Valley?",
+            "answer": "Visitors can explore Renaissance châteaux, discover historic gardens, taste regional wines, visit traditional villages and enjoy countryside experiences."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "champagne",
+      "country": "France",
+      "countrySlug": "france",
+      "title": "Champagne",
+      "banner": {
+        "image": "https://images.unsplash.com/photo-1755497901305-6d60606671eb?auto=format&fit=crop&w=2400&q=85",
+        "alt": "Rows of green vines in a French wine region"
+      },
+      "quote": "The art of celebration begins long before the first glass.",
+      "extract": "A destination shaped by tradition, craftsmanship and exceptional terroir. Discover the world of Champagne through historic cellars, prestigious houses and passionate independent producers.",
+      "ctaOne": {
+        "label": "Discover Champagne",
+        "href": "#presentation"
+      },
+      "whyToGo": {
+        "title": "Why visit Champagne",
+        "items": [
+          {
+            "title": "World-famous champagne houses",
+            "text": "Discover the heritage and craftsmanship behind some of the world's most celebrated sparkling wines."
+          },
+          {
+            "title": "Vineyard landscapes",
+            "text": "Explore beautiful rolling vineyards and villages shaped by generations of winemaking."
+          },
+          {
+            "title": "Historic cellars",
+            "text": "Discover remarkable underground chalk cellars and centuries of wine-making traditions."
+          },
+          {
+            "title": "A culture of celebration",
+            "text": "Enjoy elegant tastings, exceptional dining and intimate encounters with local producers."
+          }
+        ]
+      },
+      "presentation": {
+        "title": "The world of Champagne",
+        "text": "Champagne is a destination where landscape, history and craftsmanship come together around one extraordinary tradition. From the grand houses of Reims and Épernay to the small family producers of the surrounding villages, the region offers a fascinating journey into the art of sparkling wine. Discover historic cellars, rolling vineyards and the passion of the people who have shaped Champagne's international reputation.",
+        "image": "https://images.unsplash.com/photo-1755497901305-6d60606671eb?auto=format&fit=crop&w=1800&q=85",
+        "imageAlt": "Rows of green vines in a French wine region"
+      },
+      "ourStay": {
+        "title": "An elegant vineyard retreat",
+        "description": "Stay in a refined boutique hotel, historic residence or countryside property surrounded by the vineyards of the Champagne region.",
+        "location": "Champagne, France",
+        "image": "https://images.unsplash.com/photo-1743671578751-323cc61cd54d?auto=format&fit=crop&w=1600&q=85",
+        "imageAlt": "A chandelier-lit Parisian salon with tall windows"
+      },
+      "tours": {
+        "title": "Discover Champagne",
+        "items": [
+          {
+            "title": "Reims and Its Champagne Houses",
+            "text": "Discover the historic city of Reims, its magnificent cathedral and the heritage of its renowned champagne houses.",
+            "image": "https://images.unsplash.com/photo-1755497901305-6d60606671eb?auto=format&fit=crop&w=1600&q=85",
+            "imageAlt": "Rows of green vines in a French wine region"
+          },
+          {
+            "title": "Épernay and the Avenue de Champagne",
+            "text": "Explore the celebrated Avenue de Champagne, visit historic cellars and discover the region's winemaking traditions.",
+            "image": "https://images.unsplash.com/photo-1551568697-4b520d9743f4?auto=format&fit=crop&w=1600&q=85",
+            "imageAlt": "A formal garden path framed by clipped greenery"
+          }
+        ]
+      },
+      "experiences": {
+        "title": "A celebration of craftsmanship",
+        "text": "Enjoy private champagne tastings, cellar visits, meetings with independent winemakers, gastronomic pairings and exclusive discoveries of the region's wine culture.",
+        "image": "https://images.unsplash.com/photo-1743671578751-323cc61cd54d?auto=format&fit=crop&w=1800&q=85",
+        "imageAlt": "A chandelier-lit Parisian salon with tall windows"
+      },
+      "seo": {
+        "title": "Champagne, France | Private Champagne & Vineyard Experiences | Le Coup de Foudre",
+        "description": "Explore the Champagne region through private cellar visits, exclusive tastings, historic champagne houses and vineyard experiences.",
+        "canonical": "/destinations/france/champagne",
+        "ogImage": "/images/destinations/champagne/og.jpg",
+        "keywords": [
+          "Champagne private tours",
+          "Luxury Champagne experiences",
+          "Champagne vineyard visits",
+          "Private champagne tastings",
+          "Reims champagne houses",
+          "Épernay wine experiences"
+        ],
+        "noIndex": false
+      },
+      "geo": {
+        "entity": "Champagne, France",
+        "summary": "Champagne is a wine-producing region in northeastern France, famous for its traditional-method sparkling wine, historic cellars, vineyards and prestigious champagne houses.",
+        "keyFacts": [
+          "Located in northeastern France.",
+          "Reims and Épernay are major Champagne destinations.",
+          "Known for Chardonnay, Pinot Noir and Meunier grapes.",
+          "The Champagne wine hillsides, houses and cellars are UNESCO World Heritage listed.",
+          "Famous for traditional-method sparkling wine production."
+        ],
+        "faq": [
+          {
+            "question": "Where can you visit champagne houses in France?",
+            "answer": "Reims and Épernay are two of the best-known destinations for visiting champagne houses, historic cellars and vineyards in the Champagne region."
+          },
+          {
+            "question": "What is special about the Champagne region?",
+            "answer": "The region combines distinctive chalk soils, traditional winemaking methods, historic cellars and generations of craftsmanship behind its internationally recognised sparkling wine."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "bordeaux",
+      "country": "France",
+      "countrySlug": "france",
+      "title": "Bordeaux",
+      "banner": {
+        "image": "https://images.unsplash.com/photo-1755497901305-6d60606671eb?auto=format&fit=crop&w=2400&q=85",
+        "alt": "Rows of green vines in a French wine region"
+      },
+      "quote": "A city of elegance, where every glass tells a story.",
+      "extract": "Discover Bordeaux, a sophisticated destination where world-renowned wines, remarkable architecture, vibrant markets and refined gastronomy come together.",
+      "ctaOne": {
+        "label": "Discover Bordeaux",
+        "href": "#presentation"
+      },
+      "whyToGo": {
+        "title": "Why visit Bordeaux",
+        "items": [
+          {
+            "title": "Exceptional wine culture",
+            "text": "Discover prestigious wine estates and the extraordinary diversity of Bordeaux's wine regions."
+          },
+          {
+            "title": "Architectural beauty",
+            "text": "Explore elegant eighteenth-century architecture, historic squares and beautiful riverfront landscapes."
+          },
+          {
+            "title": "Gastronomic discoveries",
+            "text": "Enjoy refined restaurants, local markets, regional specialities and outstanding culinary traditions."
+          },
+          {
+            "title": "A vibrant lifestyle",
+            "text": "Experience independent boutiques, cultural venues, contemporary art and the relaxed rhythm of southwestern France."
+          }
+        ]
+      },
+      "presentation": {
+        "title": "The elegance of Bordeaux",
+        "text": "Bordeaux is a city of extraordinary architectural beauty and a gateway to one of the world's most celebrated wine regions. Its elegant historic centre, lively riverfront and vibrant gastronomic scene make it a destination in its own right. Beyond the city, renowned vineyards and prestigious estates offer a deeper understanding of the art of winemaking, from the Médoc to Saint-Émilion and Pessac-Léognan.",
+        "image": "https://images.unsplash.com/photo-1755497901305-6d60606671eb?auto=format&fit=crop&w=1800&q=85",
+        "imageAlt": "Rows of green vines in a French wine region"
+      },
+      "ourStay": {
+        "title": "An urban retreat with French character",
+        "description": "Choose an elegant boutique hotel in the historic centre or a refined countryside estate surrounded by vineyards.",
+        "location": "Bordeaux, France",
+        "image": "https://images.unsplash.com/photo-1743671578751-323cc61cd54d?auto=format&fit=crop&w=1600&q=85",
+        "imageAlt": "A chandelier-lit Parisian salon with tall windows"
+      },
+      "tours": {
+        "title": "Discover Bordeaux",
+        "items": [
+          {
+            "title": "The Historic Heart of Bordeaux",
+            "text": "Explore the city's architectural heritage, elegant squares, historic streets and beautiful waterfront along the Garonne.",
+            "image": "https://images.unsplash.com/photo-1755497901305-6d60606671eb?auto=format&fit=crop&w=1600&q=85",
+            "imageAlt": "Rows of green vines in a French wine region"
+          },
+          {
+            "title": "The Bordeaux Wine Country",
+            "text": "Discover celebrated wine landscapes, historic estates and the villages of Médoc, Saint-Émilion and surrounding appellations.",
+            "image": "https://images.unsplash.com/photo-1695596255549-5bea851362ab?auto=format&fit=crop&w=1600&q=85",
+            "imageAlt": "Historic French interiors and architectural details"
+          }
+        ]
+      },
+      "experiences": {
+        "title": "The Bordeaux art de vivre",
+        "text": "Enjoy private wine tastings, exclusive vineyard visits, gastronomic discoveries, local market tours and encounters with passionate artisans and winemakers.",
+        "image": "https://images.unsplash.com/photo-1743671578751-323cc61cd54d?auto=format&fit=crop&w=1800&q=85",
+        "imageAlt": "A chandelier-lit Parisian salon with tall windows"
+      },
+      "seo": {
+        "title": "Bordeaux, France | Private Wine & Cultural Experiences | Le Coup de Foudre",
+        "description": "Discover Bordeaux through private wine tours, historic architecture, prestigious vineyards, exceptional gastronomy and curated cultural experiences.",
+        "canonical": "/destinations/france/bordeaux",
+        "ogImage": "/images/destinations/bordeaux/og.jpg",
+        "keywords": [
+          "Bordeaux private wine tours",
+          "Luxury Bordeaux experiences",
+          "Saint-Émilion wine tours",
+          "Médoc vineyard experiences",
+          "Bordeaux gastronomy",
+          "Private tours Bordeaux France"
+        ],
+        "noIndex": false
+      },
+      "geo": {
+        "entity": "Bordeaux, France",
+        "summary": "Bordeaux is a historic city in southwestern France, internationally recognised for its eighteenth-century architecture, gastronomy and surrounding prestigious wine regions.",
+        "keyFacts": [
+          "Located in southwestern France on the Garonne River.",
+          "Known for its historic UNESCO World Heritage city centre.",
+          "Gateway to Médoc, Saint-Émilion and other wine regions.",
+          "Famous for red wines and diverse appellations.",
+          "Combines architecture, gastronomy and wine tourism."
+        ],
+        "faq": [
+          {
+            "question": "What are the best wine experiences near Bordeaux?",
+            "answer": "Visitors can explore prestigious wine estates in Médoc, Saint-Émilion and Pessac-Léognan, enjoy private tastings and learn about Bordeaux's winemaking heritage."
+          },
+          {
+            "question": "What makes Bordeaux worth visiting?",
+            "answer": "Bordeaux combines remarkable historic architecture, world-famous vineyards, outstanding gastronomy and a vibrant cultural lifestyle."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "provence",
+      "country": "France",
+      "countrySlug": "france",
+      "title": "Provence",
+      "banner": {
+        "image": "https://images.unsplash.com/photo-1561718541-b00339c8db2a?auto=format&fit=crop&w=2400&q=85",
+        "alt": "A stone château among lavender fields in Provence, France"
+      },
+      "quote": "A slower rhythm, warmer light, and the beauty of simple things.",
+      "extract": "Experience the colours, flavours and landscapes of Provence, a region of lavender fields, hilltop villages, olive groves and exceptional Mediterranean living.",
+      "ctaOne": {
+        "label": "Discover Provence",
+        "href": "#presentation"
+      },
+      "whyToGo": {
+        "title": "Why visit Provence",
+        "items": [
+          {
+            "title": "Beautiful landscapes",
+            "text": "Discover lavender fields, olive groves, vineyards and picturesque villages surrounded by natural beauty."
+          },
+          {
+            "title": "Authentic villages",
+            "text": "Explore historic hilltop villages, traditional markets and charming stone streets."
+          },
+          {
+            "title": "Mediterranean gastronomy",
+            "text": "Enjoy seasonal cuisine, local wines, olive oil, fresh produce and the flavours of southern France."
+          },
+          {
+            "title": "The art of slowing down",
+            "text": "Experience peaceful countryside living, beautiful estates and the warmth of the Provençal lifestyle."
+          }
+        ]
+      },
+      "presentation": {
+        "title": "The timeless beauty of Provence",
+        "text": "Provence is a celebration of light, colour and the pleasures of everyday life. Its landscapes move from lavender fields and vineyards to olive groves, dramatic mountains and picturesque hilltop villages. The region's rich artistic heritage, Mediterranean cuisine and welcoming atmosphere create an irresistible invitation to slow down and enjoy the finer details of French living. From the Luberon to the Alpilles, every corner reveals a different expression of Provençal beauty.",
+        "image": "https://images.unsplash.com/photo-1561718541-b00339c8db2a?auto=format&fit=crop&w=1800&q=85",
+        "imageAlt": "A stone château among lavender fields in Provence, France"
+      },
+      "ourStay": {
+        "title": "A Provençal country house",
+        "description": "Stay in a beautifully restored mas, a private countryside estate or an intimate boutique property surrounded by olive trees, gardens and vineyards.",
+        "location": "Provence, France",
+        "image": "https://images.unsplash.com/photo-1699303088143-b04d23643bd9?auto=format&fit=crop&w=1600&q=85",
+        "imageAlt": "Formal garden parterres and a reflecting pool at Versailles"
+      },
+      "tours": {
+        "title": "Discover Provence",
+        "items": [
+          {
+            "title": "The Villages of the Luberon",
+            "text": "Discover the region's charming hilltop villages, traditional markets, stone architecture and beautiful countryside landscapes.",
+            "image": "https://images.unsplash.com/photo-1561718541-b00339c8db2a?auto=format&fit=crop&w=1600&q=85",
+            "imageAlt": "A stone château among lavender fields in Provence, France"
+          },
+          {
+            "title": "The Landscapes of the Alpilles",
+            "text": "Explore olive groves, vineyards, historic villages and the beautiful landscapes surrounding Saint-Rémy-de-Provence and Les Baux-de-Provence.",
+            "image": "https://images.unsplash.com/photo-1551568697-4b520d9743f4?auto=format&fit=crop&w=1600&q=85",
+            "imageAlt": "A formal garden path framed by clipped greenery"
+          }
+        ]
+      },
+      "experiences": {
+        "title": "The Provençal way of life",
+        "text": "Enjoy local food markets, private cooking experiences, wine tastings, olive oil discoveries, countryside picnics and encounters with local artisans.",
+        "image": "https://images.unsplash.com/photo-1699303088143-b04d23643bd9?auto=format&fit=crop&w=1800&q=85",
+        "imageAlt": "Formal garden parterres and a reflecting pool at Versailles"
+      },
+      "seo": {
+        "title": "Provence, France | Exclusive Countryside & Cultural Experiences | Le Coup de Foudre",
+        "description": "Discover Provence through private village tours, lavender landscapes, vineyards, olive groves and authentic Mediterranean experiences.",
+        "canonical": "/destinations/france/provence",
+        "ogImage": "/images/destinations/provence/og.jpg",
+        "keywords": [
+          "Luxury Provence travel",
+          "Provence private experiences",
+          "Luberon private tours",
+          "Provence countryside retreats",
+          "Provence gastronomy",
+          "Lavender fields France"
+        ],
+        "noIndex": false
+      },
+      "geo": {
+        "entity": "Provence, southeastern France",
+        "summary": "Provence is a historic region in southeastern France known for its Mediterranean climate, lavender fields, hilltop villages, olive groves, vineyards and regional gastronomy.",
+        "keyFacts": [
+          "Located in southeastern France.",
+          "Includes the Luberon and Alpilles landscapes.",
+          "Known for lavender, olive oil and vineyards.",
+          "Famous for villages such as Gordes and Roussillon.",
+          "Renowned for Mediterranean cuisine and countryside living."
+        ],
+        "faq": [
+          {
+            "question": "What are the most beautiful places to visit in Provence?",
+            "answer": "The Luberon villages, Gordes, Roussillon, Saint-Rémy-de-Provence and Les Baux-de-Provence are among the region's most remarkable destinations."
+          },
+          {
+            "question": "When can you see lavender fields in Provence?",
+            "answer": "Lavender typically blooms from June through July, although the exact timing varies according to location, altitude and weather conditions."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "saint-tropez",
+      "country": "France",
+      "countrySlug": "france",
+      "title": "Saint-Tropez",
+      "banner": {
+        "image": "https://images.unsplash.com/photo-1775029828803-38733896e59a?auto=format&fit=crop&w=2400&q=85",
+        "alt": "Colorful harbor buildings and boats in Saint-Tropez, France"
+      },
+      "quote": "Where Mediterranean charm meets the art of summer living.",
+      "extract": "Discover the timeless allure of Saint-Tropez, where turquoise waters, elegant beach clubs, artistic heritage and Provençal charm create an unmistakable atmosphere.",
+      "ctaOne": {
+        "label": "Discover Saint-Tropez",
+        "href": "#presentation"
+      },
+      "whyToGo": {
+        "title": "Why visit Saint-Tropez",
+        "items": [
+          {
+            "title": "Mediterranean beauty",
+            "text": "Discover beautiful beaches, hidden coves and the extraordinary colours of the French Riviera."
+          },
+          {
+            "title": "A legendary lifestyle",
+            "text": "Experience the town's celebrated restaurants, beach clubs, boutiques and lively summer atmosphere."
+          },
+          {
+            "title": "Artistic heritage",
+            "text": "Explore the historic village, galleries and the artistic legacy that helped shape its identity."
+          },
+          {
+            "title": "Beyond the glamour",
+            "text": "Discover quieter villages, vineyards and traditional Provençal landscapes surrounding the coast."
+          }
+        ]
+      },
+      "presentation": {
+        "title": "The spirit of Saint-Tropez",
+        "text": "Saint-Tropez has long been one of the Mediterranean's most iconic destinations. Once a traditional fishing village, it evolved into an international meeting point for artists, travellers and lovers of the Riviera lifestyle. Today, its charm lies in the contrast between its historic harbour, lively markets, elegant beach clubs and peaceful Provençal surroundings. Beyond the glamour, Saint-Tropez continues to offer beautiful landscapes and a distinctive sense of Mediterranean living.",
+        "image": "https://images.unsplash.com/photo-1775029828803-38733896e59a?auto=format&fit=crop&w=1800&q=85",
+        "imageAlt": "Colorful harbor buildings and boats in Saint-Tropez, France"
+      },
+      "ourStay": {
+        "title": "A Riviera summer residence",
+        "description": "Enjoy a refined boutique hotel, an elegant private villa or a secluded estate surrounded by Mediterranean gardens and the beauty of the coastline.",
+        "location": "Saint-Tropez, France",
+        "image": "https://images.unsplash.com/photo-1743671578751-323cc61cd54d?auto=format&fit=crop&w=1600&q=85",
+        "imageAlt": "A chandelier-lit Parisian salon with tall windows"
+      },
+      "tours": {
+        "title": "Discover Saint-Tropez",
+        "items": [
+          {
+            "title": "The Historic Village and Harbour",
+            "text": "Explore the old town, discover its colourful streets, enjoy the harbour atmosphere and experience the town's artistic heritage.",
+            "image": "https://images.unsplash.com/photo-1775029828803-38733896e59a?auto=format&fit=crop&w=1600&q=85",
+            "imageAlt": "Colorful harbor buildings and boats in Saint-Tropez, France"
+          },
+          {
+            "title": "The Beaches of the Riviera",
+            "text": "Discover the beautiful coastline, from the famous beaches of Pampelonne to quieter Mediterranean coves.",
+            "image": "https://images.unsplash.com/photo-1699303088143-b04d23643bd9?auto=format&fit=crop&w=1600&q=85",
+            "imageAlt": "Formal garden parterres and a reflecting pool at Versailles"
+          }
+        ]
+      },
+      "experiences": {
+        "title": "The art of Riviera living",
+        "text": "Enjoy private boat excursions, beachside dining, vineyard discoveries, art galleries, local markets and memorable evenings along the Mediterranean coast.",
+        "image": "https://images.unsplash.com/photo-1743671578751-323cc61cd54d?auto=format&fit=crop&w=1800&q=85",
+        "imageAlt": "A chandelier-lit Parisian salon with tall windows"
+      },
+      "seo": {
+        "title": "Saint-Tropez, France | Exclusive Riviera Experiences | Le Coup de Foudre",
+        "description": "Discover Saint-Tropez through private Mediterranean experiences, beautiful beaches, exclusive boat excursions, gastronomy and Provençal lifestyle.",
+        "canonical": "/destinations/france/saint-tropez",
+        "ogImage": "/images/destinations/saint-tropez/og.jpg",
+        "keywords": [
+          "Saint-Tropez luxury experiences",
+          "Private Saint-Tropez tours",
+          "Saint-Tropez boat experiences",
+          "Pampelonne beach",
+          "Saint-Tropez private villas",
+          "French Riviera luxury travel"
+        ],
+        "noIndex": false
+      },
+      "geo": {
+        "entity": "Saint-Tropez, Var, France",
+        "summary": "Saint-Tropez is a Mediterranean town on the French Riviera in the Var department, known for its historic harbour, beaches, beach clubs, artistic heritage and luxury lifestyle.",
+        "keyFacts": [
+          "Located in the Var department in southeastern France.",
+          "Part of the French Riviera.",
+          "Known for its historic harbour and old town.",
+          "Pampelonne is one of its best-known nearby beaches.",
+          "Famous for Mediterranean dining, boating and summer culture."
+        ],
+        "faq": [
+          {
+            "question": "What makes Saint-Tropez special?",
+            "answer": "Saint-Tropez combines a historic Mediterranean village, beautiful beaches, renowned restaurants, beach clubs, art and an internationally recognised summer lifestyle."
+          },
+          {
+            "question": "What experiences can you enjoy in Saint-Tropez?",
+            "answer": "Popular experiences include private boat excursions, beachside dining, vineyard visits, historic village discoveries and exploring the coastline."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "french-riviera",
+      "country": "France",
+      "countrySlug": "france",
+      "title": "French Riviera",
+      "banner": {
+        "image": "https://images.unsplash.com/photo-1586773884654-92e5e76c2427?auto=format&fit=crop&w=2400&q=85",
+        "alt": "The bay and harbor of Saint-Tropez on the French Riviera"
+      },
+      "quote": "The Mediterranean, at its most beautiful.",
+      "extract": "From elegant seaside towns to hidden coastal villages, the French Riviera offers a unique combination of Mediterranean landscapes, culture, gastronomy and effortless sophistication.",
+      "ctaOne": {
+        "label": "Discover the French Riviera",
+        "href": "#presentation"
+      },
+      "whyToGo": {
+        "title": "Why visit the French Riviera",
+        "items": [
+          {
+            "title": "Exceptional coastal scenery",
+            "text": "Discover turquoise waters, dramatic cliffs, beautiful beaches and picturesque Mediterranean harbours."
+          },
+          {
+            "title": "Art and culture",
+            "text": "Explore museums, galleries and the artistic heritage that inspired generations of international artists."
+          },
+          {
+            "title": "Elegant destinations",
+            "text": "Experience the distinctive atmosphere of Nice, Cannes, Antibes, Èze and other iconic Riviera towns."
+          },
+          {
+            "title": "Mediterranean pleasures",
+            "text": "Enjoy exceptional restaurants, private boat journeys, local markets and the relaxed rhythm of coastal living."
+          }
+        ]
+      },
+      "presentation": {
+        "title": "The timeless allure of the French Riviera",
+        "text": "The French Riviera is a Mediterranean world of extraordinary beauty, where glamorous seaside destinations coexist with peaceful villages, historic towns and spectacular coastal landscapes. From Nice and Cannes to Antibes, Èze and Menton, the region offers an extraordinary variety of experiences. Its artistic heritage, exceptional gastronomy and beautiful coastline create the perfect setting for a journey combining culture, relaxation and discovery.",
+        "image": "https://images.unsplash.com/photo-1586773884654-92e5e76c2427?auto=format&fit=crop&w=1800&q=85",
+        "imageAlt": "The bay and harbor of Saint-Tropez on the French Riviera"
+      },
+      "ourStay": {
+        "title": "A Mediterranean escape",
+        "description": "Choose an elegant seaside hotel, a private villa or a secluded estate with beautiful views of the Mediterranean and access to the region's most remarkable destinations.",
+        "location": "French Riviera, France",
+        "image": "https://images.unsplash.com/photo-1743671578751-323cc61cd54d?auto=format&fit=crop&w=1600&q=85",
+        "imageAlt": "A chandelier-lit Parisian salon with tall windows"
+      },
+      "tours": {
+        "title": "Discover the French Riviera",
+        "items": [
+          {
+            "title": "The Coastal Towns",
+            "text": "Discover the distinctive character of Nice, Antibes and Cannes through historic streets, beautiful harbours and elegant seaside settings.",
+            "image": "https://images.unsplash.com/photo-1586773884654-92e5e76c2427?auto=format&fit=crop&w=1600&q=85",
+            "imageAlt": "The bay and harbor of Saint-Tropez on the French Riviera"
+          },
+          {
+            "title": "The Hilltop Villages",
+            "text": "Explore picturesque villages such as Èze and Saint-Paul-de-Vence, known for their artistic heritage, architecture and spectacular views.",
+            "image": "https://images.unsplash.com/photo-1699303088143-b04d23643bd9?auto=format&fit=crop&w=1600&q=85",
+            "imageAlt": "Formal garden parterres and a reflecting pool at Versailles"
+          }
+        ]
+      },
+      "experiences": {
+        "title": "A Mediterranean way of life",
+        "text": "Enjoy private boat excursions, coastal dining, art discoveries, local markets, wine tastings and memorable journeys through the region's most beautiful landscapes.",
+        "image": "https://images.unsplash.com/photo-1743671578751-323cc61cd54d?auto=format&fit=crop&w=1800&q=85",
+        "imageAlt": "A chandelier-lit Parisian salon with tall windows"
+      },
+      "seo": {
+        "title": "French Riviera, France | Exclusive Private Experiences | Le Coup de Foudre",
+        "description": "Explore the French Riviera through private coastal tours, Mediterranean boat experiences, artistic discoveries and exceptional gastronomy.",
+        "canonical": "/destinations/france/french-riviera",
+        "ogImage": "/images/destinations/french-riviera/og.jpg",
+        "keywords": [
+          "French Riviera luxury travel",
+          "French Riviera private tours",
+          "Côte d'Azur exclusive experiences",
+          "French Riviera boat trips",
+          "Nice and Antibes experiences",
+          "Mediterranean private experiences"
+        ],
+        "noIndex": false
+      },
+      "geo": {
+        "entity": "French Riviera, Côte d'Azur, France",
+        "summary": "The French Riviera, also known as the Côte d'Azur, is the Mediterranean coastline of southeastern France, famous for destinations such as Nice, Cannes, Antibes, Èze and Saint-Tropez.",
+        "keyFacts": [
+          "Located along the Mediterranean coast of southeastern France.",
+          "Also known as the Côte d'Azur.",
+          "Includes destinations such as Nice, Cannes, Antibes and Menton.",
+          "Known for beaches, artistic heritage and Mediterranean culture.",
+          "Offers coastal, cultural, gastronomic and boating experiences."
+        ],
+        "faq": [
+          {
+            "question": "What are the best places to visit on the French Riviera?",
+            "answer": "Nice, Cannes, Antibes, Èze, Saint-Paul-de-Vence, Menton and Saint-Tropez are among the most celebrated destinations along the French Riviera."
+          },
+          {
+            "question": "What exclusive experiences can you enjoy on the French Riviera?",
+            "answer": "Travellers can enjoy private boat excursions, coastal dining, art and culture tours, vineyard visits and curated discoveries of Mediterranean villages."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "buenos-aires",
+      "country": "Argentina",
+      "countrySlug": "argentina",
+      "title": "Buenos Aires",
+      "banner": {
+        "image": "https://images.unsplash.com/photo-1745409927455-48801260fa64?auto=format&fit=crop&w=2400&q=85",
+        "alt": "Architectural details on a street in Buenos Aires, Argentina"
+      },
+      "quote": "A city of passions, where every corner has a story to tell.",
+      "extract": "Discover the energy and elegance of Buenos Aires, a city of European influences, passionate traditions, exceptional gastronomy and a vibrant cultural scene.",
+      "ctaOne": {
+        "label": "Discover Buenos Aires",
+        "href": "#presentation"
+      },
+      "whyToGo": {
+        "title": "Why visit Buenos Aires",
+        "items": [
+          {
+            "title": "Culture and architecture",
+            "text": "Explore elegant avenues, historic neighbourhoods, remarkable architecture and world-class cultural institutions."
+          },
+          {
+            "title": "The passion of tango",
+            "text": "Discover the city's musical heritage through intimate tango experiences and traditional milongas."
+          },
+          {
+            "title": "Exceptional gastronomy",
+            "text": "Enjoy Argentine beef, local wines, contemporary restaurants and traditional neighbourhood cafés."
+          },
+          {
+            "title": "A vibrant lifestyle",
+            "text": "Experience art galleries, independent boutiques, lively markets and the distinctive porteño spirit."
+          }
+        ]
+      },
+      "presentation": {
+        "title": "The soul of Buenos Aires",
+        "text": "Buenos Aires is a city of contrasts, where European architectural influences meet Latin American energy and an unmistakable local identity. Its neighbourhoods each tell a different story, from the elegant avenues of Recoleta and Palermo's creative atmosphere to the historic streets of San Telmo and the colourful character of La Boca. Tango, literature, gastronomy and art are deeply woven into everyday life, making the Argentine capital a fascinating destination for cultural discovery.",
+        "image": "https://images.unsplash.com/photo-1745409927455-48801260fa64?auto=format&fit=crop&w=1800&q=85",
+        "imageAlt": "Architectural details on a street in Buenos Aires, Argentina"
+      },
+      "ourStay": {
+        "title": "A sophisticated city address",
+        "description": "Stay in an elegant boutique hotel or a beautifully restored apartment in neighbourhoods such as Recoleta, Palermo or Retiro, close to the city's cultural and gastronomic life.",
+        "location": "Buenos Aires, Argentina",
+        "image": "https://images.unsplash.com/photo-1743671578751-323cc61cd54d?auto=format&fit=crop&w=1600&q=85",
+        "imageAlt": "A chandelier-lit Parisian salon with tall windows"
+      },
+      "tours": {
+        "title": "Discover Buenos Aires",
+        "items": [
+          {
+            "title": "The Historic and Cultural City",
+            "text": "Explore the historic centre, Recoleta and San Telmo while discovering the architecture, art and stories that shaped the Argentine capital.",
+            "image": "https://images.unsplash.com/photo-1745409927455-48801260fa64?auto=format&fit=crop&w=1600&q=85",
+            "imageAlt": "Architectural details on a street in Buenos Aires, Argentina"
+          },
+          {
+            "title": "The Neighbourhoods of Buenos Aires",
+            "text": "Discover the creative energy of Palermo, the colourful streets of La Boca and the traditional atmosphere of the city's most distinctive neighbourhoods.",
+            "image": "https://images.unsplash.com/photo-1695596255549-5bea851362ab?auto=format&fit=crop&w=1600&q=85",
+            "imageAlt": "Historic French interiors and architectural details"
+          }
+        ]
+      },
+      "experiences": {
+        "title": "The Argentine way of life",
+        "text": "Enjoy private tango encounters, traditional asado experiences, wine tastings, contemporary art discoveries, local markets and memorable evenings in the city's most distinctive restaurants.",
+        "image": "https://images.unsplash.com/photo-1743671578751-323cc61cd54d?auto=format&fit=crop&w=1800&q=85",
+        "imageAlt": "A chandelier-lit Parisian salon with tall windows"
+      },
+      "seo": {
+        "title": "Buenos Aires, Argentina | Exclusive Cultural Experiences | Le Coup de Foudre",
+        "description": "Discover Buenos Aires through private cultural tours, tango, Argentine gastronomy, architecture, art and authentic local experiences.",
+        "canonical": "/destinations/argentina/buenos-aires",
+        "ogImage": "/images/destinations/buenos-aires/og.jpg",
+        "keywords": [
+          "Buenos Aires private experiences",
+          "Luxury travel Buenos Aires",
+          "Buenos Aires cultural tours",
+          "Private tango experiences",
+          "Argentine gastronomy",
+          "Buenos Aires exclusive tours"
+        ],
+        "noIndex": false
+      },
+      "geo": {
+        "entity": "Buenos Aires, Argentina",
+        "summary": "Buenos Aires is the capital of Argentina, known for its European-influenced architecture, tango culture, gastronomy, historic neighbourhoods and vibrant arts scene.",
+        "keyFacts": [
+          "Capital of Argentina.",
+          "Located on the western shore of the Río de la Plata.",
+          "Known for tango, theatre, literature and visual arts.",
+          "Distinctive neighbourhoods include Recoleta, Palermo and San Telmo.",
+          "Famous for Argentine beef, asado and Malbec wines."
+        ],
+        "faq": [
+          {
+            "question": "What are the best cultural experiences in Buenos Aires?",
+            "answer": "Visitors can explore historic neighbourhoods, discover tango traditions, visit art museums, enjoy local markets and experience Argentine gastronomy."
+          },
+          {
+            "question": "Where can you experience authentic tango in Buenos Aires?",
+            "answer": "Tango can be experienced in traditional milongas, historic neighbourhoods and specialised cultural venues throughout Buenos Aires."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "pampa",
+      "country": "Argentina",
+      "countrySlug": "argentina",
+      "title": "The Pampas",
+      "banner": {
+        "image": "https://images.unsplash.com/photo-1642625244122-c839b7c2f86a?auto=format&fit=crop&w=2400&q=85",
+        "alt": "Tall grasses and open hills in an Argentine landscape"
+      },
+      "quote": "Where the horizon is endless and time belongs to the countryside.",
+      "extract": "Discover the spirit of Argentina in the vast Pampas, a landscape of open plains, traditional estancias, horses and the authentic culture of the gaucho.",
+      "ctaOne": {
+        "label": "Discover the Pampas",
+        "href": "#presentation"
+      },
+      "whyToGo": {
+        "title": "Why visit the Pampas",
+        "items": [
+          {
+            "title": "The gaucho tradition",
+            "text": "Discover the history, skills and traditions of Argentina's iconic horsemen."
+          },
+          {
+            "title": "Authentic estancias",
+            "text": "Experience traditional country estates, rural hospitality and the rhythm of Argentine countryside life."
+          },
+          {
+            "title": "Horses and open landscapes",
+            "text": "Explore vast grasslands, ride through open countryside and enjoy the freedom of the Pampas."
+          },
+          {
+            "title": "The Argentine asado",
+            "text": "Discover the country's traditional barbecue culture and the importance of food and hospitality in rural life."
+          }
+        ]
+      },
+      "presentation": {
+        "title": "The spirit of the Argentine countryside",
+        "text": "The Pampas are the heart of Argentina's rural identity. These vast fertile plains have shaped the country's agricultural traditions, equestrian culture and legendary gaucho heritage. Life here follows a different rhythm, defined by open horizons, traditional estancias, horses and long meals shared around the table. A journey through the Pampas offers an authentic encounter with Argentine hospitality and a way of life deeply connected to the land.",
+        "image": "https://images.unsplash.com/photo-1642625244122-c839b7c2f86a?auto=format&fit=crop&w=1800&q=85",
+        "imageAlt": "Tall grasses and open hills in an Argentine landscape"
+      },
+      "ourStay": {
+        "title": "Life at an Argentine estancia",
+        "description": "Experience the hospitality of a traditional estancia, with historic country houses, expansive grounds, beautiful gardens and an authentic connection to rural Argentina.",
+        "location": "The Pampas, Argentina",
+        "image": "https://images.unsplash.com/photo-1551568697-4b520d9743f4?auto=format&fit=crop&w=1600&q=85",
+        "imageAlt": "A formal garden path framed by clipped greenery"
+      },
+      "tours": {
+        "title": "Discover the Pampas",
+        "items": [
+          {
+            "title": "The World of the Gaucho",
+            "text": "Discover the traditions of Argentina's gauchos, explore working estancias and learn about the equestrian culture that defines the region.",
+            "image": "https://images.unsplash.com/photo-1642625244122-c839b7c2f86a?auto=format&fit=crop&w=1600&q=85",
+            "imageAlt": "Tall grasses and open hills in an Argentine landscape"
+          },
+          {
+            "title": "The Open Countryside",
+            "text": "Explore the vast grasslands, traditional rural communities and beautiful landscapes of the Argentine plains.",
+            "image": "https://images.unsplash.com/photo-1699303088143-b04d23643bd9?auto=format&fit=crop&w=1600&q=85",
+            "imageAlt": "Formal garden parterres and a reflecting pool at Versailles"
+          }
+        ]
+      },
+      "experiences": {
+        "title": "An authentic estancia experience",
+        "text": "Enjoy horseback riding, traditional asado gatherings, encounters with gauchos, rural activities and peaceful moments surrounded by the endless landscapes of the Pampas.",
+        "image": "https://images.unsplash.com/photo-1551568697-4b520d9743f4?auto=format&fit=crop&w=1800&q=85",
+        "imageAlt": "A formal garden path framed by clipped greenery"
+      },
+      "seo": {
+        "title": "The Argentine Pampas | Exclusive Estancia & Gaucho Experiences | Le Coup de Foudre",
+        "description": "Discover the Argentine Pampas through private estancia stays, gaucho traditions, horseback riding, authentic asado and rural experiences.",
+        "canonical": "/destinations/argentina/pampa",
+        "ogImage": "/images/destinations/pampa/og.jpg",
+        "keywords": [
+          "Argentine Pampas experiences",
+          "Luxury estancia Argentina",
+          "Gaucho experiences Argentina",
+          "Private estancia tours",
+          "Horseback riding Argentina",
+          "Argentine countryside travel"
+        ],
+        "noIndex": false
+      },
+      "geo": {
+        "entity": "The Pampas, Argentina",
+        "summary": "The Pampas are vast fertile plains in central-eastern Argentina, known for cattle ranching, agriculture, traditional estancias and gaucho culture.",
+        "keyFacts": [
+          "Located primarily in central-eastern Argentina.",
+          "Includes extensive grasslands and agricultural landscapes.",
+          "Known for cattle ranching and traditional estancias.",
+          "The gaucho is a central figure in the region's cultural identity.",
+          "Famous for horseback riding and Argentine asado traditions."
+        ],
+        "faq": [
+          {
+            "question": "What is an estancia experience in Argentina?",
+            "answer": "An estancia experience offers a stay at a traditional country estate, often including horseback riding, rural activities, Argentine asado and encounters with gaucho traditions."
+          },
+          {
+            "question": "What can you do in the Argentine Pampas?",
+            "answer": "Visitors can enjoy horseback riding, discover traditional estancias, learn about gaucho culture, experience rural gastronomy and explore the open countryside."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "mendoza",
+      "country": "Argentina",
+      "countrySlug": "argentina",
+      "title": "Mendoza",
+      "banner": {
+        "image": "https://images.unsplash.com/photo-1767969217564-695cc85a51e0?auto=format&fit=crop&w=2400&q=85",
+        "alt": "Green grapes ripening on a vine in Mendoza, Argentina"
+      },
+      "quote": "Where the mountains meet the vineyards, and every moment is worth savouring.",
+      "extract": "At the foot of the Andes, Mendoza combines spectacular mountain landscapes, world-class wines, exceptional gastronomy and the relaxed elegance of Argentine wine country.",
+      "ctaOne": {
+        "label": "Discover Mendoza",
+        "href": "#presentation"
+      },
+      "whyToGo": {
+        "title": "Why visit Mendoza",
+        "items": [
+          {
+            "title": "World-class wine",
+            "text": "Discover the vineyards of Luján de Cuyo, Maipú and the Uco Valley, home to exceptional Malbec wines."
+          },
+          {
+            "title": "The Andes mountains",
+            "text": "Enjoy breathtaking landscapes, mountain excursions and spectacular views of the highest peaks in the Americas."
+          },
+          {
+            "title": "Exceptional gastronomy",
+            "text": "Experience outstanding restaurants, vineyard dining and local products paired with regional wines."
+          },
+          {
+            "title": "Outdoor adventures",
+            "text": "Discover horseback riding, hiking, scenic drives and outdoor activities in the Andean foothills."
+          }
+        ]
+      },
+      "presentation": {
+        "title": "The wine country of the Andes",
+        "text": "Mendoza is one of Argentina's most celebrated destinations, where the beauty of the Andes meets a remarkable wine culture. Its vineyards stretch across the foothills, creating extraordinary landscapes and producing some of the country's finest wines, particularly Malbec. From the established wine estates of Luján de Cuyo to the contemporary wineries of the Uco Valley, Mendoza offers a unique combination of gastronomy, nature, hospitality and outdoor adventure.",
+        "image": "https://images.unsplash.com/photo-1767969217564-695cc85a51e0?auto=format&fit=crop&w=1800&q=85",
+        "imageAlt": "Green grapes ripening on a vine in Mendoza, Argentina"
+      },
+      "ourStay": {
+        "title": "Among vineyards and mountains",
+        "description": "Stay in a vineyard lodge, a contemporary wine estate or an elegant boutique retreat with panoramic views of the Andes and surrounding vineyards.",
+        "location": "Mendoza, Argentina",
+        "image": "https://images.unsplash.com/photo-1743671578751-323cc61cd54d?auto=format&fit=crop&w=1600&q=85",
+        "imageAlt": "A chandelier-lit Parisian salon with tall windows"
+      },
+      "tours": {
+        "title": "Discover Mendoza",
+        "items": [
+          {
+            "title": "The Wine Routes",
+            "text": "Explore the vineyards of Luján de Cuyo, Maipú and the Uco Valley, discovering exceptional wineries and the stories behind Argentine Malbec.",
+            "image": "https://images.unsplash.com/photo-1767969217564-695cc85a51e0?auto=format&fit=crop&w=1600&q=85",
+            "imageAlt": "Green grapes ripening on a vine in Mendoza, Argentina"
+          },
+          {
+            "title": "The Andes and Aconcagua",
+            "text": "Discover spectacular mountain landscapes, scenic routes and the extraordinary surroundings of Aconcagua, the highest mountain in the Americas.",
+            "image": "https://images.unsplash.com/photo-1551568697-4b520d9743f4?auto=format&fit=crop&w=1600&q=85",
+            "imageAlt": "A formal garden path framed by clipped greenery"
+          }
+        ]
+      },
+      "experiences": {
+        "title": "A celebration of wine and nature",
+        "text": "Enjoy private vineyard visits, wine tastings with local producers, vineyard lunches, traditional asados, horseback riding and unforgettable journeys through the Andes.",
+        "image": "https://images.unsplash.com/photo-1743671578751-323cc61cd54d?auto=format&fit=crop&w=1800&q=85",
+        "imageAlt": "A chandelier-lit Parisian salon with tall windows"
+      },
+      "seo": {
+        "title": "Mendoza, Argentina | Private Wine & Andes Experiences | Le Coup de Foudre",
+        "description": "Discover Mendoza through exclusive vineyard visits, private Malbec tastings, Andean landscapes, exceptional gastronomy and outdoor experiences.",
+        "canonical": "/destinations/argentina/mendoza",
+        "ogImage": "/images/destinations/mendoza/og.jpg",
+        "keywords": [
+          "Mendoza luxury wine experiences",
+          "Private Mendoza wine tours",
+          "Malbec wine tastings Argentina",
+          "Uco Valley experiences",
+          "Mendoza vineyard stays",
+          "Andes private tours"
+        ],
+        "noIndex": false
+      },
+      "geo": {
+        "entity": "Mendoza, Argentina",
+        "summary": "Mendoza is a city and wine-producing province in western Argentina, at the foothills of the Andes, internationally recognised for Malbec vineyards, gastronomy and mountain landscapes.",
+        "keyFacts": [
+          "Located in western Argentina at the foot of the Andes.",
+          "One of Argentina's most important wine-producing regions.",
+          "Known for Malbec and other high-altitude wines.",
+          "Includes Luján de Cuyo, Maipú and the Uco Valley.",
+          "Gateway to Aconcagua, the highest mountain in the Americas."
+        ],
+        "faq": [
+          {
+            "question": "What are the best wine experiences in Mendoza?",
+            "answer": "Visitors can explore the vineyards of Luján de Cuyo, Maipú and the Uco Valley, enjoy private Malbec tastings and experience winery restaurants."
+          },
+          {
+            "question": "What can you combine with a wine trip to Mendoza?",
+            "answer": "A Mendoza itinerary can combine vineyard visits and gastronomy with horseback riding, scenic drives, hiking and excursions into the Andes."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "salta",
+      "country": "Argentina",
+      "countrySlug": "argentina",
+      "title": "Salta",
+      "banner": {
+        "image": "https://images.unsplash.com/photo-1456340257427-958ec6bbb764?auto=format&fit=crop&w=2400&q=85",
+        "alt": "A mountain gorge and river near Salta, Argentina"
+      },
+      "quote": "A land of colours, ancient traditions and extraordinary horizons.",
+      "extract": "Explore the cultural and natural treasures of northwestern Argentina, where dramatic mountain landscapes, colonial heritage, indigenous traditions and distinctive gastronomy create an unforgettable journey.",
+      "ctaOne": {
+        "label": "Discover Salta",
+        "href": "#presentation"
+      },
+      "whyToGo": {
+        "title": "Why visit Salta",
+        "items": [
+          {
+            "title": "Spectacular landscapes",
+            "text": "Discover colourful mountains, desert valleys, salt flats and extraordinary geological formations."
+          },
+          {
+            "title": "Cultural heritage",
+            "text": "Explore colonial architecture, traditional villages and the region's rich indigenous and Andean heritage."
+          },
+          {
+            "title": "Exceptional wines",
+            "text": "Discover high-altitude vineyards and the distinctive Torrontés wines of the Calchaquí Valleys."
+          },
+          {
+            "title": "Authentic traditions",
+            "text": "Experience regional cuisine, local crafts, traditional music and the warm hospitality of northwestern Argentina."
+          }
+        ]
+      },
+      "presentation": {
+        "title": "The colours and traditions of the north",
+        "text": "Salta is one of Argentina's most captivating destinations, where Andean culture, colonial heritage and extraordinary landscapes come together. From the elegant streets of Salta city to the colourful mountains of the Quebrada de las Conchas and the vast landscapes of the Calchaquí Valleys, the region offers a journey through some of the country's most distinctive scenery. Its traditions, local gastronomy and high-altitude wines create an experience deeply connected to the history and identity of northwestern Argentina.",
+        "image": "https://images.unsplash.com/photo-1456340257427-958ec6bbb764?auto=format&fit=crop&w=1800&q=85",
+        "imageAlt": "A mountain gorge and river near Salta, Argentina"
+      },
+      "ourStay": {
+        "title": "A retreat in the Andean landscapes",
+        "description": "Stay in a traditional estancia, a boutique hotel or a carefully restored property surrounded by mountains, vineyards and the unique landscapes of the Calchaquí Valleys.",
+        "location": "Salta, Argentina",
+        "image": "https://images.unsplash.com/photo-1695596255549-5bea851362ab?auto=format&fit=crop&w=1600&q=85",
+        "imageAlt": "Historic French interiors and architectural details"
+      },
+      "tours": {
+        "title": "Discover Salta",
+        "items": [
+          {
+            "title": "The Calchaquí Valleys",
+            "text": "Explore dramatic landscapes, traditional villages and high-altitude vineyards along one of northwestern Argentina's most remarkable scenic routes.",
+            "image": "https://images.unsplash.com/photo-1456340257427-958ec6bbb764?auto=format&fit=crop&w=1600&q=85",
+            "imageAlt": "A mountain gorge and river near Salta, Argentina"
+          },
+          {
+            "title": "Salta and Its Colonial Heritage",
+            "text": "Discover the historic centre of Salta, its colonial architecture, traditional markets and cultural landmarks.",
+            "image": "https://images.unsplash.com/photo-1699303088143-b04d23643bd9?auto=format&fit=crop&w=1600&q=85",
+            "imageAlt": "Formal garden parterres and a reflecting pool at Versailles"
+          }
+        ]
+      },
+      "experiences": {
+        "title": "The traditions of northwestern Argentina",
+        "text": "Enjoy regional cooking, high-altitude wine tastings, traditional music, local craft discoveries and journeys through the colourful landscapes and villages of the Andes.",
+        "image": "https://images.unsplash.com/photo-1695596255549-5bea851362ab?auto=format&fit=crop&w=1800&q=85",
+        "imageAlt": "Historic French interiors and architectural details"
+      },
+      "seo": {
+        "title": "Salta, Argentina | Exclusive Andean & Cultural Experiences | Le Coup de Foudre",
+        "description": "Discover Salta through private Andean tours, colourful landscapes, high-altitude vineyards, colonial heritage and authentic Argentine traditions.",
+        "canonical": "/destinations/argentina/salta",
+        "ogImage": "/images/destinations/salta/og.jpg",
+        "keywords": [
+          "Salta private tours",
+          "Luxury travel Salta Argentina",
+          "Calchaquí Valleys experiences",
+          "Salta cultural experiences",
+          "High altitude wine Argentina",
+          "Northwest Argentina private tours"
+        ],
+        "noIndex": false
+      },
+      "geo": {
+        "entity": "Salta, Argentina",
+        "summary": "Salta is a province and historic city in northwestern Argentina, known for colonial architecture, Andean culture, colourful mountain landscapes and high-altitude wine production.",
+        "keyFacts": [
+          "Located in northwestern Argentina.",
+          "Known for the Quebrada de las Conchas and Calchaquí Valleys.",
+          "Famous for Torrontés wines from high-altitude vineyards.",
+          "The city of Salta has a notable colonial historic centre.",
+          "Rich in Andean traditions, crafts and regional gastronomy."
+        ],
+        "faq": [
+          {
+            "question": "What are the main attractions in Salta, Argentina?",
+            "answer": "Highlights include the historic city of Salta, the Calchaquí Valleys, Cafayate, the Quebrada de las Conchas and the region's high-altitude vineyards."
+          },
+          {
+            "question": "What makes Salta different from other Argentine destinations?",
+            "answer": "Salta combines dramatic Andean landscapes, indigenous cultural influences, colonial architecture, traditional gastronomy and distinctive high-altitude wines."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "patagonia-andina",
+      "country": "Argentina",
+      "countrySlug": "argentina",
+      "title": "Andean Patagonia",
+      "banner": {
+        "image": "https://images.unsplash.com/photo-1729546493750-314d158125fa?auto=format&fit=crop&w=2400&q=85",
+        "alt": "A glacier and mountain landscape in Patagonia, Argentina"
+      },
+      "quote": "Where nature becomes immense, and silence becomes part of the journey.",
+      "extract": "Discover the extraordinary beauty of Andean Patagonia, a world of snow-capped peaks, crystal-clear lakes, ancient forests and some of Argentina's most spectacular natural landscapes.",
+      "ctaOne": {
+        "label": "Discover Andean Patagonia",
+        "href": "#presentation"
+      },
+      "whyToGo": {
+        "title": "Why visit Andean Patagonia",
+        "items": [
+          {
+            "title": "Majestic mountains",
+            "text": "Discover iconic peaks, dramatic granite formations and breathtaking views of the Andes."
+          },
+          {
+            "title": "Lakes and forests",
+            "text": "Explore crystal-clear lakes, ancient forests and beautiful landscapes shaped by glaciers."
+          },
+          {
+            "title": "Outdoor adventures",
+            "text": "Enjoy hiking, horseback riding, boating and unforgettable journeys through nature."
+          },
+          {
+            "title": "Remote tranquillity",
+            "text": "Experience peaceful mountain retreats, secluded landscapes and a deep connection with the natural world."
+          }
+        ]
+      },
+      "presentation": {
+        "title": "The majesty of Andean Patagonia",
+        "text": "Andean Patagonia is a region of extraordinary natural beauty, where the Andes descend into vast forests, glacial lakes and remote mountain valleys. From the iconic landscapes around Bariloche and Villa La Angostura to the dramatic peaks of El Chaltén and the glaciers of Los Glaciares National Park, the region offers endless opportunities for exploration. It is a destination for travellers seeking adventure, tranquillity and an authentic connection with nature.",
+        "image": "https://images.unsplash.com/photo-1729546493750-314d158125fa?auto=format&fit=crop&w=1800&q=85",
+        "imageAlt": "A glacier and mountain landscape in Patagonia, Argentina"
+      },
+      "ourStay": {
+        "title": "A mountain hideaway",
+        "description": "Stay in a secluded mountain lodge, a lakeside boutique hotel or a private retreat surrounded by forests, mountains and spectacular Patagonian landscapes.",
+        "location": "Andean Patagonia, Argentina",
+        "image": "https://images.unsplash.com/photo-1699303088143-b04d23643bd9?auto=format&fit=crop&w=1600&q=85",
+        "imageAlt": "Formal garden parterres and a reflecting pool at Versailles"
+      },
+      "tours": {
+        "title": "Discover Andean Patagonia",
+        "items": [
+          {
+            "title": "The Lakes and Mountains",
+            "text": "Discover the spectacular landscapes of the Lake District, exploring Bariloche, Villa La Angostura and the beautiful mountain scenery surrounding them.",
+            "image": "https://images.unsplash.com/photo-1729546493750-314d158125fa?auto=format&fit=crop&w=1600&q=85",
+            "imageAlt": "A glacier and mountain landscape in Patagonia, Argentina"
+          },
+          {
+            "title": "The Glaciers and Mountain Trails",
+            "text": "Explore the dramatic landscapes of El Chaltén and Los Glaciares National Park, home to remarkable mountain peaks, glaciers and hiking trails.",
+            "image": "https://images.unsplash.com/photo-1551568697-4b520d9743f4?auto=format&fit=crop&w=1600&q=85",
+            "imageAlt": "A formal garden path framed by clipped greenery"
+          }
+        ]
+      },
+      "experiences": {
+        "title": "A deeper connection with nature",
+        "text": "Enjoy private mountain excursions, scenic boat journeys, horseback riding, hiking, local gastronomy and peaceful moments in some of Patagonia's most extraordinary natural settings.",
+        "image": "https://images.unsplash.com/photo-1699303088143-b04d23643bd9?auto=format&fit=crop&w=1800&q=85",
+        "imageAlt": "Formal garden parterres and a reflecting pool at Versailles"
+      },
+      "seo": {
+        "title": "Andean Patagonia, Argentina | Exclusive Nature Experiences | Le Coup de Foudre",
+        "description": "Discover Andean Patagonia through private mountain tours, glacial lakes, remote lodges, hiking, horseback riding and extraordinary natural landscapes.",
+        "canonical": "/destinations/argentina/patagonia-andina",
+        "ogImage": "/images/destinations/patagonia-andina/og.jpg",
+        "keywords": [
+          "Andean Patagonia private tours",
+          "Luxury Patagonia Argentina",
+          "Patagonia mountain experiences",
+          "Patagonia private lodges",
+          "Bariloche exclusive experiences",
+          "El Chaltén private tours"
+        ],
+        "noIndex": false
+      },
+      "geo": {
+        "entity": "Andean Patagonia, Argentina",
+        "summary": "Andean Patagonia is the mountainous region of southern Argentina, known for the Andes, glacial lakes, ancient forests, mountain peaks and national parks.",
+        "keyFacts": [
+          "Located along the western side of southern Argentina.",
+          "Includes destinations such as Bariloche, Villa La Angostura and El Chaltén.",
+          "Home to Mount Fitz Roy and Los Glaciares National Park.",
+          "Known for glacial lakes, forests and mountain landscapes.",
+          "Popular for hiking, boating, fishing and outdoor adventures."
+        ],
+        "faq": [
+          {
+            "question": "What is the difference between Andean Patagonia and Atlantic Patagonia?",
+            "answer": "Andean Patagonia is characterised by mountains, forests, glacial lakes and glaciers, while Atlantic Patagonia is known for its coastal landscapes and marine wildlife."
+          },
+          {
+            "question": "What are the best experiences in Andean Patagonia?",
+            "answer": "Popular experiences include mountain hiking, scenic lake excursions, horseback riding, glacier visits and stays in remote lodges surrounded by nature."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "patagonia-atlantica",
+      "country": "Argentina",
+      "countrySlug": "argentina",
+      "title": "Atlantic Patagonia",
+      "banner": {
+        "image": "https://images.unsplash.com/photo-1520637850086-fca99b2a39fa?auto=format&fit=crop&w=2400&q=85",
+        "alt": "A penguin on the Patagonian coast near Ushuaia, Argentina"
+      },
+      "quote": "An extraordinary meeting between the vastness of the ocean and the wild.",
+      "extract": "Discover the untamed beauty of Atlantic Patagonia, where dramatic coastlines, remote beaches and remarkable marine wildlife create one of the world's most extraordinary natural experiences.",
+      "ctaOne": {
+        "label": "Discover Atlantic Patagonia",
+        "href": "#presentation"
+      },
+      "whyToGo": {
+        "title": "Why visit Atlantic Patagonia",
+        "items": [
+          {
+            "title": "Extraordinary wildlife",
+            "text": "Observe whales, penguins, sea lions and other remarkable marine species in their natural environment."
+          },
+          {
+            "title": "Wild coastlines",
+            "text": "Discover dramatic cliffs, remote beaches, vast horizons and untouched coastal landscapes."
+          },
+          {
+            "title": "Unique natural encounters",
+            "text": "Experience some of South America's most memorable wildlife and marine excursions."
+          },
+          {
+            "title": "A sense of remoteness",
+            "text": "Enjoy peaceful landscapes and a rare opportunity to disconnect from the rhythm of everyday life."
+          }
+        ]
+      },
+      "presentation": {
+        "title": "The wild beauty of the Atlantic coast",
+        "text": "Atlantic Patagonia reveals a different side of Argentina's southern wilderness. Along its immense coastline, the Atlantic Ocean meets dramatic cliffs, remote beaches and protected natural reserves that shelter extraordinary marine life. The Valdés Peninsula, Puerto Madryn and Punta Tombo offer remarkable opportunities to discover whales, penguins, sea lions and other species in their natural habitats. It is a destination where nature takes centre stage and every encounter feels extraordinary.",
+        "image": "https://images.unsplash.com/photo-1520637850086-fca99b2a39fa?auto=format&fit=crop&w=1800&q=85",
+        "imageAlt": "A penguin on the Patagonian coast near Ushuaia, Argentina"
+      },
+      "ourStay": {
+        "title": "A coastal retreat in the wild",
+        "description": "Stay in a boutique coastal lodge, a secluded countryside property or a comfortable retreat close to Patagonia's most remarkable wildlife reserves.",
+        "location": "Atlantic Patagonia, Argentina",
+        "image": "https://images.unsplash.com/photo-1695596255549-5bea851362ab?auto=format&fit=crop&w=1600&q=85",
+        "imageAlt": "Historic French interiors and architectural details"
+      },
+      "tours": {
+        "title": "Discover Atlantic Patagonia",
+        "items": [
+          {
+            "title": "The Valdés Peninsula",
+            "text": "Explore this extraordinary wildlife sanctuary, discovering its coastal landscapes and opportunities to observe whales, sea lions and other marine species.",
+            "image": "https://images.unsplash.com/photo-1520637850086-fca99b2a39fa?auto=format&fit=crop&w=1600&q=85",
+            "imageAlt": "A penguin on the Patagonian coast near Ushuaia, Argentina"
+          },
+          {
+            "title": "The Penguin Colonies",
+            "text": "Discover the extraordinary penguin colonies of Patagonia, including the remarkable Magellanic penguin reserve at Punta Tombo.",
+            "image": "https://images.unsplash.com/photo-1551568697-4b520d9743f4?auto=format&fit=crop&w=1600&q=85",
+            "imageAlt": "A formal garden path framed by clipped greenery"
+          }
+        ]
+      },
+      "experiences": {
+        "title": "Wildlife encounters and coastal discovery",
+        "text": "Enjoy responsible wildlife observation, whale-watching excursions during the appropriate season, penguin colony visits, coastal explorations and encounters with Patagonia's extraordinary marine ecosystems.",
+        "image": "https://images.unsplash.com/photo-1695596255549-5bea851362ab?auto=format&fit=crop&w=1800&q=85",
+        "imageAlt": "Historic French interiors and architectural details"
+      },
+      "seo": {
+        "title": "Atlantic Patagonia, Argentina | Exclusive Wildlife Experiences | Le Coup de Foudre",
+        "description": "Explore Atlantic Patagonia through private wildlife excursions, whale watching, penguin colonies, coastal landscapes and extraordinary nature experiences.",
+        "canonical": "/destinations/argentina/patagonia-atlantica",
+        "ogImage": "/images/destinations/patagonia-atlantica/og.jpg",
+        "keywords": [
+          "Atlantic Patagonia experiences",
+          "Patagonia wildlife tours",
+          "Valdés Peninsula private tours",
+          "Patagonia whale watching",
+          "Punta Tombo penguins",
+          "Luxury Patagonia nature travel"
+        ],
+        "noIndex": false
+      },
+      "geo": {
+        "entity": "Atlantic Patagonia, Argentina",
+        "summary": "Atlantic Patagonia is the coastal region of southern Argentina, known for marine wildlife, the Valdés Peninsula, whale watching, penguin colonies and dramatic Atlantic landscapes.",
+        "keyFacts": [
+          "Located along Argentina's southern Atlantic coastline.",
+          "Includes Puerto Madryn and the Valdés Peninsula.",
+          "The Valdés Peninsula is a UNESCO World Heritage Site.",
+          "Known for southern right whales, penguins and sea lions.",
+          "Punta Tombo is an important Magellanic penguin breeding colony."
+        ],
+        "faq": [
+          {
+            "question": "Where can you see whales in Argentina?",
+            "answer": "The Valdés Peninsula, particularly the waters around Puerto Pirámides, is one of Argentina's best-known destinations for observing southern right whales during their seasonal presence."
+          },
+          {
+            "question": "What wildlife can you see in Atlantic Patagonia?",
+            "answer": "Depending on the season and location, visitors can observe southern right whales, Magellanic penguins, sea lions, elephant seals and numerous seabirds."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "jose-ignacio",
+      "country": "Uruguay",
+      "countrySlug": "uruguay",
+      "title": "José Ignacio",
+      "banner": {
+        "image": "https://images.unsplash.com/photo-1655764818001-6356d945b33d?auto=format&fit=crop&w=2400&q=85",
+        "alt": "A lighthouse on the rocky shore of José Ignacio, Uruguay"
+      },
+      "quote": "A place where the ocean sets the rhythm and simplicity becomes luxury.",
+      "extract": "Discover the understated elegance of José Ignacio, a coastal village where beautiful beaches, exceptional gastronomy, artistic spirit and relaxed sophistication create a unique South American escape.",
+      "ctaOne": {
+        "label": "Discover José Ignacio",
+        "href": "#presentation"
+      },
+      "whyToGo": {
+        "title": "Why visit José Ignacio",
+        "items": [
+          {
+            "title": "Beautiful beaches",
+            "text": "Discover wide sandy beaches, spectacular sunsets and the natural beauty of Uruguay's Atlantic coastline."
+          },
+          {
+            "title": "Understated sophistication",
+            "text": "Experience elegant boutique properties, independent design, contemporary architecture and a relaxed atmosphere."
+          },
+          {
+            "title": "Exceptional gastronomy",
+            "text": "Enjoy fresh seafood, local ingredients, refined restaurants and memorable dining experiences by the ocean."
+          },
+          {
+            "title": "A slower way of life",
+            "text": "Embrace peaceful coastal living, artistic discoveries and the simple pleasures of the Uruguayan summer."
+          }
+        ]
+      },
+      "presentation": {
+        "title": "The understated charm of José Ignacio",
+        "text": "José Ignacio is one of South America's most distinctive coastal destinations. Once a quiet fishing village, it has become a favourite retreat for travellers seeking natural beauty, understated sophistication and an authentic connection with the ocean. Its beaches, iconic lighthouse, independent restaurants and elegant private residences create an atmosphere that feels both intimate and cosmopolitan. Here, the greatest luxury is often the simplest: a long lunch, a beautiful sunset and time spent by the sea.",
+        "image": "https://images.unsplash.com/photo-1655764818001-6356d945b33d?auto=format&fit=crop&w=1800&q=85",
+        "imageAlt": "A lighthouse on the rocky shore of José Ignacio, Uruguay"
+      },
+      "ourStay": {
+        "title": "A private coastal retreat",
+        "description": "Stay in a contemporary beach house, an intimate boutique hotel or a beautifully designed private residence surrounded by the natural beauty of the Uruguayan coastline.",
+        "location": "José Ignacio, Uruguay",
+        "image": "https://images.unsplash.com/photo-1743671578751-323cc61cd54d?auto=format&fit=crop&w=1600&q=85",
+        "imageAlt": "A chandelier-lit Parisian salon with tall windows"
+      },
+      "tours": {
+        "title": "Discover José Ignacio",
+        "items": [
+          {
+            "title": "The Village and Its Coastline",
+            "text": "Discover the village's distinctive architecture, iconic lighthouse, beautiful beaches and relaxed atmosphere along the Atlantic coast.",
+            "image": "https://images.unsplash.com/photo-1655764818001-6356d945b33d?auto=format&fit=crop&w=1600&q=85",
+            "imageAlt": "A lighthouse on the rocky shore of José Ignacio, Uruguay"
+          },
+          {
+            "title": "The Landscapes of Uruguay",
+            "text": "Explore the surrounding coastline, peaceful countryside, neighbouring villages and the natural landscapes of the Maldonado region.",
+            "image": "https://images.unsplash.com/photo-1699303088143-b04d23643bd9?auto=format&fit=crop&w=1600&q=85",
+            "imageAlt": "Formal garden parterres and a reflecting pool at Versailles"
+          }
+        ]
+      },
+      "experiences": {
+        "title": "The art of coastal living",
+        "text": "Enjoy private beach experiences, exceptional seafood, sunset dining, contemporary art discoveries, local design, countryside excursions and unforgettable moments by the Atlantic Ocean.",
+        "image": "https://images.unsplash.com/photo-1743671578751-323cc61cd54d?auto=format&fit=crop&w=1800&q=85",
+        "imageAlt": "A chandelier-lit Parisian salon with tall windows"
+      },
+      "seo": {
+        "title": "José Ignacio, Uruguay | Exclusive Coastal Experiences | Le Coup de Foudre",
+        "description": "Discover José Ignacio through exclusive beach experiences, private coastal retreats, exceptional gastronomy, contemporary art and relaxed Uruguayan living.",
+        "canonical": "/destinations/uruguay/jose-ignacio",
+        "ogImage": "/images/destinations/jose-ignacio/og.jpg",
+        "keywords": [
+          "José Ignacio luxury travel",
+          "José Ignacio exclusive experiences",
+          "Uruguay private coastal retreats",
+          "José Ignacio private tours",
+          "José Ignacio gastronomy",
+          "Uruguay luxury beach experiences"
+        ],
+        "noIndex": false
+      },
+      "geo": {
+        "entity": "José Ignacio, Maldonado, Uruguay",
+        "summary": "José Ignacio is a coastal village in the Maldonado department of Uruguay, known for its Atlantic beaches, lighthouse, boutique hospitality, contemporary architecture and exceptional gastronomy.",
+        "keyFacts": [
+          "Located in the Maldonado department of southeastern Uruguay.",
+          "Situated on the Atlantic coast.",
+          "Known for its iconic lighthouse and sandy beaches.",
+          "Recognised for boutique hotels, restaurants and contemporary design.",
+          "A popular summer destination known for understated sophistication."
+        ],
+        "faq": [
+          {
+            "question": "What makes José Ignacio a special destination in Uruguay?",
+            "answer": "José Ignacio combines beautiful Atlantic beaches, boutique hospitality, exceptional restaurants, contemporary design and a relaxed coastal atmosphere."
+          },
+          {
+            "question": "What can you do in José Ignacio?",
+            "answer": "Visitors can enjoy beach experiences, seaside dining, local art and design, coastal excursions and the village's distinctive summer lifestyle."
+          }
+        ]
+      }
+    }
+  ]
+}

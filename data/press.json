@@ -1,0 +1,148 @@
+{
+  "articles": [
+    {
+      "id": "travel-leisure-july-2024",
+      "publication": "Travel + Leisure",
+      "title": "Travel + Leisure July 2024",
+      "type": "Travel feature",
+      "country": "USA",
+      "year": 2024,
+      "url": "https://www.lecoupdefoudre-paris.com/assets/images/press/Travel-and%20Leisure-2024-07-01.pdf",
+      "image": "/images/press-images/2024-Travel-and Leisure.webp",
+      "imageAlt": "Travel + Leisure July 2024 editorial page",
+      "imageFit": "cover"
+    },
+    {
+      "id": "travel-leisure-2024",
+      "publication": "Travel + Leisure",
+      "title": "Travel + Leisure 2024",
+      "type": "Travel feature",
+      "country": "USA",
+      "year": 2024,
+      "url": "https://www.travelandleisure.com/paris-france-travel-guide-8612401",
+      "image": "/images/press-images/2024-Travel-Leisure-USA.webp",
+      "imageAlt": "Travel + Leisure USA magazine cover",
+      "imageFit": "cover"
+    },
+    {
+      "id": "kleins-journal-2023",
+      "publication": "Klein’s Journal",
+      "title": "Interview Klein’s Journal 2023",
+      "type": "Interview",
+      "country": "USA",
+      "year": 2023,
+      "url": "https://www.kleinsjournal.com/experience-le-vie-parisienne-with-le-coup-de-foudre/",
+      "image": "/images/press-images/logo-klein.png",
+      "imageAlt": "Klein’s Journal logo",
+      "imageFit": "contain"
+    },
+    {
+      "id": "la-nacion-interview-2023",
+      "publication": "La Nación",
+      "title": "Interview La Nación 2023",
+      "type": "Interview",
+      "country": "Argentina",
+      "year": 2023,
+      "url": "https://www.lanacion.com.ar/lifestyle/una-argentina-en-paris-y-la-audaz-tarea-de-mostrar-el-lujo-parisino-a-los-turistas-de-los-hoteles-nid11042023/",
+      "image": "/images/press-images/2023-La-Nacion-Revista.webp",
+      "imageAlt": "La Nación Revista cover",
+      "imageFit": "cover"
+    },
+    {
+      "id": "la-nacion-living-design-2023",
+      "publication": "La Nación · Living Design",
+      "title": "Living Design La Nación 2023",
+      "type": "Design",
+      "country": "Argentina",
+      "year": 2023,
+      "url": "https://www.lanacion.com.ar/revista-living/en-palermo-chico-una-pareja-cosmopolita-cumplio-su-sueno-de-mudarse-a-este-emblematico-edificio-de-nid20032023/",
+      "image": "/images/press-images/2023-revista-living-marzo.webp",
+      "imageAlt": "Living Design March 2023 cover",
+      "imageFit": "cover"
+    },
+    {
+      "id": "vogue-mexico-2023",
+      "publication": "VOGUE Mexico",
+      "title": "Interview VOGUE Mexico 2023",
+      "type": "Interview",
+      "country": "Mexico",
+      "year": 2023,
+      "url": "https://www.pressreader.com/argentina/vogue-latinoamerica/20230622/281900187586467",
+      "image": "/images/press-images/2023-Vogue-Mexico.webp",
+      "imageAlt": "VOGUE Mexico cover",
+      "imageFit": "cover"
+    },
+    {
+      "id": "yolo-journal-2023",
+      "publication": "YOLO Journal",
+      "title": "Interview YOLO Journal 2023",
+      "type": "Interview",
+      "country": "USA",
+      "year": 2023,
+      "url": "https://yolojournal.substack.com/p/bric-a-brac-49?utm_source=substack&utm_medium=email",
+      "image": "/images/press-images/2023-Yolo-Journal-USA.webp",
+      "imageAlt": "YOLO Journal cover",
+      "imageFit": "cover"
+    },
+    {
+      "id": "lofficiel-2022",
+      "publication": "L’OFFICIEL",
+      "title": "Publication L’OFFICIEL 2022",
+      "type": "Publication",
+      "country": "Argentina",
+      "year": 2022,
+      "url": "https://www.lofficiel.com.ar/hombre/entre-paris-y-buenos-aires",
+      "image": "/images/press-images/2022-Lofficiel-Argentina.webp",
+      "imageAlt": "L’OFFICIEL Argentina cover",
+      "imageFit": "cover"
+    },
+    {
+      "id": "la-nacion-interview-2022",
+      "publication": "La Nación",
+      "title": "Interview La Nación 2022",
+      "type": "Interview",
+      "country": "Argentina",
+      "year": 2022,
+      "url": "https://www.lanacion.com.ar/la-nacion-revista/con-mirada-parisina-un-dandy-frances-recomienda-lo-mejor-de-buenos-aires-desde-restaurantes-paseos-nid05072022/",
+      "image": "/images/press-images/2022-La-Nacion-revista.webp",
+      "imageAlt": "La Nación Revista cover",
+      "imageFit": "cover"
+    },
+    {
+      "id": "cool-hunting-2022",
+      "publication": "Cool Hunting",
+      "title": "Cool Hunting 2022",
+      "type": "Travel feature",
+      "country": "USA",
+      "year": 2022,
+      "url": "https://coolhunting.com/travel/parisian-author-clement-le-cozs-love-letter-to-argentina-ma-vie-a-buenos-aires/",
+      "image": "/images/press-images/2022-Cool-hunting-USA.webp",
+      "imageAlt": "Cool Hunting editorial cover",
+      "imageFit": "cover"
+    },
+    {
+      "id": "vogue-2022",
+      "publication": "VOGUE",
+      "title": "Publication VOGUE 2022",
+      "type": "Publication",
+      "country": "USA",
+      "year": 2022,
+      "url": "https://www.vogue.com/slideshow/velvet-veil-carriage-wedding-in-argentina",
+      "image": "/images/press-images/2021-Vogue-USA.webp",
+      "imageAlt": "VOGUE USA cover",
+      "imageFit": "cover"
+    },
+    {
+      "id": "living-design-2021",
+      "publication": "La Nación · Living Design",
+      "title": "Publication Living Design 2021",
+      "type": "Design",
+      "country": "Argentina",
+      "year": 2021,
+      "url": "https://www.lanacion.com.ar/lifestyle/artistico-y-cosmopolita-el-depto-de-una-pareja-franco-argentina-en-buenos-aires-nid2332319/",
+      "image": "/images/press-images/2021-Living-revista-Argentina.webp",
+      "imageAlt": "Living Argentina cover",
+      "imageFit": "cover"
+    }
+  ]
+}

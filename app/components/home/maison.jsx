@@ -1,0 +1,5 @@
+import Image from "next/image";
+
+export default function HomeMaison() {
+  return <section className="maison section" id="maison" aria-labelledby="maison-title"><div className="maison__heading"><h2 id="maison-title">A French art, seen differently</h2><p className="maison__lead">A design &amp; hospitality maison, based in Paris.</p></div><div className="maison__story"><figure className="maison__image"><Image src="https://images.unsplash.com/photo-1699303088143-b04d23643bd9?auto=format&fit=crop&w=1700&q=85" alt="A reflecting pool and formal parterres in the gardens of Versailles" fill sizes="(max-width: 700px) 100vw, 48vw" unoptimized /><figcaption>Versailles, where landscape becomes an art</figcaption></figure><div className="maison__copy"><p className="maison__number">1,500<span>+</span></p><h3>French savoir-faire, opened</h3><p>From the ateliers of Paris to the quiet of a château garden, we bring together encounters with the people, places and savoir-faire that make France singular.</p><a className="text-link" href="#journey-request">Meet your concierge <span aria-hidden="true">↗</span></a></div></div></section>;
+}

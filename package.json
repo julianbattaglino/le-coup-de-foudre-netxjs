@@ -1,0 +1,18 @@
+{
+  "name": "le-coup-de-foudre-paris",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "gsap": "^3.15.1",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "swiper": "^14.4.0"
+  }
+}

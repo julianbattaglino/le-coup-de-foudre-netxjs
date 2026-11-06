@@ -1,0 +1,14 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "overused-font",
+        "value": "montserrat",
+        "createdAt": "2026-11-04T23:47:41.029Z",
+        "reason": "The supplied DESIGN.md specifies Montserrat for navigation and interface controls."
+      }
+    ]
+  }
+}
