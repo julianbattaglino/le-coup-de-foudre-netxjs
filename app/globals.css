@@ -1713,17 +1713,19 @@ img {
   color: var(--gold);
 }
 .journey-map__hero {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(16rem, 28rem);
-  align-items: end;
-  gap: 3rem;
-  min-height: min(55vw, 43rem);
-  padding: clamp(8rem, 16vw, 13rem) var(--page-gutter) clamp(4rem, 8vw, 7rem);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: clamp(1.5rem, 3vw, 2.5rem);
+  min-height: clamp(30rem, 48vw, 40rem);
+  padding: clamp(5rem, 9vw, 7.5rem) var(--page-gutter);
   background: var(--navy);
   color: var(--paper);
+  text-align: center;
 }
 .journey-map__hero h1 {
-  max-width: 8ch;
+  max-width: 9ch;
   margin: 0;
   font-family: var(--serif-display);
   font-size: clamp(4rem, 9.5vw, 8.5rem);
@@ -1736,8 +1738,8 @@ img {
   font-weight: 400;
 }
 .journey-map__hero > p {
-  max-width: 25ch;
-  margin: 0 0 0.3rem;
+  max-width: 31ch;
+  margin: 0;
   font-size: clamp(1.3rem, 2vw, 1.65rem);
   font-style: italic;
   line-height: 1.18;
@@ -2084,9 +2086,8 @@ img {
 }
 @media (max-width: 840px) {
   .journey-map__hero {
-    grid-template-columns: 1fr;
-    min-height: auto;
-    gap: 2rem;
+    min-height: min(42rem, calc(100svh - 4.75rem));
+    padding-block: clamp(4.5rem, 12vw, 6.5rem);
   }
   .journey-map__hero > p {
     max-width: 31ch;
@@ -2115,7 +2116,8 @@ img {
     background: var(--paper);
   }
   .journey-map__hero {
-    padding-top: 7rem;
+    min-height: min(36rem, calc(100svh - 4.75rem));
+    padding-block: 4.5rem;
   }
   .journey-map__hero h1 {
     font-size: clamp(3.5rem, 18vw, 5.6rem);
