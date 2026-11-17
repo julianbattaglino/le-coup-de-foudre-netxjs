@@ -3,6 +3,7 @@ import HeaderFullScreen2 from "../components/full-screen-header2";
 import FooterSecondary from "../components/home2/footer-secondary";
 import ScrollMotion from "../components/home3/scroll-motion";
 import DestinationList from "./destination-list";
+import Link from "next/link";
 
 export const metadata = {
   title: "Destinations | Le Coup de Foudre Paris",
@@ -15,6 +16,7 @@ export default function DestinationsPage() {
     <ScrollMotion className="destination-motion">
       <div id="top">
         <HeaderFullScreen2 />
+        <div className="destinations-map-link"><Link href="/journey-map">Follow the journey <span aria-hidden="true">↗</span></Link></div>
         <DestinationList destinations={destinationsData.destinations} />
         <FooterSecondary />
       </div>
