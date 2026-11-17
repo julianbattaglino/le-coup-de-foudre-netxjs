@@ -37,9 +37,9 @@ export default function HeaderFullScreen2() {
   const closeMenu = () => setIsOpen(false);
   const homeAnchor = (id) => `/#${id}`;
   const primaryLinks = [
-    ["Experiences", homeAnchor("experiences")],
-    ["Maison", homeAnchor("maison")],
-    ["Estudio", homeAnchor("maison")],
+    ["Experiences", "/home-texts#experiences"],
+    ["Hospitality", "/home-texts#hospitality"],
+    ["Destinations", "/home-texts#france"],
   ];
 
   return (
@@ -84,7 +84,7 @@ export default function HeaderFullScreen2() {
                 {primaryLinks.map(([label, href]) => <a href={href} key={label} onClick={closeMenu}>{label}</a>)}
               </div>
               <div className="fullscreen-menu2__secondary">
-                <a href={homeAnchor("maison")} onClick={closeMenu}>About Us</a>
+                <Link href="/about-us" onClick={closeMenu}>About Us</Link>
                 <a href={homeAnchor("journey-request")} onClick={closeMenu}>Contact Us</a>
                 <a href="mailto:contact@lecoupdefoudre-paris.com?subject=Newsletter" onClick={closeMenu}>Newsletter</a>
               </div>

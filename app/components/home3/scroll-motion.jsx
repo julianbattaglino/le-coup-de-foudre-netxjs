@@ -16,15 +16,17 @@ export default function ScrollMotion({ children, className = "home3" }) {
 
     gsap.registerPlugin(ScrollTrigger);
     const context = gsap.context(() => {
-      root.current?.querySelectorAll("h1, h2").forEach((title, index) => {
-        gsap.fromTo(title, { x: index % 2 === 0 ? 44 : -44 }, {
-          x: 0,
-          ease: "none",
+      root.current?.querySelectorAll("h1, h2").forEach((title) => {
+        gsap.fromTo(title, { autoAlpha: 0, y: 16, filter: "blur(3px)" }, {
+          autoAlpha: 1,
+          y: 0,
+          filter: "blur(0px)",
+          duration: 0.48,
+          ease: "power3.out",
           scrollTrigger: {
             trigger: title,
-            start: "top 92%",
-            end: "top 56%",
-            scrub: 0.7,
+            start: "top 88%",
+            toggleActions: "play none none reverse",
           },
         });
       });
