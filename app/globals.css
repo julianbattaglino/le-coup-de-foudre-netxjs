@@ -1709,7 +1709,9 @@ img {
   text-decoration: none;
   text-transform: uppercase;
 }
-.destinations-map-link a span { color: var(--gold); }
+.destinations-map-link a span {
+  color: var(--gold);
+}
 .journey-map__hero {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(16rem, 28rem);
@@ -1729,7 +1731,10 @@ img {
   letter-spacing: -0.04em;
   line-height: 0.83;
 }
-.journey-map__hero h1 em { color: #d4bd88; font-weight: 400; }
+.journey-map__hero h1 em {
+  color: #d4bd88;
+  font-weight: 400;
+}
 .journey-map__hero > p {
   max-width: 25ch;
   margin: 0 0 0.3rem;
@@ -1737,17 +1742,62 @@ img {
   font-style: italic;
   line-height: 1.18;
 }
-.journey-map__experience { padding: clamp(1.2rem, 3vw, 2.75rem) var(--page-gutter) clamp(5rem, 9vw, 9rem); background: var(--paper-warm); }
-.journey-map__topline { display: flex; justify-content: space-between; padding-bottom: 1rem; border-bottom: 1px solid rgba(22,34,56,.22); color: var(--navy); font-family: var(--sans); font-size: .61rem; letter-spacing: .13em; text-transform: uppercase; }
-.journey-map__canvas { position: relative; display: grid; grid-template-columns: minmax(15rem, .72fr) minmax(25rem, 1.7fr) minmax(14rem, .58fr); align-items: center; min-height: clamp(34rem, 63vw, 48rem); padding: clamp(2.5rem, 5vw, 5rem) 0; }
-.journey-map__chapter-copy { align-self: start; padding-top: clamp(1.5rem, 4vw, 4rem); }
-.journey-map__chapter-copy h2 { max-width: 8ch; margin: 0; color: var(--navy); font-family: var(--serif-display); font-size: clamp(2.8rem, 5vw, 5.75rem); font-weight: 400; letter-spacing: -.04em; line-height: .9; text-wrap: balance; }
-.journey-map__chapter-copy p { max-width: 23ch; margin: 1.5rem 0 0; font-size: 1.23rem; line-height: 1.25; }
-.journey-map__visual { position: relative; min-width: 0; min-height: 31rem; }
+.journey-map__experience {
+  padding: clamp(1.2rem, 3vw, 2.75rem) var(--page-gutter) clamp(5rem, 9vw, 9rem);
+  background: var(--paper-warm);
+}
+.journey-map__topline {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgba(22, 34, 56, 0.22);
+  color: var(--navy);
+  font-family: var(--sans);
+  font-size: 0.61rem;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+.journey-map__canvas {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(15rem, 0.72fr) minmax(25rem, 1.7fr) minmax(
+      14rem,
+      0.58fr
+    );
+  align-items: center;
+  min-height: clamp(34rem, 63vw, 48rem);
+  padding: clamp(2.5rem, 5vw, 5rem) 0;
+}
+.journey-map__chapter-copy {
+  align-self: start;
+  padding-top: clamp(1.5rem, 4vw, 4rem);
+}
+.journey-map__chapter-copy h2 {
+  max-width: 8ch;
+  margin: 0;
+  color: var(--navy);
+  font-family: var(--serif-display);
+  font-size: clamp(2.8rem, 4.5vw, 5.75rem);
+  font-weight: 400;
+  letter-spacing: -0.04em;
+  line-height: 0.9;
+  text-wrap: balance;
+}
+.journey-map__chapter-copy p {
+  max-width: 30ch;
+  margin: 1.5rem 0 0;
+  font-size: 1.23rem;
+  line-height: 1.25;
+}
+.journey-map__visual {
+  position: relative;
+  min-width: 0;
+  min-height: 31rem;
+}
 .journey-map__geo-figure {
   display: grid;
   place-items: center;
-  width: 100%;
+  width: 120%;
   height: 100%;
   min-height: inherit;
   margin: 0;
@@ -1798,7 +1848,9 @@ img {
   stroke: var(--navy);
   stroke-width: 1.25;
 }
-.journey-map__landmark { pointer-events: none; }
+.journey-map__landmark {
+  pointer-events: none;
+}
 .journey-map__city-label {
   fill: var(--navy);
   font-family: var(--sans);
@@ -1833,47 +1885,286 @@ img {
   text-decoration-color: var(--gold);
   text-underline-offset: 0.25rem;
 }
-.journey-map__route { fill: none; stroke: var(--gold); stroke-dasharray: 1 2.4; stroke-linecap: round; stroke-width: .8; animation: route-draw 6s linear infinite; }
-.journey-map__place { align-self: end; border-top: 1px solid rgba(22,34,56,.4); padding-top: 1rem; }
-.journey-map__place span { display: block; color: #636663; font-family: var(--sans); font-size: .58rem; letter-spacing: .14em; text-transform: uppercase; }
-.journey-map__place strong { display: block; margin: .4rem 0 1rem; color: var(--navy); font-family: var(--serif-display); font-size: clamp(1.7rem, 2.3vw, 2.4rem); font-weight: 400; line-height: 1; }
-.journey-map__place a { color: var(--navy); font-family: var(--sans); font-size: .61rem; letter-spacing: .1em; text-decoration-color: var(--gold); text-decoration-thickness: 1px; text-underline-offset: .38rem; text-transform: uppercase; }
-.journey-map__place i { color: var(--gold); font-style: normal; }
-.journey-map__controls { display: flex; align-items: center; justify-content: space-between; gap: 1rem; border-top: 1px solid rgba(22,34,56,.22); padding-top: 1rem; }
-.journey-map__controls > button { min-width: 6rem; border: 0; background: transparent; color: var(--navy); cursor: pointer; font-family: var(--sans); font-size: .62rem; letter-spacing: .12em; text-align: left; text-transform: uppercase; }
-.journey-map__controls > button:last-child { text-align: right; }
-.journey-map__controls > button:disabled { color: rgba(22,34,56,.34); cursor: not-allowed; }
-.journey-map__progress { display: flex; gap: .55rem; }
-.journey-map__progress button { width: 2.1rem; height: 2px; padding: 0; border: 0; background: rgba(22,34,56,.23); cursor: pointer; }
-.journey-map__progress button.is-current { background: var(--gold); }
-.journey-map__stops { display: flex; flex-wrap: wrap; gap: .6rem 1.5rem; padding-top: 2.5rem; }
-.journey-map__stops button { padding: 0; border: 0; background: transparent; color: #636663; cursor: pointer; font-family: var(--sans); font-size: .6rem; letter-spacing: .07em; text-transform: uppercase; }
-.journey-map__stops button span { margin-right: .4rem; color: var(--gold); }
-.journey-map__stops button.is-active { color: var(--navy); text-decoration: underline; text-decoration-color: var(--gold); text-underline-offset: .35rem; }
-.journey-map__globe { position: relative; width: min(100%, 33rem); aspect-ratio: 1; margin: 0 auto; overflow: hidden; border-radius: 50%; background: #1d304c; box-shadow: inset -2.2rem -1.3rem 2.8rem rgba(6,13,24,.38), 1.5rem 2rem 3rem rgba(22,34,56,.14); }
-.journey-map__globe::before, .journey-map__globe::after { position: absolute; inset: 9% 0; border: 1px solid rgba(249,248,245,.25); border-radius: 50%; content: ""; }
-.journey-map__globe::after { inset: 0 16%; }
-.journey-map__globe-lines { position: absolute; inset: 28% 0; border-top: 1px solid rgba(249,248,245,.25); border-bottom: 1px solid rgba(249,248,245,.25); border-radius: 50%; }
-.journey-map__flight { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
-.journey-map__flight > path { fill: none; stroke: #d4bd88; stroke-dasharray: 4 6; stroke-width: 1.4; }
-.journey-map__plane { fill: var(--paper); }
-.journey-map__globe-city { position: absolute; z-index: 1; color: var(--paper); font-family: var(--sans); font-size: .58rem; letter-spacing: .1em; text-transform: uppercase; }
-.journey-map__globe-city::before { display: inline-block; width: .4rem; height: .4rem; margin-right: .35rem; border-radius: 50%; background: var(--gold); content: ""; vertical-align: middle; }
-.journey-map__globe-city--paris { top: 65%; left: 12%; }
-.journey-map__globe-city--buenos { top: 43%; right: 4%; }
-@keyframes route-draw { to { stroke-dashoffset: -20; } }
-@keyframes plane-fly { 0%,100% { opacity: 1; } }
-@media (max-width: 840px) { .journey-map__hero { grid-template-columns: 1fr; min-height: auto; gap: 2rem; } .journey-map__hero > p { max-width: 31ch; } .journey-map__canvas { grid-template-columns: 1fr; min-height: 0; gap: 2rem; } .journey-map__chapter-copy { padding-top: 0; } .journey-map__chapter-copy h2 { max-width: 10ch; } .journey-map__visual { min-height: 25rem; } .journey-map__place { max-width: 23rem; } }
-@media (max-width: 600px) { .destinations-map-link { position: static; padding: 1.25rem var(--page-gutter) 0; background: var(--paper); } .journey-map__hero { padding-top: 7rem; } .journey-map__hero h1 { font-size: clamp(3.5rem, 18vw, 5.6rem); } .journey-map__experience { padding-top: 1rem; } .journey-map__visual, .journey-map__geographic { min-height: 21rem; } .journey-map__controls > button { min-width: auto; } .journey-map__stops { gap: .8rem 1rem; } .journey-map__globe { width: min(100%, 21rem); } .journey-map__globe-city { font-size: .49rem; } }
-@media (prefers-reduced-motion: reduce) { .journey-map__route, .journey-map__plane { animation: none; } }
+.journey-map__route {
+  fill: none;
+  stroke: var(--gold);
+  stroke-dasharray: 1 2.4;
+  stroke-linecap: round;
+  stroke-width: 0.8;
+  animation: route-draw 6s linear infinite;
+}
+.journey-map__place {
+  align-self: end;
+  border-top: 1px solid rgba(22, 34, 56, 0.4);
+  padding-top: 1rem;
+}
+.journey-map__place span {
+  display: block;
+  color: #636663;
+  font-family: var(--sans);
+  font-size: 0.58rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+.journey-map__place strong {
+  display: block;
+  margin: 0.4rem 0 1rem;
+  color: var(--navy);
+  font-family: var(--serif-display);
+  font-size: clamp(1.7rem, 2.3vw, 2.4rem);
+  font-weight: 400;
+  line-height: 1;
+}
+.journey-map__place a {
+  color: var(--navy);
+  font-family: var(--sans);
+  font-size: 0.61rem;
+  letter-spacing: 0.1em;
+  text-decoration-color: var(--gold);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.38rem;
+  text-transform: uppercase;
+}
+.journey-map__place i {
+  color: var(--gold);
+  font-style: normal;
+}
+.journey-map__controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  border-top: 1px solid rgba(22, 34, 56, 0.22);
+  padding-top: 1rem;
+}
+.journey-map__controls > button {
+  min-width: 6rem;
+  border: 0;
+  background: transparent;
+  color: var(--navy);
+  cursor: pointer;
+  font-family: var(--sans);
+  font-size: 0.62rem;
+  letter-spacing: 0.12em;
+  text-align: left;
+  text-transform: uppercase;
+}
+.journey-map__controls > button:last-child {
+  text-align: right;
+}
+.journey-map__controls > button:disabled {
+  color: rgba(22, 34, 56, 0.34);
+  cursor: not-allowed;
+}
+.journey-map__progress {
+  display: flex;
+  gap: 0.55rem;
+}
+.journey-map__progress button {
+  width: 2.1rem;
+  height: 2px;
+  padding: 0;
+  border: 0;
+  background: rgba(22, 34, 56, 0.23);
+  cursor: pointer;
+}
+.journey-map__progress button.is-current {
+  background: var(--gold);
+}
+.journey-map__stops {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem 1.5rem;
+  padding-top: 2.5rem;
+}
+.journey-map__stops button {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: #636663;
+  cursor: pointer;
+  font-family: var(--sans);
+  font-size: 0.6rem;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+.journey-map__stops button span {
+  margin-right: 0.4rem;
+  color: var(--gold);
+}
+.journey-map__stops button.is-active {
+  color: var(--navy);
+  text-decoration: underline;
+  text-decoration-color: var(--gold);
+  text-underline-offset: 0.35rem;
+}
+.journey-map__globe {
+  position: relative;
+  width: min(100%, 33rem);
+  aspect-ratio: 1;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 50%;
+  background: #1d304c;
+  box-shadow:
+    inset -2.2rem -1.3rem 2.8rem rgba(6, 13, 24, 0.38),
+    1.5rem 2rem 3rem rgba(22, 34, 56, 0.14);
+}
+.journey-map__globe::before,
+.journey-map__globe::after {
+  position: absolute;
+  inset: 9% 0;
+  border: 1px solid rgba(249, 248, 245, 0.25);
+  border-radius: 50%;
+  content: "";
+}
+.journey-map__globe::after {
+  inset: 0 16%;
+}
+.journey-map__globe-lines {
+  position: absolute;
+  inset: 28% 0;
+  border-top: 1px solid rgba(249, 248, 245, 0.25);
+  border-bottom: 1px solid rgba(249, 248, 245, 0.25);
+  border-radius: 50%;
+}
+.journey-map__flight {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+.journey-map__flight > path {
+  fill: none;
+  stroke: #d4bd88;
+  stroke-dasharray: 4 6;
+  stroke-width: 1.4;
+}
+.journey-map__plane {
+  fill: var(--paper);
+}
+.journey-map__globe-city {
+  position: absolute;
+  z-index: 1;
+  color: var(--paper);
+  font-family: var(--sans);
+  font-size: 0.58rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.journey-map__globe-city::before {
+  display: inline-block;
+  width: 0.4rem;
+  height: 0.4rem;
+  margin-right: 0.35rem;
+  border-radius: 50%;
+  background: var(--gold);
+  content: "";
+  vertical-align: middle;
+}
+.journey-map__globe-city--paris {
+  top: 65%;
+  left: 12%;
+}
+.journey-map__globe-city--buenos {
+  top: 43%;
+  right: 4%;
+}
+@keyframes route-draw {
+  to {
+    stroke-dashoffset: -20;
+  }
+}
+@keyframes plane-fly {
+  0%,
+  100% {
+    opacity: 1;
+  }
+}
+@media (max-width: 840px) {
+  .journey-map__hero {
+    grid-template-columns: 1fr;
+    min-height: auto;
+    gap: 2rem;
+  }
+  .journey-map__hero > p {
+    max-width: 31ch;
+  }
+  .journey-map__canvas {
+    grid-template-columns: 1fr;
+    min-height: 0;
+    gap: 0rem;
+  }
+  .journey-map__chapter-copy {
+    padding-top: 0;
+  }
+  .journey-map__chapter-copy h2 {
+  }
+  .journey-map__visual {
+    min-height: 25rem;
+  }
+  .journey-map__place {
+    max-width: 23rem;
+  }
+}
+@media (max-width: 600px) {
+  .destinations-map-link {
+    position: static;
+    padding: 1.25rem var(--page-gutter) 0;
+    background: var(--paper);
+  }
+  .journey-map__hero {
+    padding-top: 7rem;
+  }
+  .journey-map__hero h1 {
+    font-size: clamp(3.5rem, 18vw, 5.6rem);
+  }
+  .journey-map__experience {
+    padding-top: 1rem;
+  }
+  .journey-map__visual,
+  .journey-map__geographic {
+    min-height: 21rem;
+  }
+  .journey-map__controls > button {
+    min-width: auto;
+  }
+  .journey-map__stops {
+    gap: 0.8rem 1rem;
+  }
+  .journey-map__globe {
+    width: min(100%, 21rem);
+  }
+  .journey-map__globe-city {
+    font-size: 0.49rem;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .journey-map__route,
+  .journey-map__plane {
+    animation: none;
+  }
+}
 
 /* ===== Journey map — local cartography edition ===== */
-.journey-map__dock { display: none; }
-.journey-map--local .journey-map__visual { min-height: clamp(36rem, 50vw, 43rem); }
-.journey-map--local .journey-map__geographic { width: min(100%, 43rem); min-height: clamp(34rem, 50vw, 42rem); }
+.journey-map__dock {
+  display: none;
+}
+.journey-map--local .journey-map__visual {
+  min-height: clamp(36rem, 50vw, 43rem);
+}
+.journey-map--local .journey-map__geographic {
+  width: min(100%, 43rem);
+  min-height: clamp(34rem, 50vw, 42rem);
+}
 .journey-map--local .journey-map__geographic--france,
-.journey-map--local .journey-map__geographic--argentina { width: min(100%, 46rem); }
-.journey-map--local .journey-map__controls { display: none; }
+.journey-map--local .journey-map__geographic--argentina {
+  width: min(100%, 46rem);
+}
+.journey-map--local .journey-map__controls {
+  display: none;
+}
 .journey-map--local .journey-map__dock {
   position: fixed;
   z-index: 20;
@@ -1899,23 +2190,58 @@ img {
   letter-spacing: 0.11em;
   text-transform: uppercase;
 }
-.journey-map__dock > button:disabled { color: rgba(249, 248, 245, 0.36); cursor: not-allowed; }
-.journey-map__dock > div { display: flex; gap: 0.35rem; padding: 0 0.2rem; }
-.journey-map__dock > div button { width: 1.25rem; height: 2px; padding: 0; border: 0; background: rgba(249, 248, 245, 0.35); cursor: pointer; }
-.journey-map__dock > div button.is-current { background: #d4bd88; }
-.journey-map__dock button:focus-visible { outline: 1px solid #d4bd88; outline-offset: 3px; }
+.journey-map__dock > button:disabled {
+  color: rgba(249, 248, 245, 0.36);
+  cursor: not-allowed;
+}
+.journey-map__dock > div {
+  display: flex;
+  gap: 0.35rem;
+  padding: 0 0.2rem;
+}
+.journey-map__dock > div button {
+  width: 1.25rem;
+  height: 2px;
+  padding: 0;
+  border: 0;
+  background: rgba(249, 248, 245, 0.35);
+  cursor: pointer;
+}
+.journey-map__dock > div button.is-current {
+  background: #d4bd88;
+}
+.journey-map__dock button:focus-visible {
+  outline: 1px solid #d4bd88;
+  outline-offset: 3px;
+}
 @media (max-width: 840px) {
   .journey-map--local .journey-map__visual,
-  .journey-map--local .journey-map__geographic { min-height: 32rem; }
+  .journey-map--local .journey-map__geographic {
+    min-height: 32rem;
+  }
 }
 @media (max-width: 600px) {
   .journey-map--local .journey-map__visual,
-  .journey-map--local .journey-map__geographic { min-height: 29rem; }
+  .journey-map--local .journey-map__geographic {
+    min-height: 29rem;
+  }
   .journey-map--local .journey-map__geographic--france,
-  .journey-map--local .journey-map__geographic--argentina { width: min(100%, 30rem); }
-  .journey-map__city-label { font-size: 2.15px; }
-  .journey-map--local .journey-map__dock { right: 0.75rem; bottom: calc(0.75rem + env(safe-area-inset-bottom)); left: 0.75rem; grid-template-columns: 1fr auto 1fr; padding: 0.42rem 0.7rem; }
-  .journey-map__dock > button:last-child { text-align: right; }
+  .journey-map--local .journey-map__geographic--argentina {
+    width: min(100%, 30rem);
+  }
+  .journey-map__city-label {
+    font-size: 2.15px;
+  }
+  .journey-map--local .journey-map__dock {
+    right: 0.75rem;
+    bottom: calc(0.75rem + env(safe-area-inset-bottom));
+    left: 0.75rem;
+    grid-template-columns: 1fr auto 1fr;
+    padding: 0.42rem 0.7rem;
+  }
+  .journey-map__dock > button:last-child {
+    text-align: right;
+  }
 }
 
 /* ===== Estilos Home2: variables, componentes y responsive ===== */
@@ -4430,10 +4756,9 @@ body.menu-is-open {
 }
 .destinations-filters {
   display: grid;
-  grid-template-columns: minmax(150px, 0.8fr) minmax(210px, 1fr) minmax(
-      220px,
-      1fr
-    ) auto;
+  grid-template-columns:
+    minmax(150px, 0.8fr) minmax(210px, 1fr) minmax(220px, 1fr)
+    auto;
   align-items: end;
   gap: 1rem;
   margin-bottom: clamp(2rem, 4vw, 3.5rem);
@@ -4591,10 +4916,9 @@ body.menu-is-open {
   margin: 0 auto;
 }
 .press-filters {
-  grid-template-columns: minmax(135px, 0.75fr) minmax(150px, 0.85fr) minmax(
-      100px,
-      0.55fr
-    ) minmax(200px, 1fr) auto;
+  grid-template-columns:
+    minmax(135px, 0.75fr) minmax(150px, 0.85fr) minmax(100px, 0.55fr)
+    minmax(200px, 1fr) auto;
 }
 .press-grid {
   align-items: start;
