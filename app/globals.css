@@ -363,7 +363,7 @@ body {
 .about-hero > div:first-child {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
   padding: clamp(3rem, 8vw, 8rem);
 }
 .about-hero h1 {
@@ -379,6 +379,18 @@ body {
   font-style: italic;
   line-height: 1.2;
 }
+
+@media (max-width: 1400px) {
+  .about-hero {
+    grid-template-columns: 1fr;
+    min-height: auto;
+  }
+
+  .about-hero > div:first-child {
+    min-height: 46vh;
+  }
+}
+
 .founders {
   padding: clamp(5rem, 10vw, 10rem) var(--page-gutter);
 }
@@ -491,7 +503,6 @@ body {
     padding: 4.5rem var(--page-gutter);
   }
   .about-hero > div:first-child {
-    min-height: 31rem;
     padding: 4.5rem var(--page-gutter);
   }
   .founder--1 .founder__portrait {
