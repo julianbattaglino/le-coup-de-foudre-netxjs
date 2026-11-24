@@ -4649,6 +4649,10 @@ body.menu-is-open {
 
 @media (max-width: 1200px) {
   .destination-navigation {
+    top: 66px;
+    min-height: 58px;
+    justify-content: flex-start;
+    gap: 1.6rem;
     overflow-x: auto;
   }
 }
@@ -4677,6 +4681,18 @@ body.menu-is-open {
   .destination-why__grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 1.5rem 1rem;
+  }
+  .destination-navigation {
+    top: 66px;
+    min-height: 58px;
+    justify-content: flex-start;
+    gap: 1.6rem;
+    overflow-x: auto;
+  }
+  .destination-navigation a {
+    min-height: 58px;
+    flex: 0 0 auto;
+    font-size: 0.57rem;
   }
   .destination-section {
     scroll-margin-top: 25px;
@@ -4709,20 +4725,6 @@ body.menu-is-open {
   }
   .destination-experiences__image-wrap {
     order: 2;
-  }
-}
-@media (max-width: 1200px) {
-  .destination-navigation {
-    top: 66px;
-    min-height: 58px;
-    justify-content: flex-start;
-    gap: 1.6rem;
-    overflow-x: auto;
-  }
-  .destination-navigation a {
-    min-height: 58px;
-    flex: 0 0 auto;
-    font-size: 0.57rem;
   }
 }
 @media (prefers-reduced-motion: reduce) {
@@ -4924,7 +4926,7 @@ body.menu-is-open {
   .itinerary-cover h1 { font-size: clamp(4rem, 19vw, 6rem); }
   .itinerary-curators,
   .itinerary-day { grid-template-columns: 1fr; }
-  .itinerary-image img { width: 110% !important; }
+  .itinerary-image img { width: 110%; }
   .itinerary-curators .itinerary-image,
   .itinerary-day .itinerary-image { aspect-ratio: 0.63; }
   .itinerary-curators__copy,
