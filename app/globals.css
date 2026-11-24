@@ -4520,7 +4520,7 @@ body.menu-is-open {
   transform: scaleX(1);
 }
 .destination-section {
-  scroll-margin-top: 64px;
+  scroll-margin-top: 25px;
 }
 .destination-split {
   display: grid;
@@ -4685,7 +4685,7 @@ body.menu-is-open {
     font-size: 0.57rem;
   }
   .destination-section {
-    scroll-margin-top: 44px;
+    scroll-margin-top: 25px;
   }
   .destination-split,
   .destination-stay,
@@ -4720,6 +4720,600 @@ body.menu-is-open {
 @media (prefers-reduced-motion: reduce) {
   .destination-navigation a::after,
   .destination-tour__image-wrap img {
+    transition: none;
+  }
+}
+
+/* ===== Journey proposal ===== */
+.itinerary-proposal {
+  --itinerary-navy: #0c1d4a;
+  --itinerary-paper: #f4f0e8;
+  --itinerary-ink: #282620;
+  --itinerary-gold: #9b8654;
+  width: 100%;
+  overflow: hidden;
+  background: var(--itinerary-paper);
+  color: var(--itinerary-ink);
+}
+.itinerary-proposal h1,
+.itinerary-proposal h2,
+.itinerary-proposal h3,
+.itinerary-proposal p {
+  margin-top: 0;
+}
+.itinerary-cover,
+.itinerary-curators,
+.itinerary-glance,
+.itinerary-overview,
+.itinerary-day {
+  position: relative;
+  min-height: min(70.7vw, 970px);
+  scroll-margin-top: 25px;
+}
+.itinerary-cover {
+  display: flex;
+  min-height: 100svh;
+  align-items: center;
+  padding: clamp(3rem, 9vw, 10rem);
+  background: var(--itinerary-navy);
+  color: #f7f3e9;
+}
+.itinerary-cover__copy > p,
+.itinerary-curators__copy > p:first-child,
+.itinerary-glance > p,
+.itinerary-overview > p,
+.itinerary-day__copy > p,
+.itinerary-glance span,
+.itinerary-overview__labels,
+.itinerary-overview li span,
+.itinerary-day__entries span {
+  font-family: var(--sans);
+  font-size: clamp(0.56rem, 0.78vw, 0.72rem);
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+.itinerary-cover__copy > p {
+  margin-bottom: 1.1rem;
+}
+.itinerary-cover__copy > p:nth-child(2) {
+  margin-bottom: clamp(2.7rem, 5vw, 5rem);
+}
+.itinerary-cover h1 {
+  max-width: 7ch;
+  margin-bottom: clamp(2.7rem, 5vw, 5rem);
+  font-family: var(--serif-display);
+  font-size: clamp(4.25rem, 9.5vw, 10rem);
+  font-weight: 400;
+  letter-spacing: -0.055em;
+  line-height: 0.86;
+  white-space: pre-line;
+}
+.itinerary-cover h1::first-line { }
+.itinerary-cover__copy em {
+  display: block;
+  color: #b8cae5;
+  font-family: var(--serif);
+  font-size: clamp(1.45rem, 2.25vw, 2.3rem);
+}
+.itinerary-curators {
+  display: grid;
+  grid-template-columns: 44.5fr 55.5fr;
+  background: var(--itinerary-paper);
+}
+.itinerary-image {
+  position: relative;
+  overflow: hidden;
+  min-height: 0;
+}
+.itinerary-image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: none;
+  height: auto;
+}
+.itinerary-image > span {
+  position: absolute;
+  bottom: 8%;
+  left: 8%;
+  color: #fff;
+  font-family: var(--sans);
+  font-size: clamp(0.54rem, 0.75vw, 0.68rem);
+  letter-spacing: 0.2em;
+}
+.itinerary-curators__copy {
+  align-self: center;
+  padding: clamp(3rem, 7vw, 8rem);
+}
+.itinerary-curators__copy > p:first-child,
+.itinerary-glance > p,
+.itinerary-overview > p,
+.itinerary-day__copy > p {
+  margin-bottom: 1.6rem;
+  color: var(--itinerary-gold);
+}
+.itinerary-curators h2,
+.itinerary-glance h2,
+.itinerary-overview h2,
+.itinerary-day h2 {
+  margin-bottom: clamp(2rem, 4vw, 4rem);
+  font-family: var(--serif-display);
+  font-size: clamp(3rem, 5.3vw, 6rem);
+  font-weight: 400;
+  letter-spacing: -0.045em;
+  line-height: 0.94;
+}
+.itinerary-curators__copy > p:not(:first-child) {
+  max-width: 42ch;
+  margin-bottom: 1.55rem;
+  font-family: var(--serif);
+  font-size: clamp(1.05rem, 1.55vw, 1.45rem);
+  line-height: 1.42;
+}
+.itinerary-glance,
+.itinerary-overview {
+  box-sizing: border-box;
+  padding: clamp(3.25rem, 6vw, 6.5rem) 8.5% 10%;
+}
+.itinerary-glance h2,
+.itinerary-overview h2 { border-bottom: 1px solid rgba(40, 38, 32, 0.24); padding-bottom: clamp(1.25rem, 2.5vw, 2.5rem); }
+.itinerary-glance__grid {
+  display: grid;
+  grid-template-columns: 0.9fr 1.25fr 0.9fr;
+  gap: 3rem;
+  padding-top: clamp(2rem, 4vw, 4rem);
+}
+.itinerary-glance__grid > div:last-child { grid-column: 1 / -1; padding-top: 2rem; border-top: 1px solid rgba(40, 38, 32, 0.18); }
+.itinerary-glance__grid span,
+.itinerary-glance__grid strong { display: block; }
+.itinerary-glance__grid span { margin-bottom: 1rem; color: var(--itinerary-gold); }
+.itinerary-glance__grid strong {
+  max-width: 23ch;
+  font-family: var(--serif);
+  font-size: clamp(1.35rem, 2.25vw, 2.25rem);
+  font-weight: 400;
+  line-height: 1.28;
+}
+.itinerary-glance__grid small { display: block; margin-top: 0.5rem; font-size: 0.65em; }
+.itinerary-overview { background: #f7f3eb; }
+.itinerary-overview__labels,
+.itinerary-overview li {
+  display: grid;
+  grid-template-columns: 0.35fr 0.9fr 2fr 1.05fr;
+  gap: 1rem;
+}
+.itinerary-overview__labels { color: var(--itinerary-gold); padding-bottom: 0.9rem; }
+.itinerary-overview ol { margin: 0; padding: 0; border-top: 1px solid rgba(40, 38, 32, 0.2); list-style: none; }
+.itinerary-overview li { align-items: baseline; padding: 0.9rem 0; border-bottom: 1px solid rgba(40, 38, 32, 0.2); }
+.itinerary-overview li strong { font-family: var(--serif-display); font-size: clamp(1.2rem, 2vw, 2rem); font-weight: 400; line-height: 1.12; }
+.itinerary-overview li em { font-family: var(--serif); font-size: clamp(1rem, 1.55vw, 1.45rem); }
+.itinerary-day {
+  display: grid;
+  grid-template-columns: 44.5fr 55.5fr;
+  background: var(--itinerary-paper);
+}
+.itinerary-day__copy {
+  align-self: start;
+  padding: clamp(3rem, 6vw, 6.5rem);
+}
+.itinerary-day h2 { max-width: 13ch; }
+.itinerary-day__entries { border-top: 1px solid rgba(40, 38, 32, 0.2); }
+.itinerary-day__entries article { display: grid; grid-template-columns: 0.34fr 1fr; gap: 1.5rem; padding: 1.3rem 0; border-bottom: 1px solid rgba(40, 38, 32, 0.2); }
+.itinerary-day__entries span { color: var(--itinerary-gold); }
+.itinerary-day__entries h3 { margin-bottom: 0.45rem; font-family: var(--serif); font-size: clamp(1.25rem, 2vw, 2rem); font-weight: 400; line-height: 1.15; }
+.itinerary-day__entries p { max-width: 37ch; margin: 0; font-family: var(--serif); font-size: clamp(1rem, 1.4vw, 1.35rem); line-height: 1.35; }
+.itinerary-day__fee { padding-top: 1.2rem; }
+@media (max-width: 760px) {
+  .itinerary-cover,
+  .itinerary-curators,
+  .itinerary-glance,
+  .itinerary-overview,
+  .itinerary-day { min-height: auto; }
+  .itinerary-cover { min-height: 100svh; padding: 3.5rem 8%; }
+  .itinerary-cover h1 { font-size: clamp(4rem, 19vw, 6rem); }
+  .itinerary-curators,
+  .itinerary-day { grid-template-columns: 1fr; }
+  .itinerary-curators .itinerary-image,
+  .itinerary-day .itinerary-image { aspect-ratio: 0.63; }
+  .itinerary-curators__copy,
+  .itinerary-day__copy { padding: 3.5rem 8% 6.5rem; }
+  .itinerary-glance,
+  .itinerary-overview { padding: 3.5rem 8% 7rem; }
+  .itinerary-glance__grid { grid-template-columns: 1fr; gap: 2rem; }
+  .itinerary-overview__labels { display: none; }
+  .itinerary-overview li { grid-template-columns: 0.4fr 0.25fr 1.65fr; gap: 0.75rem; }
+  .itinerary-overview li em { grid-column: 3; }
+  .itinerary-day__entries article { grid-template-columns: 1fr; gap: 0.75rem; }
+}
+.journey-page {
+  background: #f7f4ee;
+}
+.journey-hero {
+  padding: clamp(1.5rem, 3vw, 2.75rem) var(--page-gutter) 0;
+}
+.journey-hero__grid {
+  display: grid;
+  min-height: min(70vw, 740px);
+  grid-template-columns: minmax(280px, 0.76fr) minmax(360px, 1.24fr);
+  background: var(--navy);
+}
+.journey-hero__intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: clamp(2.5rem, 6vw, 6rem);
+  color: var(--paper);
+}
+.journey-hero__location,
+.journey-day__story > p,
+.journey-day__moments span {
+  margin: 0;
+  color: #ddc999;
+  font-family: var(--sans);
+  font-size: 0.63rem;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+.journey-hero__intro h1 {
+  max-width: 8ch;
+  margin: 1.35rem 0 1.8rem;
+  font-family: var(--serif-display);
+  font-size: clamp(4rem, 8vw, 7.4rem);
+  font-weight: 400;
+  letter-spacing: -0.055em;
+  line-height: 0.88;
+}
+.journey-hero__intro > p:last-child {
+  max-width: 22ch;
+  margin: 0;
+  font-family: var(--serif-display);
+  font-size: clamp(1.35rem, 2.2vw, 2rem);
+  line-height: 1.16;
+}
+.journey-hero__image {
+  min-height: 560px;
+  background-color: #d9d2c6;
+  background-position: center;
+  background-size: cover;
+}
+.journey-hero__note {
+  display: grid;
+  max-width: 1080px;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 2rem;
+  margin: 0 auto;
+  padding: clamp(2.5rem, 5vw, 4.5rem) 0;
+}
+.journey-hero__note p {
+  max-width: 61ch;
+  margin: 0;
+  font-size: clamp(1.15rem, 1.8vw, 1.42rem);
+  line-height: 1.45;
+}
+.journey-button {
+  display: inline-flex;
+  min-height: 50px;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.25rem;
+  border: 1px solid var(--navy);
+  color: var(--navy);
+  font-family: var(--sans);
+  font-size: 0.62rem;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: background-color 180ms ease, color 180ms ease;
+}
+.journey-button:hover,
+.journey-button:focus-visible {
+  background: var(--navy);
+  color: var(--paper);
+}
+.journey-glance,
+.journey-index {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: clamp(4.5rem, 9vw, 8rem) var(--page-gutter);
+}
+.journey-glance,
+.journey-index,
+.journey-day,
+.journey-stay {
+  scroll-margin-top: 25px;
+}
+.journey-glance {
+  display: grid;
+  grid-template-columns: minmax(250px, 0.85fr) minmax(320px, 1.15fr);
+  gap: clamp(3rem, 9vw, 9rem);
+}
+.journey-glance h2,
+.journey-index h2,
+.journey-day h2,
+.journey-stay h2 {
+  margin: 0;
+  color: var(--navy);
+  font-family: var(--serif-display);
+  font-size: clamp(2.5rem, 4.8vw, 4.6rem);
+  font-weight: 400;
+  letter-spacing: -0.045em;
+  line-height: 0.96;
+}
+.journey-glance__heading > p,
+.journey-index__heading > p {
+  max-width: 44ch;
+  margin: 1.5rem 0 0;
+  font-size: 1.1rem;
+  line-height: 1.55;
+}
+.journey-glance__details {
+  margin: 0;
+}
+.journey-glance__details > div {
+  display: grid;
+  grid-template-columns: minmax(100px, 0.35fr) 1fr;
+  gap: 1.5rem;
+  padding: 1.05rem 0;
+  border-top: 1px solid rgba(28, 29, 28, 0.18);
+}
+.journey-glance__details > div:last-child {
+  border-bottom: 1px solid rgba(28, 29, 28, 0.18);
+}
+.journey-glance dt {
+  color: #806836;
+  font-family: var(--sans);
+  font-size: 0.6rem;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+.journey-glance dd {
+  margin: 0;
+  font-family: var(--serif-display);
+  font-size: clamp(1.2rem, 2vw, 1.6rem);
+  line-height: 1.2;
+}
+.journey-glance dd small {
+  display: block;
+  margin-top: 0.3rem;
+  color: #6a6965;
+  font-family: var(--serif);
+  font-size: 1rem;
+}
+.journey-index {
+  max-width: none;
+  background: #efeae0;
+}
+.journey-index__heading,
+.journey-index ol {
+  max-width: 1120px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.journey-index ol {
+  margin-top: clamp(2.5rem, 5vw, 4.5rem);
+  margin-bottom: 0;
+  padding: 0;
+  list-style: none;
+}
+.journey-index li {
+  display: grid;
+  grid-template-columns: 120px minmax(0, 1fr) minmax(150px, 0.35fr);
+  gap: 1.5rem;
+  align-items: baseline;
+  padding: 1rem 0;
+  border-top: 1px solid rgba(28, 29, 28, 0.18);
+}
+.journey-index li:last-child {
+  border-bottom: 1px solid rgba(28, 29, 28, 0.18);
+}
+.journey-index li span,
+.journey-index li em {
+  color: #806836;
+  font-family: var(--sans);
+  font-size: 0.61rem;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+.journey-index li strong {
+  color: var(--navy);
+  font-family: var(--serif-display);
+  font-size: clamp(1.3rem, 2.3vw, 1.8rem);
+  font-weight: 400;
+  line-height: 1.15;
+}
+.journey-day {
+  display: grid;
+  min-height: 680px;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+}
+.journey-day:nth-child(even) {
+  direction: rtl;
+}
+.journey-day:nth-child(even) > * {
+  direction: ltr;
+}
+.journey-day__image-wrap,
+.journey-stay__image-wrap {
+  position: relative;
+  min-height: 540px;
+  overflow: hidden;
+  background: #ddd5c9;
+}
+.journey-day__image-wrap img,
+.journey-stay__image-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.journey-day__image-wrap > span {
+  position: absolute;
+  bottom: 1.75rem;
+  left: 2rem;
+  color: #fff;
+  font-family: var(--sans);
+  font-size: 0.6rem;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+.journey-day__story {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: clamp(3rem, 7vw, 7.5rem);
+}
+.journey-day__story > p {
+  margin-bottom: 1.2rem;
+  color: #806836;
+}
+.journey-day h2 {
+  max-width: 11ch;
+}
+.journey-day__moments {
+  margin-top: 2.2rem;
+}
+.journey-day__moments article {
+  display: grid;
+  grid-template-columns: minmax(105px, 0.38fr) 1fr;
+  column-gap: 1.25rem;
+  padding: 1.25rem 0;
+  border-top: 1px solid rgba(28, 29, 28, 0.18);
+}
+.journey-day__moments article:last-child {
+  border-bottom: 1px solid rgba(28, 29, 28, 0.18);
+}
+.journey-day__moments span {
+  grid-row: span 2;
+  padding-top: 0.3rem;
+  color: #806836;
+}
+.journey-day__moments h3 {
+  margin: 0;
+  color: var(--ink);
+  font-family: var(--serif-display);
+  font-size: clamp(1.25rem, 2vw, 1.65rem);
+  font-weight: 400;
+  line-height: 1.12;
+}
+.journey-day__moments p {
+  grid-column: 2;
+  max-width: 43ch;
+  margin: 0.45rem 0 0;
+  font-size: 1.02rem;
+  line-height: 1.5;
+}
+.journey-stay {
+  display: grid;
+  min-height: 600px;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  background: var(--navy);
+}
+.journey-stay__copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: clamp(3rem, 7vw, 7.5rem);
+  color: var(--paper);
+}
+.journey-stay h2 {
+  color: var(--paper);
+}
+.journey-stay__copy p {
+  max-width: 45ch;
+  margin: 1.75rem 0 0;
+  font-size: 1.14rem;
+  line-height: 1.55;
+}
+.journey-stay__copy span {
+  margin-top: 1.75rem;
+  color: #ddc999;
+  font-family: var(--sans);
+  font-size: 0.62rem;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 760px) {
+  .journey-hero {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .journey-hero .destination-breadcrumb {
+    padding-right: var(--page-gutter);
+    padding-left: var(--page-gutter);
+  }
+  .journey-hero__grid,
+  .journey-glance,
+  .journey-day,
+  .journey-stay {
+    grid-template-columns: 1fr;
+  }
+  .journey-hero__grid {
+    min-height: 0;
+  }
+  .journey-hero__intro {
+    min-height: 440px;
+    padding: 3rem var(--page-gutter);
+  }
+  .journey-hero__image {
+    min-height: 112vw;
+  }
+  .journey-hero__note {
+    grid-template-columns: 1fr;
+    padding: 2.75rem var(--page-gutter);
+  }
+  .journey-button {
+    width: 100%;
+  }
+  .journey-glance {
+    gap: 2.25rem;
+  }
+  .journey-index li {
+    grid-template-columns: 1fr;
+    gap: 0.45rem;
+  }
+  .journey-index li em {
+    margin-top: 0.25rem;
+  }
+  .journey-day:nth-child(even) {
+    direction: ltr;
+  }
+  .journey-day__image-wrap,
+  .journey-stay__image-wrap {
+    min-height: 105vw;
+  }
+  .journey-day__story,
+  .journey-stay__copy {
+    padding: 3.5rem var(--page-gutter);
+  }
+  .journey-day__moments article {
+    grid-template-columns: 1fr;
+    gap: 0.65rem;
+  }
+  .journey-day__moments span,
+  .journey-day__moments p {
+    grid-column: auto;
+    grid-row: auto;
+    padding: 0;
+  }
+  .journey-day__moments p {
+    margin-top: 0;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .journey-button {
     transition: none;
   }
 }

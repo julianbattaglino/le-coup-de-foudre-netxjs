@@ -10,152 +10,243 @@ const destinations = destinationsData.destinations;
 
 function getDestination(country, slug) {
   return destinations.find(
-    (destination) =>
-      destination.countrySlug === country && destination.slug === slug,
+    (destination) => destination.countrySlug === country && destination.slug === slug,
   );
 }
 
+function createJourney(data) {
+  const [firstTour, secondTour] = data.tours.items;
+
+  return {
+    duration: "Four days, at your own pace",
+    party: "Designed for two",
+    rhythm: data.extract,
+    passions: data.whyToGo.items.map((item) => item.title).slice(0, 3),
+    stay: data.ourStay,
+    days: [
+      {
+        title: `Arrival in ${data.title}`,
+        image: data.presentation.image,
+        imageAlt: data.presentation.imageAlt,
+        location: data.country,
+        moments: [
+          { label: "Arrival", title: "Settle into your address", text: data.ourStay.description },
+          { label: "First impressions", title: data.presentation.title, text: data.presentation.text },
+        ],
+      },
+      {
+        title: firstTour.title,
+        image: firstTour.image,
+        imageAlt: firstTour.imageAlt,
+        location: data.country,
+        moments: [{ label: "A private discovery", title: firstTour.title, text: firstTour.text }],
+      },
+      {
+        title: secondTour.title,
+        image: secondTour.image,
+        imageAlt: secondTour.imageAlt,
+        location: data.country,
+        moments: [{ label: "A slower afternoon", title: secondTour.title, text: secondTour.text }],
+      },
+      {
+        title: "Make it entirely yours",
+        image: data.experiences.image,
+        imageAlt: data.experiences.imageAlt,
+        location: data.country,
+        moments: [{ label: "Your final chapter", title: data.experiences.title, text: data.experiences.text }],
+      },
+    ],
+  };
+}
+
 export function generateStaticParams() {
-  return destinations.map(({ countrySlug, slug }) => ({
-    country: countrySlug,
-    slug,
-  }));
+  return destinations.map(({ countrySlug, slug }) => ({ country: countrySlug, slug }));
 }
 
 export async function generateMetadata({ params }) {
   const { country, slug } = await params;
   const destination = getDestination(country, slug);
-
   if (!destination) return {};
 
   return {
     title: destination.seo?.title ?? `${destination.title} | Le Coup de Foudre`,
     description: destination.seo?.description ?? destination.extract,
-    alternates: destination.seo?.canonical
-      ? { canonical: destination.seo.canonical }
-      : undefined,
+    alternates: destination.seo?.canonical ? { canonical: destination.seo.canonical } : undefined,
     robots: destination.seo?.noIndex ? { index: false, follow: false } : undefined,
-    openGraph: destination.seo?.ogImage
-      ? { images: [destination.seo.ogImage] }
-      : undefined,
+    openGraph: destination.seo?.ogImage ? { images: [destination.seo.ogImage] } : undefined,
   };
 }
 
-function DestinationHero({ data }) {
+function ProposalImage({ image, label }) {
   return (
-    <header className="destination-hero" data-aos="fade-up">
-      <div className="destination-hero__title">
-        <nav className="destination-breadcrumb" aria-label="Breadcrumb">
-          <ol>
-            <li><Link href="/destinations">All destinations</Link></li>
-            <li>{data.country}</li>
-            <li aria-current="page">{data.title}</li>
-          </ol>
-        </nav>
-        <p className="destination-eyebrow">{data.country}</p>
-        <h1>{data.title}</h1>
+    <div className="itinerary-image">
+      <img src={image} alt="" />
+      {label ? <span>{label}</span> : null}
+    </div>
+  );
+}
+
+function ProposalDay({ day }) {
+  const isFinalDay = Boolean(day.morning);
+
+  return (
+    <section className="itinerary-day" id={`day-${Number(day.day)}`} aria-labelledby={`itinerary-day-${day.day}`}>
+      <ProposalImage image={day.image} label={day.imageLabel} />
+      <div className="itinerary-day__copy">
+        <p>DAY {day.day}</p>
+        <h2 id={`itinerary-day-${day.day}`}>{day.chapter}</h2>
+        <div className="itinerary-day__entries">
+          {isFinalDay ? (
+            <>
+              <article><span>MORNING</span><div><h3>{day.morning}</h3><p>{day.morningDescription}</p></div></article>
+              <article><span>DEPARTURE</span><div><h3>{day.departure}</h3></div></article>
+              <p className="itinerary-day__fee">A trip design and booking fee applies, detailed separately in your proposal.</p>
+            </>
+          ) : <article><span>{day.time}</span><div><h3>{day.experience}</h3><p>{day.description}</p></div></article>}
+        </div>
       </div>
-      <div
-        className="destination-hero__image"
-        role="img"
-        aria-label={data.banner.alt}
-        style={{ backgroundImage: `url("${data.banner.image}")` }}
-      />
-      <div className="destination-hero__content">
-        <blockquote>{data.quote}</blockquote>
-        <p className="destination-hero__extract">{data.extract}</p>
-        <a className="destination-button" href={data.ctaOne.href}>
-          {data.ctaOne.label}
-        </a>
+    </section>
+  );
+}
+
+function ProposalReplica({ proposal }) {
+  return (
+    <main className="itinerary-proposal">
+      <section className="itinerary-cover" aria-labelledby="itinerary-cover-title">
+        <div className="itinerary-cover__copy">
+          <p>{proposal.cover.brand}</p><p>{proposal.cover.agency}</p>
+          <h1 id="itinerary-cover-title">{proposal.cover.title}</h1>
+          <p>{proposal.cover.for}</p><em>{proposal.cover.by}</em>
+        </div>
+      </section>
+      <section className="itinerary-curators" id="curators">
+        <ProposalImage image={proposal.curators.image} label="" />
+        <div className="itinerary-curators__copy">
+          <p>{proposal.curators.label}</p><h2>{proposal.curators.title}</h2>
+          {proposal.curators.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+        </div>
+      </section>
+      <section className="itinerary-glance" id="overview" aria-labelledby="itinerary-glance-title">
+        <p>{proposal.atAGlance.label}</p><h2 id="itinerary-glance-title">{proposal.atAGlance.title}</h2>
+        <div className="itinerary-glance__grid">
+          <div><span>PARTY</span><strong>{proposal.atAGlance.party}</strong></div>
+          <div><span>RHYTHM</span><strong>{proposal.atAGlance.rhythm}</strong></div>
+          <div><span>PASSION POINTS</span><strong>{proposal.atAGlance.passionPoints.join(" · ")}</strong></div>
+          <div><span>WHERE YOU STAY</span><strong>{proposal.atAGlance.stay}<small>{proposal.atAGlance.location}</small></strong></div>
+        </div>
+      </section>
+      <section className="itinerary-overview" id="journey" aria-labelledby="itinerary-overview-title">
+        <p>{proposal.overview.label}</p><h2 id="itinerary-overview-title">{proposal.overview.title}</h2>
+        <div className="itinerary-overview__labels"><span>DAY</span><span>DATE</span><span>CHAPTER</span><span>WHERE YOU SLEEP</span></div>
+        <ol>{proposal.days.map((day) => <li key={day.day}><span>{day.day}</span><span>—</span><strong>{day.chapter}</strong><em>{day.sleep}</em></li>)}</ol>
+      </section>
+      {proposal.days.map((day) => <ProposalDay day={day} key={day.day} />)}
+    </main>
+  );
+}
+
+function JourneyHero({ data, journey }) {
+  return (
+    <header className="journey-hero">
+      <nav className="destination-breadcrumb" aria-label="Breadcrumb">
+        <ol>
+          <li><Link href="/destinations">All destinations</Link></li>
+          <li>{data.country}</li>
+          <li aria-current="page">{data.title}</li>
+        </ol>
+      </nav>
+      <div className="journey-hero__grid">
+        <div className="journey-hero__intro" data-aos="fade-up">
+          <p className="journey-hero__location">{data.country}</p>
+          <h1>{data.title}</h1>
+          <p>{data.quote}</p>
+        </div>
+        <div
+          className="journey-hero__image"
+          role="img"
+          aria-label={data.banner.alt}
+          style={{ backgroundImage: `url("${data.banner.image}")` }}
+        />
+      </div>
+      <div className="journey-hero__note" data-aos="fade-up">
+        <p>{journey.rhythm}</p>
+        <a className="journey-button" href="#journey">Explore the suggested journey</a>
       </div>
     </header>
   );
 }
 
-function DestinationWhy({ data }) {
+function AtAGlance({ journey }) {
   return (
-    <section className="destination-why" data-aos="fade-up" aria-labelledby="destination-why-title">
-      <p className="destination-eyebrow">The destination</p>
-      <h2 id="destination-why-title">{data.whyToGo.title}</h2>
-      <div className="destination-why__grid">
-        {data.whyToGo.items.map((item, index) => (
-          <article className="destination-why__item" key={item.title}>
-            <span>{String(index + 1).padStart(2, "0")}</span>
-            <h3>{item.title}</h3>
-            <p>{item.text}</p>
-          </article>
+    <section className="journey-glance" id="overview" aria-labelledby="journey-glance-title" data-aos="fade-up">
+      <div className="journey-glance__heading">
+        <h2 id="journey-glance-title">A journey through {journey.stay.location}</h2>
+        <p>Every chapter is a starting point, designed to be adapted around the people, places and rhythms that matter to you.</p>
+      </div>
+      <dl className="journey-glance__details">
+        <div><dt>For</dt><dd>{journey.party}</dd></div>
+        <div><dt>Rhythm</dt><dd>{journey.duration}</dd></div>
+        <div><dt>Passion points</dt><dd>{journey.passions.join(" · ")}</dd></div>
+        <div><dt>Where you stay</dt><dd>{journey.stay.title}<small>{journey.stay.location}</small></dd></div>
+      </dl>
+    </section>
+  );
+}
+
+function JourneyIndex({ journey }) {
+  return (
+    <section className="journey-index" id="journey" aria-labelledby="journey-index-title" data-aos="fade-up">
+      <div className="journey-index__heading">
+        <h2 id="journey-index-title">The journey, day by day</h2>
+        <p>A suggested rhythm for a first encounter.</p>
+      </div>
+      <ol>
+        {journey.days.map((day, index) => (
+          <li key={day.title}>
+            <span>Day {String(index + 1).padStart(2, "0")}</span>
+            <strong>{day.title}</strong>
+            <em>{index === journey.days.length - 1 ? "Departure at leisure" : journey.stay.title}</em>
+          </li>
         ))}
+      </ol>
+    </section>
+  );
+}
+
+function JourneyDay({ day, index }) {
+  return (
+    <section className="journey-day" id={`day-${index + 1}`} aria-labelledby={`day-${index + 1}-title`}>
+      <div className="journey-day__image-wrap" data-aos="fade-up">
+        <img src={day.image} alt={day.imageAlt} />
+        <span>{day.location}</span>
+      </div>
+      <div className="journey-day__story" data-aos="fade-up">
+        <p>Day {String(index + 1).padStart(2, "0")}</p>
+        <h2 id={`day-${index + 1}-title`}>{day.title}</h2>
+        <div className="journey-day__moments">
+          {day.moments.map((moment) => (
+            <article key={moment.title}>
+              <span>{moment.label}</span>
+              <h3>{moment.title}</h3>
+              <p>{moment.text}</p>
+            </article>
+          ))}
+        </div>
       </div>
     </section>
   );
 }
 
-function DestinationPresentation({ data }) {
+function Stay({ stay }) {
   return (
-    <section className="destination-split destination-section" id="presentation" data-aos="fade-up">
-      <div className="destination-section__image-wrap">
-        <img src={data.presentation.image} alt={data.presentation.imageAlt} />
+    <section className="journey-stay" id="stay" data-aos="fade-up">
+      <div className="journey-stay__copy">
+        <h2>{stay.title}</h2>
+        <p>{stay.description}</p>
+        <span>{stay.location}</span>
       </div>
-      <div className="destination-section__copy">
-        <p className="destination-eyebrow">Presentation</p>
-        <h2>{data.presentation.title}</h2>
-        <p>{data.presentation.text}</p>
-      </div>
-    </section>
-  );
-}
-
-function DestinationStay({ data }) {
-  return (
-    <section className="destination-stay destination-section" id="stay" data-aos="fade-up">
-      <div className="destination-stay__copy">
-        <p className="destination-eyebrow">Our stay</p>
-        <h2>{data.ourStay.title}</h2>
-        <p>{data.ourStay.description}</p>
-        <span>{data.ourStay.location}</span>
-      </div>
-      <div className="destination-stay__image-wrap">
-        <img src={data.ourStay.image} alt={data.ourStay.imageAlt} />
-      </div>
-    </section>
-  );
-}
-
-function DestinationTours({ data }) {
-  return (
-    <section className="destination-tours destination-section" id="tours" data-aos="fade-up">
-      <div className="destination-section__heading">
-        <p className="destination-eyebrow">Curated journeys</p>
-        <h2>{data.tours.title}</h2>
-      </div>
-      <div className="destination-tours__grid">
-        {data.tours.items.map((tour, index) => (
-          <article className="destination-tour" key={tour.title}>
-            <div className="destination-tour__image-wrap">
-              <img src={tour.image} alt={tour.imageAlt} />
-            </div>
-            <div className="destination-tour__copy">
-              <span>{String(index + 1).padStart(2, "0")}</span>
-              <h3>{tour.title}</h3>
-              <p>{tour.text}</p>
-            </div>
-          </article>
-        ))}
-      </div>
-    </section>
-  );
-}
-
-function DestinationExperiences({ data }) {
-  return (
-    <section className="destination-experiences destination-section" id="experiences" data-aos="fade-up">
-      <div className="destination-experiences__image-wrap">
-        <img src={data.experiences.image} alt={data.experiences.imageAlt} />
-      </div>
-      <div className="destination-experiences__copy">
-        <p className="destination-eyebrow">Make it yours</p>
-        <h2>{data.experiences.title}</h2>
-        <p>{data.experiences.text}</p>
+      <div className="journey-stay__image-wrap">
+        <img src={stay.image} alt={stay.imageAlt} />
       </div>
     </section>
   );
@@ -164,21 +255,44 @@ function DestinationExperiences({ data }) {
 export default async function DestinationPage({ params }) {
   const { country, slug } = await params;
   const destination = getDestination(country, slug);
-
   if (!destination) notFound();
+
+  if (destination.proposal?.format === "itinerary") {
+    const proposalNavigation = [
+      { id: "top", label: "Introduction" },
+      { id: "curators", label: "Curators" },
+      { id: "overview", label: "At a glance" },
+      { id: "journey", label: "Day by day" },
+      ...destination.proposal.days.map((day) => ({ id: `day-${Number(day.day)}`, label: `Day ${day.day}` })),
+    ];
+
+    return (
+      <ScrollMotion className="destination-motion">
+        <div id="top">
+          <HeaderFullScreen2 />
+          <DestinationNavigation items={proposalNavigation} />
+          <ProposalReplica proposal={destination.proposal} />
+          <FooterSecondary />
+        </div>
+      </ScrollMotion>
+    );
+  }
+
+  const journey = createJourney(destination);
 
   return (
     <ScrollMotion className="destination-motion">
       <div id="top">
         <HeaderFullScreen2 />
-        <main className="destination-page">
-          <DestinationHero data={destination} />
-          <DestinationWhy data={destination} />
+        <main className="destination-page journey-page">
+          <JourneyHero data={destination} journey={journey} />
+          <AtAGlance journey={journey} />
           <DestinationNavigation />
-          <DestinationPresentation data={destination} />
-          <DestinationStay data={destination} />
-          <DestinationTours data={destination} />
-          <DestinationExperiences data={destination} />
+          <JourneyIndex journey={journey} />
+          <div className="journey-days">
+            {journey.days.map((day, index) => <JourneyDay day={day} index={index} key={day.title} />)}
+          </div>
+          <Stay stay={journey.stay} />
         </main>
         <FooterSecondary />
       </div>

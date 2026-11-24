@@ -186,4 +186,5 @@ export default function HomeTextsPage() {
     </ScrollMotion>
   );
 }
+
 import Image from "next/image";

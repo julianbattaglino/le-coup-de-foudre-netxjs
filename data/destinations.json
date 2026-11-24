@@ -181,6 +181,92 @@
         "image": "https://images.unsplash.com/photo-1743671578751-323cc61cd54d?auto=format&fit=crop&w=1800&q=85",
         "imageAlt": "A chandelier-lit Parisian salon with tall windows"
       },
+      "proposal": {
+        "format": "itinerary",
+        "cover": {
+          "brand": "LE COUP DE FOUDRE",
+          "agency": "PARIS — A LUXURY BESPOKE AGENCY",
+          "title": "A PARIS\nESCAPE",
+          "for": "FOR A COUPLE",
+          "by": "By Justina & Clément"
+        },
+        "curators": {
+          "label": "YOUR CURATORS",
+          "title": "JUSTINA & CLÉMENT",
+          "image": "/images/destinations/paris-proposal/curators.webp",
+          "paragraphs": [
+            "Clément was born in Paris. A lifestyle curator and fashion designer, he spent ten years as a private luxury concierge — his weaknesses run to Charvet silk handkerchiefs, the Cap Eden-Roc, Crozes-Hermitage reds and vintage tableware.",
+            "Justina was born in Buenos Aires. An art historian, interior designer and former stylist in New York and Buenos Aires, she is drawn to art shops, the châteaux of the Loire Valley, Van Gogh and the French Riviera.",
+            "Together, they will lead you to France's most picturesque corners — exquisite ateliers, gastronomic gems, trendy tables, secret craftsmen's workshops, temporary exhibitions and century-old luxury houses — building a book of memories along the way."
+          ]
+        },
+        "atAGlance": {
+          "label": "AT A GLANCE",
+          "title": "FIVE DAYS IN PARIS",
+          "party": "A couple",
+          "rhythm": "Five days between a Seine sunset, high-jewellery archives, a private wine tasting, the antiques of Saint-Ouen and a last Parisian feast.",
+          "passionPoints": ["Fine wine", "Antiques", "High-end craft", "Food"],
+          "stay": "To be confirmed",
+          "location": "Paris · Five days"
+        },
+        "overview": {
+          "label": "THE JOURNEY",
+          "title": "DAY BY DAY"
+        },
+        "days": [
+          {
+            "day": "01",
+            "chapter": "Arrival & a Seine-side sunset",
+            "sleep": "To be confirmed",
+            "image": "/images/destinations/paris-proposal/day-1.png",
+            "imageLabel": "ON THE SEINE",
+            "time": "5:00 PM",
+            "experience": "Private Seine cruise with appetizers & champagne",
+            "description": "The banks of the Seine in central Paris have been a UNESCO World Heritage Site since 1991. You will glide beneath the Pont Neuf — despite its name, the oldest standing bridge in the city, completed in 1607 under Henri IV."
+          },
+          {
+            "day": "02",
+            "chapter": "The Jewels of Place Vendôme",
+            "sleep": "To be confirmed",
+            "image": "/images/destinations/paris-proposal/day-2.png",
+            "imageLabel": "HIGH JEWELLERY",
+            "time": "10:30 AM",
+            "experience": "Private visit of high-jewellery archives",
+            "description": "Laid out by Jules Hardouin-Mansart at the end of the 17th century, Place Vendôme became the capital of high jewellery after 1893, when the first great jeweller opened there. Today it gathers the greatest names in French joaillerie around a single square."
+          },
+          {
+            "day": "03",
+            "chapter": "A cellar in Galerie Vivienne",
+            "sleep": "To be confirmed",
+            "image": "/images/destinations/paris-proposal/day-3.png",
+            "imageLabel": "CAVES LEGRAND",
+            "time": "5:00 PM",
+            "experience": "Private wine tasting at Caves Legrand",
+            "description": "A Parisian institution opening onto Galerie Vivienne, a covered passage built in 1823 to designs by architect François-Jacques Delannoy, with its glass roof and mosaic floors still intact."
+          },
+          {
+            "day": "04",
+            "chapter": "Treasures of Saint-Ouen",
+            "sleep": "To be confirmed",
+            "image": "/images/destinations/paris-proposal/day-4.png",
+            "imageLabel": "SAINT-OUEN",
+            "time": "9:30 AM",
+            "experience": "Three-hour flea market experience with an antiques expert",
+            "description": "The market grew in the late 19th century from the rag-and-bone dealers who settled just outside the city walls. Today it is the largest antiques market in the world; Marché Vernaison, its oldest, opened in 1918."
+          },
+          {
+            "day": "05",
+            "chapter": "Au revoir, Paris",
+            "sleep": "—",
+            "image": "/images/destinations/paris-proposal/day-5.png",
+            "imageLabel": "PARIS",
+            "morning": "Food experience in the Marais or on the Left Bank",
+            "morningDescription": "In the Marais, Place des Vosges, inaugurated in 1612, is the oldest planned square in Paris. Across the river, Le Procope, opened in 1686, is the city's oldest café, once frequented by Voltaire and Benjamin Franklin.",
+            "departure": "Transfer to the airport or station — details to be confirmed"
+          }
+        ],
+        "feeNote": "A trip design and booking fee applies, detailed separately in your proposal."
+      },
       "seo": {
         "title": "Paris, France | Exclusive Private Experiences | Le Coup de Foudre",
         "description": "Discover Paris through exclusive cultural experiences, private tours, exceptional gastronomy, art, fashion and authentic Parisian addresses.",

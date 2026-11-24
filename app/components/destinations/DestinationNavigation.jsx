@@ -1,17 +1,15 @@
 const navigationItems = [
-  { id: "presentation", label: "Presentation" },
-  { id: "stay", label: "Our Stay" },
-  { id: "tours", label: "Tours" },
-  { id: "experiences", label: "Experiences" },
+  { id: "overview", label: "Overview" },
+  { id: "journey", label: "The journey" },
+  { id: "day-1", label: "Day by day" },
+  { id: "stay", label: "Your stay" },
 ];
 
-export default function DestinationNavigation() {
+export default function DestinationNavigation({ items = navigationItems }) {
   return (
-    <nav className="destination-navigation" aria-label="Destination sections">
-      {navigationItems.map((item) => (
-        <a key={item.id} href={`#${item.id}`}>
-          {item.label}
-        </a>
+    <nav className="destination-navigation" aria-label="Journey sections">
+      {items.map((item) => (
+        <a key={item.id} href={`#${item.id}`}>{item.label}</a>
       ))}
     </nav>
   );
