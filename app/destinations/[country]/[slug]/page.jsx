@@ -102,7 +102,12 @@ function ProposalDay({ day }) {
               <article><span>DEPARTURE</span><div><h3>{day.departure}</h3></div></article>
               <p className="itinerary-day__fee">A trip design and booking fee applies, detailed separately in your proposal.</p>
             </>
-          ) : <article><span>{day.time}</span><div><h3>{day.experience}</h3><p>{day.description}</p></div></article>}
+          ) : (
+            <article className={day.time || day.experience ? "" : "itinerary-day__entry--copy"}>
+              {day.time ? <span>{day.time}</span> : null}
+              <div>{day.experience ? <h3>{day.experience}</h3> : null}<p>{day.description}</p></div>
+            </article>
+          )}
         </div>
       </div>
     </section>

@@ -72,6 +72,81 @@
         "image": "https://images.unsplash.com/photo-1667385703635-11e293ac22f4?auto=format&fit=crop&w=1800&q=85",
         "imageAlt": "A château set among the gardens of the Loire Valley"
       },
+      "proposal": {
+        "format": "itinerary",
+        "cover": {
+          "brand": "LE COUP DE FOUDRE",
+          "agency": "PARIS — A LUXURY BESPOKE AGENCY",
+          "title": "NORMANDY",
+          "for": "FOR A COUPLE",
+          "by": "By Justina & Clément"
+        },
+        "curators": {
+          "label": "YOUR CURATORS",
+          "title": "JUSTINA & CLÉMENT",
+          "image": "/images/about-us/clement-justina-table.jpg",
+          "paragraphs": [
+            "Clément was born in Paris. A lifestyle curator and fashion designer, he spent ten years as a private luxury concierge — his weaknesses run to Charvet silk handkerchiefs, the Cap Eden-Roc, Crozes-Hermitage reds and vintage tableware.",
+            "Justina was born in Buenos Aires. An art historian, interior designer and former stylist in New York and Buenos Aires, she is drawn to art shops, the châteaux of the Loire Valley, Van Gogh and the French Riviera.",
+            "Together, they will lead you to France's most picturesque corners — exquisite ateliers, gastronomic gems, trendy tables, secret craftsmen's workshops, temporary exhibitions and century-old luxury houses — building a book of memories along the way."
+          ]
+        },
+        "atAGlance": {
+          "label": "AT A GLANCE",
+          "title": "FOUR DAYS IN NORMANDY",
+          "party": "A couple",
+          "rhythm": "Discover a region of dramatic coastlines, charming villages, historic landmarks and exceptional gastronomy. Normandy invites you to experience the authentic rhythm of northern France.",
+          "passionPoints": ["A journey through history", "Coastal beauty", "Exceptional gastronomy"],
+          "stay": "A charming Norman retreat",
+          "location": "Normandy, France"
+        },
+        "overview": {
+          "label": "THE JOURNEY",
+          "title": "DAY BY DAY"
+        },
+        "days": [
+          {
+            "day": "01",
+            "chapter": "The timeless charm of Normandy",
+            "sleep": "A charming Norman retreat",
+            "image": "https://images.unsplash.com/photo-1781376444833-2403f04fa033?auto=format&fit=crop&w=1800&q=85",
+            "imageLabel": "NORMANDY",
+            "time": "",
+            "experience": "",
+            "description": "Normandy is a land of contrasts, where peaceful countryside meets dramatic coastlines and centuries of history. From the iconic Mont-Saint-Michel to the charming streets of Honfleur and the historic D-Day beaches, the region offers a rich and meaningful journey through French culture. Its culinary traditions, elegant country houses and authentic villages make it an ideal destination for travellers seeking beauty, history and tranquillity."
+          },
+          {
+            "day": "02",
+            "chapter": "The Historic D-Day Beaches",
+            "sleep": "A charming Norman retreat",
+            "image": "https://images.unsplash.com/photo-1781376444833-2403f04fa033?auto=format&fit=crop&w=1800&q=85",
+            "imageLabel": "NORMANDY",
+            "time": "",
+            "experience": "",
+            "description": "Explore the historic landing beaches, memorials and museums while discovering the stories that shaped modern European history."
+          },
+          {
+            "day": "03",
+            "chapter": "Mont-Saint-Michel and the Coast",
+            "sleep": "A charming Norman retreat",
+            "image": "https://images.unsplash.com/photo-1551568697-4b520d9743f4?auto=format&fit=crop&w=1800&q=85",
+            "imageLabel": "NORMANDY",
+            "time": "",
+            "experience": "",
+            "description": "Visit one of France's most extraordinary landmarks and discover the surrounding coastal landscapes and traditional villages."
+          },
+          {
+            "day": "04",
+            "chapter": "Experience the Norman way of life",
+            "sleep": "—",
+            "image": "https://images.unsplash.com/photo-1667385703635-11e293ac22f4?auto=format&fit=crop&w=1800&q=85",
+            "imageLabel": "NORMANDY",
+            "time": "",
+            "experience": "",
+            "description": "Enjoy private countryside excursions, discover traditional cheesemakers, taste local cider and Calvados, explore antique markets and experience the region's exceptional culinary heritage."
+          }
+        ]
+      },
       "seo": {
         "title": "Normandy, France | Exclusive Private Experiences | Le Coup de Foudre",
         "description": "Discover Normandy through private cultural tours, historic landmarks, coastal landscapes and exceptional French gastronomy.",

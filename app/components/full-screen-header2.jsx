@@ -86,7 +86,7 @@ export default function HeaderFullScreen2() {
               <div className="fullscreen-menu2__secondary">
                 <Link href="/about-us" onClick={closeMenu}>About Us</Link>
                 <a href={homeAnchor("journey-request")} onClick={closeMenu}>Contact Us</a>
-                <a href="mailto:contact@lecoupdefoudre-paris.com?subject=Newsletter" onClick={closeMenu}>Newsletter</a>
+                <a href="/newsletters" onClick={closeMenu}>Newsletter</a>
               </div>
             </nav>
             <aside className="fullscreen-menu2__contact">
