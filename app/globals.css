@@ -4787,6 +4787,11 @@ body.menu-is-open {
 .itinerary-cover__copy > p {
   margin-bottom: 1.1rem;
 }
+.itinerary-cover__copy > p:first-child,
+.itinerary-cover__copy > p:nth-of-type(3) {
+  color: #efe3c7;
+  font-weight: 600;
+}
 .itinerary-cover__copy > p:nth-child(2) {
   margin-bottom: clamp(2.7rem, 5vw, 5rem);
 }
