@@ -1,5 +1,5 @@
 import HeaderFullScreen2 from "../components/full-screen-header2";
-import FooterSecondary from "../components/home2/footer-secondary";
+import FooterSecondary from "../components/footer-secondary";
 import JourneyMap from "../components/journey-map";
 
 export const metadata = {

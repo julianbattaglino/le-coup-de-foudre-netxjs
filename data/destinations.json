@@ -77,14 +77,14 @@
         "cover": {
           "brand": "LE COUP DE FOUDRE",
           "agency": "PARIS — A LUXURY BESPOKE AGENCY",
-          "title": "NORMANDY",
-          "for": "FOR A COUPLE",
+          "title": "A NORMANDY\nESCAPE",
+          "for": "FOR [CLIENT TBC] · DATES TBC",
           "by": "By Justina & Clément"
         },
         "curators": {
           "label": "YOUR CURATORS",
           "title": "JUSTINA & CLÉMENT",
-          "image": "/images/about-us/clement-justina-table.jpg",
+          "image": "/images/destinations/normandy-proposal/curators.jpg",
           "paragraphs": [
             "Clément was born in Paris. A lifestyle curator and fashion designer, he spent ten years as a private luxury concierge — his weaknesses run to Charvet silk handkerchiefs, the Cap Eden-Roc, Crozes-Hermitage reds and vintage tableware.",
             "Justina was born in Buenos Aires. An art historian, interior designer and former stylist in New York and Buenos Aires, she is drawn to art shops, the châteaux of the Loire Valley, Van Gogh and the French Riviera.",
@@ -93,12 +93,13 @@
         },
         "atAGlance": {
           "label": "AT A GLANCE",
-          "title": "FOUR DAYS IN NORMANDY",
-          "party": "A couple",
-          "rhythm": "Discover a region of dramatic coastlines, charming villages, historic landmarks and exceptional gastronomy. Normandy invites you to experience the authentic rhythm of northern France.",
-          "passionPoints": ["A journey through history", "Coastal beauty", "Exceptional gastronomy"],
-          "stay": "A charming Norman retreat",
-          "location": "Normandy, France"
+          "title": "FIVE DAYS IN NORMANDY",
+          "rhythm": "Five days between Monet's gardens at Giverny, the D-Day beaches, cider country, the sands near Honfleur and a last cheese tasting.",
+          "passionPoints": [
+            "Art & gardens",
+            "History",
+            "Cider & cheese"
+          ]
         },
         "overview": {
           "label": "THE JOURNEY",
@@ -107,43 +108,52 @@
         "days": [
           {
             "day": "01",
-            "chapter": "The timeless charm of Normandy",
-            "sleep": "A charming Norman retreat",
-            "image": "https://images.unsplash.com/photo-1781376444833-2403f04fa033?auto=format&fit=crop&w=1800&q=85",
-            "imageLabel": "NORMANDY",
-            "time": "",
-            "experience": "",
-            "description": "Normandy is a land of contrasts, where peaceful countryside meets dramatic coastlines and centuries of history. From the iconic Mont-Saint-Michel to the charming streets of Honfleur and the historic D-Day beaches, the region offers a rich and meaningful journey through French culture. Its culinary traditions, elegant country houses and authentic villages make it an ideal destination for travellers seeking beauty, history and tranquillity."
+            "date": "Date TBC",
+            "chapter": "Arrival & Monet's Giverny",
+            "image": "/images/destinations/normandy-proposal/day-1.jpg",
+            "imageLabel": "GIVERNY · MONET'S STUDIO",
+            "time": "2:30 PM",
+            "experience": "Monet's house and gardens at Giverny",
+            "description": "Claude Monet rented the pink house in 1883 and bought it in 1890. He then diverted a branch of the Epte to create his water garden and its Japanese bridge, where he painted some 250 Water Lilies. The restored house and gardens opened to the public in 1980."
           },
           {
             "day": "02",
-            "chapter": "The Historic D-Day Beaches",
-            "sleep": "A charming Norman retreat",
-            "image": "https://images.unsplash.com/photo-1781376444833-2403f04fa033?auto=format&fit=crop&w=1800&q=85",
-            "imageLabel": "NORMANDY",
-            "time": "",
-            "experience": "",
-            "description": "Explore the historic landing beaches, memorials and museums while discovering the stories that shaped modern European history."
+            "date": "Date TBC",
+            "chapter": "The D-Day Landing Beaches",
+            "image": "/images/destinations/normandy-proposal/day-2.jpg",
+            "imageLabel": "THE ATLANTIC WALL",
+            "time": "9:00 AM",
+            "experience": "D-Day landing beaches and WWII memorial experience",
+            "description": "On 6 June 1944, Operation Overlord brought some 156,000 Allied troops ashore on five beaches — Utah, Omaha, Gold, Juno and Sword. US Rangers scaled the cliffs of Pointe du Hoc, and above Omaha the Normandy American Cemetery holds nearly 9,400 graves."
           },
           {
             "day": "03",
-            "chapter": "Mont-Saint-Michel and the Coast",
-            "sleep": "A charming Norman retreat",
-            "image": "https://images.unsplash.com/photo-1551568697-4b520d9743f4?auto=format&fit=crop&w=1800&q=85",
-            "imageLabel": "NORMANDY",
-            "time": "",
-            "experience": "",
-            "description": "Visit one of France's most extraordinary landmarks and discover the surrounding coastal landscapes and traditional villages."
+            "date": "Date TBC",
+            "chapter": "Cider & Calvados Country",
+            "image": "/images/destinations/normandy-proposal/day-3.jpg",
+            "imageLabel": "THE CALVADOS CELLAR",
+            "time": "10:00 AM",
+            "experience": "Private visit of a cider and Calvados farm",
+            "description": "Calvados takes its name from the département created in 1790. Distilled from cider, it ages at least two years in oak; in the Pays d'Auge it is distilled twice in copper pot stills. Normans still honour the trou normand, a glass taken mid-meal to make room for the next course."
           },
           {
             "day": "04",
-            "chapter": "Experience the Norman way of life",
-            "sleep": "—",
-            "image": "https://images.unsplash.com/photo-1667385703635-11e293ac22f4?auto=format&fit=crop&w=1800&q=85",
-            "imageLabel": "NORMANDY",
-            "time": "",
-            "experience": "",
-            "description": "Enjoy private countryside excursions, discover traditional cheesemakers, taste local cider and Calvados, explore antique markets and experience the region's exceptional culinary heritage."
+            "date": "Date TBC",
+            "chapter": "Sand Yachting Near Honfleur",
+            "image": "/images/destinations/normandy-proposal/day-4.jpg",
+            "imageLabel": "CHAR À VOILE · SAND YACHTING",
+            "time": "5:00 PM",
+            "experience": "1h30 sand yachting (char à voile) on the beach",
+            "description": "A sail on wheels across the wide sands of the Côte Fleurie. From Honfleur's harbour, Samuel de Champlain set sail in 1608 to found Quebec; the painter Eugène Boudin, born here in 1824, taught a young Monet to paint outdoors."
+          },
+          {
+            "day": "05",
+            "date": "Date TBC",
+            "chapter": "Au Revoir, Normandy",
+            "image": "/images/destinations/normandy-proposal/day-5.jpg",
+            "imageLabel": "NORMANDY CHEESES",
+            "morning": "Local cheese experience at La Dégusterie",
+            "morningDescription": "A last tasting of Normandy's four AOP cheeses. Camembert travelled the world after its round poplar box appeared in 1890; Livarot is nicknamed “the Colonel” for its five reed bands, and Pont-l'Évêque dates back to the Middle Ages."
           }
         ]
       },
@@ -280,7 +290,12 @@
           "title": "FIVE DAYS IN PARIS",
           "party": "A couple",
           "rhythm": "Five days between a Seine sunset, high-jewellery archives, a private wine tasting, the antiques of Saint-Ouen and a last Parisian feast.",
-          "passionPoints": ["Fine wine", "Antiques", "High-end craft", "Food"],
+          "passionPoints": [
+            "Fine wine",
+            "Antiques",
+            "High-end craft",
+            "Food"
+          ],
           "stay": "To be confirmed",
           "location": "Paris · Five days"
         },
@@ -485,6 +500,78 @@
             "answer": "Yes. Both destinations are located north of Paris and can be explored as part of a countryside escape from the French capital."
           }
         ]
+      },
+      "proposal": {
+        "format": "itinerary",
+        "cover": {
+          "brand": "LE COUP DE FOUDRE",
+          "agency": "PARIS — A LUXURY BESPOKE AGENCY",
+          "title": "CHANTILLY\n& SENLIS",
+          "for": "A SAMPLE JOURNEY · THREE DAYS",
+          "by": "By Justina & Clément"
+        },
+        "curators": {
+          "label": "YOUR CURATORS",
+          "title": "JUSTINA & CLÉMENT",
+          "image": "/images/destinations/chantilly-senlis-proposal/curators.jpg",
+          "paragraphs": [
+            "Clément was born in Paris. A lifestyle curator and fashion designer, he spent ten years as a private luxury concierge — his weaknesses run to Charvet silk handkerchiefs, the Cap Eden-Roc, Crozes-Hermitage reds and vintage tableware.",
+            "Justina was born in Buenos Aires. An art historian, interior designer and former stylist in New York and Buenos Aires, she is drawn to art shops, the châteaux of the Loire Valley, Van Gogh and the French Riviera.",
+            "Together, they will lead you to France's most picturesque corners — exquisite ateliers, gastronomic gems, trendy tables, secret craftsmen's workshops, temporary exhibitions and century-old luxury houses — building a book of memories along the way."
+          ]
+        },
+        "atAGlance": {
+          "label": "AT A GLANCE",
+          "title": "THREE DAYS IN CHANTILLY",
+          "party": "Couples, families & friends",
+          "rhythm": "Three days between the Château de Chantilly and its famous cream, medieval Senlis, the Polo Club and a round at Vineuil.",
+          "passionPoints": [
+            "Heritage",
+            "Horses & golf",
+            "French savoir-faire"
+          ],
+          "stay": "To be confirmed",
+          "location": "Chantilly · Two nights"
+        },
+        "overview": {
+          "label": "THE JOURNEY",
+          "title": "DAY BY DAY"
+        },
+        "days": [
+          {
+            "day": "01",
+            "date": "To be confirmed",
+            "chapter": "THE CHÂTEAU & CHANTILLY CREAM",
+            "sleep": "To be confirmed",
+            "image": "/images/destinations/chantilly-senlis-proposal/day-1.jpg",
+            "imageLabel": "Crème Chantilly",
+            "time": "",
+            "experience": "Château de Chantilly · Chantilly cream workshop",
+            "description": "Château de Chantilly · Chantilly cream workshop"
+          },
+          {
+            "day": "02",
+            "date": "To be confirmed",
+            "chapter": "SENLIS & POLO",
+            "sleep": "To be confirmed",
+            "image": "/images/destinations/chantilly-senlis-proposal/day-2.jpg",
+            "imageLabel": "Polo Club · Chantilly",
+            "time": "",
+            "experience": "Medieval Senlis old town and cathedral · Horse riding session at the Polo Club",
+            "description": "Medieval Senlis old town and cathedral · Horse riding session at the Polo Club"
+          },
+          {
+            "day": "03",
+            "date": "To be confirmed",
+            "chapter": "GOLF & AU REVOIR",
+            "sleep": "—",
+            "image": "/images/destinations/chantilly-senlis-proposal/day-3.jpg",
+            "imageLabel": "Golf de Chantilly · Vineuil",
+            "time": "",
+            "experience": "Round of golf at Golf de Chantilly Vineuil",
+            "description": "Round of golf at Golf de Chantilly Vineuil"
+          }
+        ]
       }
     },
     {
@@ -592,6 +679,78 @@
           {
             "question": "What are the best experiences in Burgundy?",
             "answer": "Popular experiences include private vineyard visits, wine tastings with local producers, gastronomic discoveries and visits to historic towns such as Beaune."
+          }
+        ]
+      },
+      "proposal": {
+        "format": "itinerary",
+        "cover": {
+          "brand": "LE COUP DE FOUDRE",
+          "agency": "PARIS — A LUXURY BESPOKE AGENCY",
+          "title": "A BURGUNDY\nESCAPE",
+          "for": "",
+          "by": "By Justina & Clément"
+        },
+        "curators": {
+          "label": "YOUR CURATORS",
+          "title": "JUSTINA & CLÉMENT",
+          "image": "/images/destinations/burgundy-proposal/curators.jpg",
+          "paragraphs": [
+            "Clément was born in Paris. A lifestyle curator and fashion designer, he spent ten years as a private luxury concierge — his weaknesses run to Charvet silk handkerchiefs, the Cap Eden-Roc, Crozes-Hermitage reds and vintage tableware.",
+            "Justina was born in Buenos Aires. An art historian, interior designer and former stylist in New York and Buenos Aires, she is drawn to art shops, the châteaux of the Loire Valley, Van Gogh and the French Riviera.",
+            "Together, they will lead you to France's most picturesque corners — exquisite ateliers, gastronomic gems, trendy tables, secret craftsmen's workshops, temporary exhibitions and century-old luxury houses — building a book of memories along the way."
+          ]
+        },
+        "atAGlance": {
+          "label": "AT A GLANCE",
+          "title": "THREE DAYS IN BURGUNDY",
+          "party": "To be confirmed",
+          "rhythm": "Three days between a spa morning, the Hospices de Beaune, the vineyards by bike, Domaine d’Ardhuy and Domaine Jean Grivot.",
+          "passionPoints": [
+            "Great wines",
+            "Well-being",
+            "Heritage"
+          ],
+          "stay": "To be confirmed",
+          "location": "Burgundy · Days 1 – 3"
+        },
+        "overview": {
+          "label": "THE JOURNEY",
+          "title": "DAY BY DAY"
+        },
+        "days": [
+          {
+            "day": "01",
+            "date": "To be confirmed",
+            "chapter": "ARRIVAL, SPA & THE HOSPICES",
+            "sleep": "To be confirmed",
+            "image": "/images/destinations/burgundy-proposal/day-1.jpg",
+            "imageLabel": "Hospices de Beaune",
+            "time": "",
+            "experience": "Private visit of the Hospices de Beaune",
+            "description": "Private visit of the Hospices de Beaune"
+          },
+          {
+            "day": "02",
+            "date": "To be confirmed",
+            "chapter": "VINEYARDS BY BIKE & A WINE DOMAIN",
+            "sleep": "To be confirmed",
+            "image": "/images/destinations/burgundy-proposal/day-2.jpg",
+            "imageLabel": "The Côte d’Or",
+            "time": "",
+            "experience": "Bike ride through the vineyards · Private tasting at Domaine d’Ardhuy",
+            "description": "Bike ride through the vineyards · Private tasting at Domaine d’Ardhuy"
+          },
+          {
+            "day": "03",
+            "date": "To be confirmed",
+            "chapter": "DOMAINE JEAN GRIVOT & AU REVOIR",
+            "sleep": "—",
+            "image": "/images/destinations/burgundy-proposal/day-3.jpg",
+            "imageLabel": "Clos de Vougeot",
+            "time": "",
+            "experience": "Private tasting at Domaine Jean Grivot · Departure",
+            "description": "Private tasting at Domaine Jean Grivot · Departure"
           }
         ]
       }
@@ -810,6 +969,100 @@
           {
             "question": "What is special about the Champagne region?",
             "answer": "The region combines distinctive chalk soils, traditional winemaking methods, historic cellars and generations of craftsmanship behind its internationally recognised sparkling wine."
+          }
+        ]
+      },
+      "proposal": {
+        "format": "itinerary",
+        "cover": {
+          "brand": "LE COUP DE FOUDRE",
+          "agency": "PARIS — A LUXURY BESPOKE AGENCY",
+          "title": "A CHAMPAGNE\nJOURNEY",
+          "for": "A BESPOKE JOURNEY · FIVE DAYS IN CHAMPAGNE",
+          "by": "By Justina & Clément"
+        },
+        "curators": {
+          "label": "YOUR CURATORS",
+          "title": "JUSTINA & CLÉMENT",
+          "image": "/images/destinations/champagne-proposal/curators.jpg",
+          "paragraphs": [
+            "Clément was born in Paris. A lifestyle curator and fashion designer, he spent ten years as a private luxury concierge — his weaknesses run to Charvet silk handkerchiefs, the Cap Eden-Roc, Crozes-Hermitage reds and vintage tableware.",
+            "Justina was born in Buenos Aires. An art historian, interior designer and former stylist in New York and Buenos Aires, she is drawn to art shops, the châteaux of the Loire Valley, Van Gogh and the French Riviera.",
+            "Together, they will lead you to France's most picturesque corners — exquisite ateliers, gastronomic gems, trendy tables, secret craftsmen's workshops, temporary exhibitions and century-old luxury houses — building a book of memories along the way."
+          ]
+        },
+        "atAGlance": {
+          "label": "AT A GLANCE",
+          "title": "FIVE DAYS IN CHAMPAGNE",
+          "party": "To be confirmed",
+          "rhythm": "Five days between the chalk cellars of Ruinart, Veuve Clicquot, Dom Pérignon, a grower in Bouzy and the vineyard villages of Aÿ and Hautvillers",
+          "passionPoints": [
+            "The great Houses",
+            "Grower Champagne",
+            "Vineyard villages"
+          ],
+          "stay": "To be confirmed",
+          "location": "In the heart of Champagne · 4 nights"
+        },
+        "overview": {
+          "label": "THE JOURNEY",
+          "title": "DAY BY DAY"
+        },
+        "days": [
+          {
+            "day": "01",
+            "date": "To be confirmed",
+            "chapter": "ARRIVAL & RUINART",
+            "sleep": "To be confirmed",
+            "image": "/images/destinations/champagne-proposal/day-1.jpg",
+            "imageLabel": "The chalk crayères",
+            "time": "",
+            "experience": "Tasting in the Ruinart chalk cellars",
+            "description": "Tasting in the Ruinart chalk cellars"
+          },
+          {
+            "day": "02",
+            "date": "To be confirmed",
+            "chapter": "VEUVE CLICQUOT",
+            "sleep": "To be confirmed",
+            "image": "/images/destinations/champagne-proposal/day-2.jpg",
+            "imageLabel": "Veuve Clicquot",
+            "time": "",
+            "experience": "Veuve Clicquot tasting",
+            "description": "Veuve Clicquot tasting"
+          },
+          {
+            "day": "03",
+            "date": "To be confirmed",
+            "chapter": "DOM PÉRIGNON",
+            "sleep": "To be confirmed",
+            "image": "/images/destinations/champagne-proposal/day-3.jpg",
+            "imageLabel": "Dom Pérignon",
+            "time": "",
+            "experience": "Private visit at Dom Pérignon",
+            "description": "Private visit at Dom Pérignon"
+          },
+          {
+            "day": "04",
+            "date": "To be confirmed",
+            "chapter": "A GROWER",
+            "sleep": "To be confirmed",
+            "image": "/images/destinations/champagne-proposal/day-4.jpg",
+            "imageLabel": "A vineyard lodge",
+            "time": "",
+            "experience": "Private tasting at Pierre Paillard",
+            "description": "Private tasting at Pierre Paillard"
+          },
+          {
+            "day": "05",
+            "date": "To be confirmed",
+            "chapter": "VINEYARD VILLAGES & AU REVOIR",
+            "sleep": "—",
+            "image": "/images/destinations/champagne-proposal/day-5.jpg",
+            "imageLabel": "Among the vines",
+            "time": "",
+            "experience": "Drive through Aÿ and Hautvillers · Departure",
+            "description": "Drive through Aÿ and Hautvillers · Departure"
           }
         ]
       }
@@ -1139,6 +1392,100 @@
             "answer": "Popular experiences include private boat excursions, beachside dining, vineyard visits, historic village discoveries and exploring the coastline."
           }
         ]
+      },
+      "proposal": {
+        "format": "itinerary",
+        "cover": {
+          "brand": "LE COUP DE FOUDRE",
+          "agency": "PARIS — A LUXURY BESPOKE AGENCY",
+          "title": "A SAINT-TROPEZ\nESCAPE",
+          "for": "A SAMPLE JOURNEY · FIVE DAYS ON THE RIVIERA",
+          "by": "By Justina & Clément"
+        },
+        "curators": {
+          "label": "YOUR CURATORS",
+          "title": "JUSTINA & CLÉMENT",
+          "image": "/images/destinations/saint-tropez-proposal/curators.jpg",
+          "paragraphs": [
+            "Clément was born in Paris. A lifestyle curator and fashion designer, he spent ten years as a private luxury concierge — his weaknesses run to Charvet silk handkerchiefs, the Cap Eden-Roc, Crozes-Hermitage reds and vintage tableware.",
+            "Justina was born in Buenos Aires. An art historian, interior designer and former stylist in New York and Buenos Aires, she is drawn to art shops, the châteaux of the Loire Valley, Van Gogh and the French Riviera.",
+            "Together, they will lead you to France's most picturesque corners — exquisite ateliers, gastronomic gems, trendy tables, secret craftsmen's workshops, temporary exhibitions and century-old luxury houses — building a book of memories along the way."
+          ]
+        },
+        "atAGlance": {
+          "label": "AT A GLANCE",
+          "title": "FIVE DAYS IN SAINT-TROPEZ",
+          "party": "Your party — a couple, friends or a family",
+          "rhythm": "Five days between Club 55, a private day at sea, the Ramatuelle vineyards by e-bike, Loulou and a last tasting at Fondugues-Pradugues.",
+          "passionPoints": [
+            "Beach life",
+            "The sea",
+            "Provence rosé"
+          ],
+          "stay": "To be confirmed",
+          "location": "Saint-Tropez or Ramatuelle · Four nights"
+        },
+        "overview": {
+          "label": "THE JOURNEY",
+          "title": "DAY BY DAY"
+        },
+        "days": [
+          {
+            "day": "01",
+            "date": "To be confirmed",
+            "chapter": "ARRIVAL & CLUB 55",
+            "sleep": "To be confirmed",
+            "image": "/images/destinations/saint-tropez-proposal/day-1.jpg",
+            "imageLabel": "Club 55 · Pampelonne",
+            "time": "",
+            "experience": "Club 55 beach club, Pampelonne",
+            "description": "Club 55 beach club, Pampelonne"
+          },
+          {
+            "day": "02",
+            "date": "To be confirmed",
+            "chapter": "AT SEA",
+            "sleep": "To be confirmed",
+            "image": "/images/destinations/saint-tropez-proposal/day-2.jpg",
+            "imageLabel": "Golfe de Saint-Tropez",
+            "time": "",
+            "experience": "Private boat day with swim stops · Lunch at La Guérite",
+            "description": "Private boat day with swim stops · Lunch at La Guérite"
+          },
+          {
+            "day": "03",
+            "date": "To be confirmed",
+            "chapter": "VINEYARDS BY E-BIKE",
+            "sleep": "To be confirmed",
+            "image": "/images/destinations/saint-tropez-proposal/day-3.jpg",
+            "imageLabel": "Paul Signac · Saint-Tropez",
+            "time": "",
+            "experience": "E-bike ride through the Ramatuelle vineyards",
+            "description": "E-bike ride through the Ramatuelle vineyards"
+          },
+          {
+            "day": "04",
+            "date": "To be confirmed",
+            "chapter": "LOULOU",
+            "sleep": "To be confirmed",
+            "image": "/images/destinations/saint-tropez-proposal/day-4.jpg",
+            "imageLabel": "Loulou · Ramatuelle",
+            "time": "",
+            "experience": "Beach club at Loulou, Ramatuelle",
+            "description": "Beach club at Loulou, Ramatuelle"
+          },
+          {
+            "day": "05",
+            "date": "To be confirmed",
+            "chapter": "AU REVOIR, SAINT-TROPEZ",
+            "sleep": "—",
+            "image": "/images/destinations/saint-tropez-proposal/day-5.jpg",
+            "imageLabel": "Fondugues-Pradugues · Ramatuelle",
+            "time": "",
+            "experience": "Winery visit at Fondugues-Pradugues · Departure",
+            "description": "Winery visit at Fondugues-Pradugues · Departure"
+          }
+        ]
       }
     },
     {
@@ -1246,6 +1593,100 @@
           {
             "question": "What exclusive experiences can you enjoy on the French Riviera?",
             "answer": "Travellers can enjoy private boat excursions, coastal dining, art and culture tours, vineyard visits and curated discoveries of Mediterranean villages."
+          }
+        ]
+      },
+      "proposal": {
+        "format": "itinerary",
+        "cover": {
+          "brand": "LE COUP DE FOUDRE",
+          "agency": "PARIS — A LUXURY BESPOKE AGENCY",
+          "title": "THE FRENCH\nRIVIERA",
+          "for": "A SAMPLE JOURNEY · FIVE DAYS",
+          "by": "By Justina & Clément"
+        },
+        "curators": {
+          "label": "YOUR CURATORS",
+          "title": "JUSTINA & CLÉMENT",
+          "image": "/images/destinations/french-riviera-proposal/curators.jpg",
+          "paragraphs": [
+            "Clément was born in Paris. A lifestyle curator and fashion designer, he spent ten years as a private luxury concierge — his weaknesses run to Charvet silk handkerchiefs, the Cap Eden-Roc, Crozes-Hermitage reds and vintage tableware.",
+            "Justina was born in Buenos Aires. An art historian, interior designer and former stylist in New York and Buenos Aires, she is drawn to art shops, the châteaux of the Loire Valley, Van Gogh and the French Riviera.",
+            "Together, they will lead you to France's most picturesque corners — exquisite ateliers, gastronomic gems, trendy tables, secret craftsmen's workshops, temporary exhibitions and century-old luxury houses — building a book of memories along the way."
+          ]
+        },
+        "atAGlance": {
+          "label": "AT A GLANCE",
+          "title": "FIVE DAYS ON THE FRENCH RIVIERA",
+          "party": "Your party — every day tailored to you.",
+          "rhythm": "Five days between a Provence winery, the art of Saint-Paul-de-Vence and the glassblowers of Biot, perfume and clay in Grasse and Vallauris, a day at sea off Cannes and a last morning of Riviera history.",
+          "passionPoints": [
+            "Art & craft",
+            "Perfume",
+            "Island days"
+          ],
+          "stay": "To be confirmed",
+          "location": "Chosen with you · Five days"
+        },
+        "overview": {
+          "label": "THE JOURNEY",
+          "title": "DAY BY DAY"
+        },
+        "days": [
+          {
+            "day": "01",
+            "date": "To be confirmed",
+            "chapter": "ARRIVAL & A PROVENCE WINERY",
+            "sleep": "To be confirmed",
+            "image": "/images/destinations/french-riviera-proposal/day-1.jpg",
+            "imageLabel": "Commanderie de Peyrassol",
+            "time": "",
+            "experience": "Winery visit at Commanderie de Peyrassol",
+            "description": "Winery visit at Commanderie de Peyrassol"
+          },
+          {
+            "day": "02",
+            "date": "To be confirmed",
+            "chapter": "MODERN ART & BLOWN GLASS",
+            "sleep": "To be confirmed",
+            "image": "/images/destinations/french-riviera-proposal/day-2.jpg",
+            "imageLabel": "Saint-Paul-de-Vence",
+            "time": "",
+            "experience": "Fondation Maeght · Glassblowing workshop in Biot",
+            "description": "Fondation Maeght · Glassblowing workshop in Biot"
+          },
+          {
+            "day": "03",
+            "date": "To be confirmed",
+            "chapter": "PERFUME & CERAMICS",
+            "sleep": "To be confirmed",
+            "image": "/images/destinations/french-riviera-proposal/day-3.jpg",
+            "imageLabel": "Fragonard · Grasse",
+            "time": "",
+            "experience": "Create-your-own perfume · Ceramics workshop in Vallauris",
+            "description": "Create-your-own perfume · Ceramics workshop in Vallauris"
+          },
+          {
+            "day": "04",
+            "date": "To be confirmed",
+            "chapter": "THE LÉRINS ISLANDS",
+            "sleep": "To be confirmed",
+            "image": "/images/destinations/french-riviera-proposal/day-4.jpg",
+            "imageLabel": "Îles de Lérins",
+            "time": "",
+            "experience": "Private boat day to the Îles de Lérins off Cannes",
+            "description": "Private boat day to the Îles de Lérins off Cannes"
+          },
+          {
+            "day": "05",
+            "date": "To be confirmed",
+            "chapter": "AU REVOIR, RIVIERA",
+            "sleep": "—",
+            "image": "/images/destinations/french-riviera-proposal/day-5.jpg",
+            "imageLabel": "The French Riviera",
+            "time": "",
+            "experience": "Architecture and history morning with a local host · Departure",
+            "description": "Architecture and history morning with a local host · Departure"
           }
         ]
       }
@@ -2011,6 +2452,230 @@
             "answer": "Visitors can enjoy beach experiences, seaside dining, local art and design, coastal excursions and the village's distinctive summer lifestyle."
           }
         ]
+      }
+    },
+    {
+      "slug": "girlfriends-paris",
+      "country": "France",
+      "countrySlug": "france",
+      "title": "Girlfriends in Paris",
+      "banner": {
+        "image": "/images/destinations/girlfriends-paris-proposal/day-1.jpg",
+        "alt": "Girlfriends in Paris"
+      },
+      "quote": "A five-day Paris proposal for a group of girlfriends, centred on fashion, art de vivre and great tables.",
+      "extract": "A five-day Paris proposal for a group of girlfriends, centred on fashion, art de vivre and great tables.",
+      "proposal": {
+        "format": "itinerary",
+        "cover": {
+          "brand": "LE COUP DE FOUDRE",
+          "agency": "PARIS — A LUXURY BESPOKE AGENCY",
+          "title": "GIRLFRIENDS\nIN PARIS",
+          "for": "FOR THE GIRLS · FIVE DAYS IN PARIS",
+          "by": "By Justina & Clément"
+        },
+        "curators": {
+          "label": "YOUR CURATORS",
+          "title": "JUSTINA & CLÉMENT",
+          "image": "/images/destinations/girlfriends-paris-proposal/curators.jpg",
+          "paragraphs": [
+            "Clément was born in Paris. A lifestyle curator and fashion designer, he spent ten years as a private luxury concierge — his weaknesses run to Charvet silk handkerchiefs, the Cap Eden-Roc, Crozes-Hermitage reds and vintage tableware.",
+            "Justina was born in Buenos Aires. An art historian, interior designer and former stylist in New York and Buenos Aires, she is drawn to art shops, the châteaux of the Loire Valley, Van Gogh and the French Riviera.",
+            "Together, they will lead you to France's most picturesque corners — exquisite ateliers, gastronomic gems, trendy tables, secret craftsmen's workshops, temporary exhibitions and century-old luxury houses — building a book of memories along the way."
+          ]
+        },
+        "atAGlance": {
+          "label": "AT A GLANCE",
+          "title": "FIVE DAYS IN PARIS",
+          "party": "A group of girlfriends",
+          "rhythm": "Five days between the Galerie Dior, a roller dance session, French art de la table, a private fashion moment and a cooking class.",
+          "passionPoints": [
+            "Fashion & couture",
+            "Art de vivre",
+            "Great tables"
+          ],
+          "stay": "To be confirmed",
+          "location": "Paris · four nights"
+        },
+        "overview": {
+          "label": "THE JOURNEY",
+          "title": "DAY BY DAY"
+        },
+        "days": [
+          {
+            "day": "01",
+            "date": "To be confirmed",
+            "chapter": "ARRIVAL & GALERIE DIOR",
+            "sleep": "To be confirmed",
+            "image": "/images/destinations/girlfriends-paris-proposal/day-1.jpg",
+            "imageLabel": "La Galerie Dior · Avenue Montaigne",
+            "time": "",
+            "experience": "La Galerie Dior",
+            "description": "La Galerie Dior"
+          },
+          {
+            "day": "02",
+            "date": "To be confirmed",
+            "chapter": "ROLLER DANCE",
+            "sleep": "To be confirmed",
+            "image": "/images/destinations/girlfriends-paris-proposal/day-2.jpg",
+            "imageLabel": "Roller Dance · Paris",
+            "time": "",
+            "experience": "Roller dance experience",
+            "description": "Roller dance experience"
+          },
+          {
+            "day": "03",
+            "date": "To be confirmed",
+            "chapter": "ART DE LA TABLE",
+            "sleep": "To be confirmed",
+            "image": "/images/destinations/girlfriends-paris-proposal/day-3.jpg",
+            "imageLabel": "Art de la table",
+            "time": "",
+            "experience": "French etiquette savoir-faire experience",
+            "description": "French etiquette savoir-faire experience"
+          },
+          {
+            "day": "04",
+            "date": "To be confirmed",
+            "chapter": "FASHION EXPERIENCE",
+            "sleep": "To be confirmed",
+            "image": "/images/destinations/girlfriends-paris-proposal/day-4.jpg",
+            "imageLabel": "Paris Fashion",
+            "time": "",
+            "experience": "Private fashion moment with a fashion expert",
+            "description": "Private fashion moment with a fashion expert"
+          },
+          {
+            "day": "05",
+            "date": "To be confirmed",
+            "chapter": "COOKING & AU REVOIR, PARIS",
+            "sleep": "—",
+            "image": "/images/destinations/girlfriends-paris-proposal/day-5.jpg",
+            "imageLabel": "Cooking class · Paris",
+            "time": "",
+            "experience": "Fashionable cooking class · Departure",
+            "description": "Fashionable cooking class · Departure"
+          }
+        ]
+      },
+      "seo": {
+        "title": "Girlfriends in Paris | Le Coup de Foudre",
+        "description": "A five-day Paris proposal for a group of girlfriends, centred on fashion, art de vivre and great tables.",
+        "canonical": "/destinations/france/girlfriends-paris",
+        "noIndex": false
+      }
+    },
+    {
+      "slug": "mother-daughter-paris",
+      "country": "France",
+      "countrySlug": "france",
+      "title": "Creative Paris",
+      "banner": {
+        "image": "/images/destinations/mother-daughter-paris-proposal/day-1.jpg",
+        "alt": "Creative Paris"
+      },
+      "quote": "A five-day creative Paris getaway for mothers and daughters, through flowers, beauty, tableware and fragrance.",
+      "extract": "A five-day creative Paris getaway for mothers and daughters, through flowers, beauty, tableware and fragrance.",
+      "proposal": {
+        "format": "itinerary",
+        "cover": {
+          "brand": "LE COUP DE FOUDRE",
+          "agency": "PARIS — A LUXURY BESPOKE AGENCY",
+          "title": "CREATIVE\nPARIS",
+          "for": "FOR MOTHER & DAUGHTER(S) · FIVE DAYS IN PARIS",
+          "by": "By Justina & Clément"
+        },
+        "curators": {
+          "label": "YOUR CURATORS",
+          "title": "JUSTINA & CLÉMENT",
+          "image": "/images/destinations/mother-daughter-paris-proposal/curators.jpg",
+          "paragraphs": [
+            "Clément was born in Paris. A lifestyle curator and fashion designer, he spent ten years as a private luxury concierge — his weaknesses run to Charvet silk handkerchiefs, the Cap Eden-Roc, Crozes-Hermitage reds and vintage tableware.",
+            "Justina was born in Buenos Aires. An art historian, interior designer and former stylist in New York and Buenos Aires, she is drawn to art shops, the châteaux of the Loire Valley, Van Gogh and the French Riviera.",
+            "Together, they will lead you to France's most picturesque corners — exquisite ateliers, gastronomic gems, trendy tables, secret craftsmen's workshops, temporary exhibitions and century-old luxury houses — building a book of memories along the way."
+          ]
+        },
+        "atAGlance": {
+          "label": "AT A GLANCE",
+          "title": "FIVE DAYS IN PARIS",
+          "party": "A mother & her daughter(s)",
+          "rhythm": "Five days between a flower masterclass, a private appointment at Talmaris, a Chanel makeup session, a chocolate tasting and a fragrance of your own at Fragonard.",
+          "passionPoints": [
+            "Flowers & beauty",
+            "The art of the table",
+            "Sweet Paris"
+          ],
+          "stay": "To be confirmed",
+          "location": "Paris · Five days"
+        },
+        "overview": {
+          "label": "THE JOURNEY",
+          "title": "DAY BY DAY"
+        },
+        "days": [
+          {
+            "day": "01",
+            "date": "To be confirmed",
+            "chapter": "ARRIVAL & A FLOWER MASTERCLASS",
+            "sleep": "To be confirmed",
+            "image": "/images/destinations/mother-daughter-paris-proposal/day-1.jpg",
+            "imageLabel": "Van Gogh · A vase of flowers",
+            "time": "",
+            "experience": "Flower masterclass at Oz Garden",
+            "description": "Flower masterclass at Oz Garden"
+          },
+          {
+            "day": "02",
+            "date": "To be confirmed",
+            "chapter": "THE ART OF THE TABLE AT TALMARIS",
+            "sleep": "To be confirmed",
+            "image": "/images/destinations/mother-daughter-paris-proposal/day-2.jpg",
+            "imageLabel": "The art of the table",
+            "time": "",
+            "experience": "Private appointment at Talmaris",
+            "description": "Private appointment at Talmaris"
+          },
+          {
+            "day": "03",
+            "date": "To be confirmed",
+            "chapter": "A MORNING AT CHANEL",
+            "sleep": "To be confirmed",
+            "image": "/images/destinations/mother-daughter-paris-proposal/day-3.jpg",
+            "imageLabel": "Chanel Parfums et Beauté",
+            "time": "",
+            "experience": "Le Rendez-vous Maquillage at Chanel",
+            "description": "Le Rendez-vous Maquillage at Chanel"
+          },
+          {
+            "day": "04",
+            "date": "To be confirmed",
+            "chapter": "A CHOCOLATE TASTING",
+            "sleep": "To be confirmed",
+            "image": "/images/destinations/mother-daughter-paris-proposal/day-4.jpg",
+            "imageLabel": "Sweet Paris",
+            "time": "",
+            "experience": "Chocolate tasting at Laure Mannessier",
+            "description": "Chocolate tasting at Laure Mannessier"
+          },
+          {
+            "day": "05",
+            "date": "To be confirmed",
+            "chapter": "FRAGRANCE & AU REVOIR, PARIS",
+            "sleep": "—",
+            "image": "/images/destinations/mother-daughter-paris-proposal/day-5.jpg",
+            "imageLabel": "Paris",
+            "time": "",
+            "experience": "Create-your-own fragrance workshop at Fragonard · Departure",
+            "description": "Create-your-own fragrance workshop at Fragonard · Departure"
+          }
+        ]
+      },
+      "seo": {
+        "title": "Creative Paris | Le Coup de Foudre",
+        "description": "A five-day creative Paris getaway for mothers and daughters, through flowers, beauty, tableware and fragrance.",
+        "canonical": "/destinations/france/mother-daughter-paris",
+        "noIndex": false
       }
     }
   ]

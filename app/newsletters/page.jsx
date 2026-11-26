@@ -1,6 +1,6 @@
 import { getNewsletters } from '../lib/mailchimp';
 import HomeHeader from "../components/full-screen-header2";
-import FooterSecondary from "../components/home2/footer-secondary";
+import FooterSecondary from "../components/footer-secondary";
 import NewsletterGrid from '../components/newsletters/NewsletterGrid';
 
 export const revalidate = 3600;
@@ -12,7 +12,13 @@ export const metadata = {
 };
 
 export default async function NewslettersPage() {
-  const newsletters = await getNewsletters();
+  let newsletters = [];
+
+  try {
+    newsletters = await getNewsletters();
+  } catch (error) {
+    console.error('Unable to load newsletters:', error.message);
+  }
 
   return (
     <main className="newsletters-page">

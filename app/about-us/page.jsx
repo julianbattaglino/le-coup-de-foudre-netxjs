@@ -1,6 +1,6 @@
 import HomeHeader from "../components/full-screen-header2";
-import FooterSecondary from "../components/home2/footer-secondary";
-import ScrollMotion from "../components/home3/scroll-motion";
+import FooterSecondary from "../components/footer-secondary";
+import ScrollMotion from "../components/scroll-motion";
 
 export const metadata = {
   title: "About Le Coup de Foudre | Paris",

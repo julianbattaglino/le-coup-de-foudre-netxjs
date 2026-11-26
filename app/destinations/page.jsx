@@ -1,7 +1,7 @@
 import destinationsData from "../../data/destinations.json";
 import HeaderFullScreen2 from "../components/full-screen-header2";
-import FooterSecondary from "../components/home2/footer-secondary";
-import ScrollMotion from "../components/home3/scroll-motion";
+import FooterSecondary from "../components/footer-secondary";
+import ScrollMotion from "../components/scroll-motion";
 import DestinationList from "./destination-list";
 import Link from "next/link";
 

@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import { useState } from "react";
 import { A11y, Keyboard, Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -13,5 +14,67 @@ const experiences = [
 ];
 
 export default function HomeTextsExperienceSlider() {
-  return <section className="home-texts-savoir-faire editorial-section" id="experiences" aria-labelledby="experiences-title"><p className="editorial-kicker">Our savoir-faire</p><h2 id="experiences-title">Experiences</h2><div className="home3-slider home-texts-slider"><Swiper modules={[A11y, Keyboard, Navigation, Pagination]} a11y={{ prevSlideMessage: "Previous experience", nextSlideMessage: "Next experience" }} keyboard={{ enabled: true, onlyInViewport: true }} loop navigation={{ nextEl: ".home-texts-slider__next", prevEl: ".home-texts-slider__prev" }} pagination={{ el: ".home-texts-slider__progress", type: "progressbar" }} slidesPerView={1.1} breakpoints={{ 761: { slidesPerView: 2 }, 1100: { slidesPerView: 3 } }} spaceBetween={20} speed={650} watchOverflow>{experiences.map((experience) => <SwiperSlide className="home3-slider__slide" key={experience.slug}><a className="home-texts-experience-card" href={`/experiences/${experience.slug}`}><div className="experience__image"><Image src={experience.image} alt={experience.alt} fill sizes="(max-width: 760px) 78vw, (max-width: 1099px) 45vw, 30vw" unoptimized /></div><div className="home-texts-experience-card__copy"><h3>{experience.title}</h3><p>{experience.description}</p></div></a></SwiperSlide>)}</Swiper><div className="home3-slider__controls"><div className="home-texts-slider__progress home3-slider__progress" aria-hidden="true" /><div className="home3-slider__arrows"><button className="home-texts-slider__prev" type="button" aria-label="Previous experience">←</button><button className="home-texts-slider__next" type="button" aria-label="Next experience">→</button></div></div></div></section>;
+  const [activeIndex, setActiveIndex] = useState(0);
+  const [swiper, setSwiper] = useState(null);
+  const currentPosition = String(activeIndex + 1).padStart(2, "0");
+  const totalPositions = String(experiences.length).padStart(2, "0");
+
+  return (
+    <section className="home-texts-savoir-faire editorial-section" id="experiences" aria-labelledby="experiences-title">
+      <p className="editorial-kicker">Our savoir-faire</p>
+      <h2 id="experiences-title">Experiences</h2>
+      <div className="home3-slider home-texts-slider">
+        <Swiper
+          modules={[A11y, Keyboard, Navigation, Pagination]}
+          a11y={{ prevSlideMessage: "Previous experience", nextSlideMessage: "Next experience" }}
+          keyboard={{ enabled: true, onlyInViewport: true }}
+          loop
+          navigation={{ nextEl: ".home-texts-slider__next", prevEl: ".home-texts-slider__prev" }}
+          pagination={{ el: ".home-texts-slider__progress", type: "progressbar" }}
+          slidesPerView={1.1}
+          breakpoints={{ 761: { slidesPerView: 2 }, 1100: { slidesPerView: 3 } }}
+          spaceBetween={20}
+          speed={650}
+          watchOverflow
+          onSwiper={(instance) => { setSwiper(instance); setActiveIndex(instance.realIndex); }}
+          onSlideChange={(instance) => setActiveIndex(instance.realIndex)}
+        >
+          {experiences.map((experience) => (
+            <SwiperSlide className="home3-slider__slide" key={experience.slug}>
+              <a className="home-texts-experience-card" href={`/experiences/${experience.slug}`}>
+                <div className="experience__image">
+                  <Image src={experience.image} alt={experience.alt} fill sizes="(max-width: 760px) 78vw, (max-width: 1099px) 45vw, 30vw" unoptimized />
+                </div>
+                <div className="home-texts-experience-card__copy"><h3>{experience.title}</h3><p>{experience.description}</p></div>
+              </a>
+            </SwiperSlide>
+          ))}
+        </Swiper>
+        <div className="home3-slider__controls">
+          <div className="home-texts-slider__position" aria-live="polite" aria-label={`Experience ${activeIndex + 1} of ${experiences.length}`}>
+            <span className="home-texts-slider__number" key={activeIndex}>{currentPosition}</span>
+            <span aria-hidden="true">/</span>
+            <span>{totalPositions}</span>
+          </div>
+          <div className="home-texts-slider__bullets" aria-label="Choose an experience">
+            {experiences.map((experience, index) => (
+              <button
+                aria-current={index === activeIndex ? "true" : undefined}
+                aria-label={`Go to experience ${index + 1}: ${experience.title}`}
+                className={index === activeIndex ? "is-active" : ""}
+                key={experience.slug}
+                onClick={() => swiper?.slideToLoop(index)}
+                type="button"
+              />
+            ))}
+          </div>
+          <div className="home-texts-slider__progress home3-slider__progress" aria-hidden="true" />
+          <div className="home3-slider__arrows">
+            <button className="home-texts-slider__prev" type="button" aria-label="Previous experience">←</button>
+            <button className="home-texts-slider__next" type="button" aria-label="Next experience">→</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 }

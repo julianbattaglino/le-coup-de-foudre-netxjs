@@ -2,8 +2,8 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import destinationsData from "../../../../data/destinations.json";
 import HeaderFullScreen2 from "../../../components/full-screen-header2";
-import FooterSecondary from "../../../components/home2/footer-secondary";
-import ScrollMotion from "../../../components/home3/scroll-motion";
+import FooterSecondary from "../../../components/footer-secondary";
+import ScrollMotion from "../../../components/scroll-motion";
 import DestinationNavigation from "../../../components/destinations/DestinationNavigation";
 
 const destinations = destinationsData.destinations;
@@ -93,14 +93,14 @@ function ProposalDay({ day }) {
     <section className="itinerary-day" id={`day-${Number(day.day)}`} aria-labelledby={`itinerary-day-${day.day}`}>
       <ProposalImage image={day.image} label={day.imageLabel} />
       <div className="itinerary-day__copy">
-        <p>DAY {day.day}</p>
+        <p>DAY {day.day}{day.date ? ` · ${day.date}` : ""}</p>
         <h2 id={`itinerary-day-${day.day}`}>{day.chapter}</h2>
         <div className="itinerary-day__entries">
           {isFinalDay ? (
             <>
               <article><span>MORNING</span><div><h3>{day.morning}</h3><p>{day.morningDescription}</p></div></article>
-              <article><span>DEPARTURE</span><div><h3>{day.departure}</h3></div></article>
-              <p className="itinerary-day__fee">A trip design and booking fee applies, detailed separately in your proposal.</p>
+              {day.departure ? <article><span>DEPARTURE</span><div><h3>{day.departure}</h3></div></article> : null}
+              {day.feeNote ? <p className="itinerary-day__fee">{day.feeNote}</p> : null}
             </>
           ) : (
             <article className={day.time || day.experience ? "" : "itinerary-day__entry--copy"}>
@@ -115,6 +115,9 @@ function ProposalDay({ day }) {
 }
 
 function ProposalReplica({ proposal }) {
+  const isCompactGlance = !proposal.atAGlance.party && !proposal.atAGlance.stay;
+  const hasSleepColumn = proposal.days.some((day) => day.sleep);
+
   return (
     <main className="itinerary-proposal">
       <section className="itinerary-cover" aria-labelledby="itinerary-cover-title">
@@ -124,26 +127,29 @@ function ProposalReplica({ proposal }) {
           <p>{proposal.cover.for}</p><em>{proposal.cover.by}</em>
         </div>
       </section>
-      <section className="itinerary-curators" id="curators">
+      {/*
+       <section className="itinerary-curators" id="curators">
         <ProposalImage image={proposal.curators.image} label="" />
         <div className="itinerary-curators__copy">
           <p>{proposal.curators.label}</p><h2>{proposal.curators.title}</h2>
           {proposal.curators.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
         </div>
       </section>
+      */}
+
       <section className="itinerary-glance" id="overview" aria-labelledby="itinerary-glance-title">
         <p>{proposal.atAGlance.label}</p><h2 id="itinerary-glance-title">{proposal.atAGlance.title}</h2>
-        <div className="itinerary-glance__grid">
-          <div><span>PARTY</span><strong>{proposal.atAGlance.party}</strong></div>
+        <div className={`itinerary-glance__grid${isCompactGlance ? " itinerary-glance__grid--compact" : ""}`}>
+          {proposal.atAGlance.party ? <div><span>PARTY</span><strong>{proposal.atAGlance.party}</strong></div> : null}
           <div><span>RHYTHM</span><strong>{proposal.atAGlance.rhythm}</strong></div>
           <div><span>PASSION POINTS</span><strong>{proposal.atAGlance.passionPoints.join(" · ")}</strong></div>
-          <div><span>WHERE YOU STAY</span><strong>{proposal.atAGlance.stay}<small>{proposal.atAGlance.location}</small></strong></div>
+          {proposal.atAGlance.stay ? <div><span>WHERE YOU STAY</span><strong>{proposal.atAGlance.stay}<small>{proposal.atAGlance.location}</small></strong></div> : null}
         </div>
       </section>
       <section className="itinerary-overview" id="journey" aria-labelledby="itinerary-overview-title">
         <p>{proposal.overview.label}</p><h2 id="itinerary-overview-title">{proposal.overview.title}</h2>
-        <div className="itinerary-overview__labels"><span>DAY</span><span>DATE</span><span>CHAPTER</span><span>WHERE YOU SLEEP</span></div>
-        <ol>{proposal.days.map((day) => <li key={day.day}><span>{day.day}</span><span>—</span><strong>{day.chapter}</strong><em>{day.sleep}</em></li>)}</ol>
+        <div className={`itinerary-overview__labels${hasSleepColumn ? "" : " itinerary-overview__labels--compact"}`}><span>DAY</span><span>DATE</span><span>CHAPTER</span>{hasSleepColumn ? <span>WHERE YOU SLEEP</span> : null}</div>
+        <ol className={hasSleepColumn ? "" : "itinerary-overview__list--compact"}>{proposal.days.map((day) => <li key={day.day}><span>{day.day}</span><span>{day.date ?? "—"}</span><strong>{day.chapter}</strong>{hasSleepColumn ? <em>{day.sleep}</em> : null}</li>)}</ol>
       </section>
       {proposal.days.map((day) => <ProposalDay day={day} key={day.day} />)}
     </main>
@@ -265,7 +271,6 @@ export default async function DestinationPage({ params }) {
   if (destination.proposal?.format === "itinerary") {
     const proposalNavigation = [
       { id: "top", label: "Introduction" },
-      { id: "curators", label: "Curators" },
       { id: "overview", label: "At a glance" },
       { id: "journey", label: "Day by day" },
       ...destination.proposal.days.map((day) => ({ id: `day-${Number(day.day)}`, label: `Day ${day.day}` })),

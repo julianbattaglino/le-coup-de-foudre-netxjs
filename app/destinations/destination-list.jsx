@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useMemo, useState } from "react";
+import CatalogFilters from "../components/catalog-filters";
 
 const travelStyles = [
   { id: "city", label: "City & culture" },
@@ -15,6 +16,8 @@ const travelStyles = [
 const stylesByDestination = {
   normandy: ["coast", "countryside"],
   paris: ["city"],
+  "girlfriends-paris": ["city"],
+  "mother-daughter-paris": ["city"],
   "chantilly-senlis": ["countryside"],
   burgundy: ["wine", "countryside"],
   "loire-valley": ["countryside"],
@@ -65,6 +68,12 @@ export default function DestinationList({ destinations }) {
     setSearch("");
   }
 
+  function updateFilters(nextFilters) {
+    if (nextFilters.country !== undefined) setCountry(nextFilters.country);
+    if (nextFilters.travelStyle !== undefined) setTravelStyle(nextFilters.travelStyle);
+    if (nextFilters.search !== undefined) setSearch(nextFilters.search);
+  }
+
   return (
     <main className="destinations-index">
       <header className="destinations-index__heading" data-aos="fade-up">
@@ -77,45 +86,20 @@ export default function DestinationList({ destinations }) {
       </header>
 
       <section className="destinations-catalog" aria-label="Explore destinations">
-        <div className="destinations-filters" data-aos="fade-up">
-          <label className="destinations-filter">
-            <span>Country</span>
-            <select value={country} onChange={(event) => setCountry(event.target.value)}>
-              <option value="all">All countries</option>
-              {countries.map((item) => (
-                <option key={item.slug} value={item.slug}>
-                  {item.label}
-                </option>
-              ))}
-            </select>
-          </label>
-
-          <label className="destinations-filter">
-            <span>Travel style</span>
-            <select value={travelStyle} onChange={(event) => setTravelStyle(event.target.value)}>
-              <option value="all">Every kind of journey</option>
-              {travelStyles.map((style) => (
-                <option key={style.id} value={style.id}>
-                  {style.label}
-                </option>
-              ))}
-            </select>
-          </label>
-
-          <label className="destinations-filter destinations-filter--search">
-            <span>Search</span>
-            <input
-              type="search"
-              value={search}
-              onChange={(event) => setSearch(event.target.value)}
-              placeholder="Try Paris or Patagonia"
-            />
-          </label>
-
-          <p className="destinations-result-count" aria-live="polite">
-            {filteredDestinations.length} {filteredDestinations.length === 1 ? "destination" : "destinations"}
-          </p>
-        </div>
+        <CatalogFilters
+          fields={[
+            { id: "country", label: "Country", allLabel: "All countries", options: countries.map(({ slug, label }) => ({ value: slug, label })) },
+            { id: "travelStyle", label: "Travel style", allLabel: "Every kind of journey", options: travelStyles.map(({ id, label }) => ({ value: id, label })) },
+            { id: "search", kind: "search", label: "Search", placeholder: "Try Paris or Patagonia" },
+          ]}
+          filters={{ country, travelStyle, search }}
+          onChange={updateFilters}
+          onReset={resetFilters}
+          resultCount={filteredDestinations.length}
+          resultNoun={{ singular: "destination", plural: "destinations" }}
+          title="Filter destinations"
+          triggerLabel="Filter destinations"
+        />
 
         {filteredDestinations.length ? (
           <div className="destinations-grid">

@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useMemo, useState } from "react";
+import CatalogFilters from "../components/catalog-filters";
 
 export default function PressGrid({ articles }) {
   const [country, setCountry] = useState("all");
@@ -33,6 +34,13 @@ export default function PressGrid({ articles }) {
     setSearch("");
   }
 
+  function updateFilters(nextFilters) {
+    if (nextFilters.country !== undefined) setCountry(nextFilters.country);
+    if (nextFilters.type !== undefined) setType(nextFilters.type);
+    if (nextFilters.year !== undefined) setYear(nextFilters.year);
+    if (nextFilters.search !== undefined) setSearch(nextFilters.search);
+  }
+
   return (
     <main className="destinations-index press-index">
       <header className="destinations-index__heading press-index__heading" data-aos="fade-up">
@@ -44,36 +52,21 @@ export default function PressGrid({ articles }) {
       </header>
 
       <section className="destinations-catalog" aria-label="International press articles">
-        <div className="destinations-filters press-filters" data-aos="fade-up">
-          <label className="destinations-filter">
-            <span>Country</span>
-            <select value={country} onChange={(event) => setCountry(event.target.value)}>
-              <option value="all">All countries</option>
-              {countries.map((item) => <option key={item} value={item}>{item}</option>)}
-            </select>
-          </label>
-          <label className="destinations-filter">
-            <span>Story type</span>
-            <select value={type} onChange={(event) => setType(event.target.value)}>
-              <option value="all">All stories</option>
-              {types.map((item) => <option key={item} value={item}>{item}</option>)}
-            </select>
-          </label>
-          <label className="destinations-filter">
-            <span>Year</span>
-            <select value={year} onChange={(event) => setYear(event.target.value)}>
-              <option value="all">All years</option>
-              {years.map((item) => <option key={item} value={item}>{item}</option>)}
-            </select>
-          </label>
-          <label className="destinations-filter destinations-filter--search">
-            <span>Search</span>
-            <input type="search" value={search} onChange={(event) => setSearch(event.target.value)} placeholder="Publication or title" />
-          </label>
-          <p className="destinations-result-count" aria-live="polite">
-            {filteredArticles.length} {filteredArticles.length === 1 ? "story" : "stories"}
-          </p>
-        </div>
+        <CatalogFilters
+          fields={[
+            { id: "country", label: "Country", allLabel: "All countries", options: countries.map((item) => ({ value: item, label: item })) },
+            { id: "type", label: "Story type", allLabel: "All stories", options: types.map((item) => ({ value: item, label: item })) },
+            { id: "year", label: "Year", allLabel: "All years", options: years.map((item) => ({ value: String(item), label: String(item) })) },
+            { id: "search", kind: "search", label: "Search", placeholder: "Publication or title" },
+          ]}
+          filters={{ country, type, year, search }}
+          onChange={updateFilters}
+          onReset={resetFilters}
+          resultCount={filteredArticles.length}
+          resultNoun={{ singular: "story", plural: "stories" }}
+          title="Filter press"
+          triggerLabel="Filter press"
+        />
 
         {filteredArticles.length ? (
           <div className="destinations-grid press-grid">
